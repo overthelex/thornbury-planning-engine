@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { listClients, loadAccounts, loadLedger, loadPlanningNotes, loadProgrammeMarkdown, loadTrialBalance } from "../src/load";
+import {
+  listClients,
+  loadAccounts,
+  loadLedger,
+  loadPlanningNotes,
+  loadProgrammeMarkdown,
+  loadTrialBalance,
+} from "../src/load";
 
 describe("data loads", () => {
   it("lists three clients", () => {

@@ -1,0 +1,185 @@
+{
+  "client": "wetherby",
+  "areas": [
+    {
+      "area": "revenue",
+      "level": "significant",
+      "assertions": ["accuracy", "valuation", "completeness", "cutOff", "occurrence"],
+      "why": "The ledger books NHS income at the full contract value, 12 x 85,000 = 1,020,000, with no adjustment for delivering only about 92% of UDAs. The 2025/26 shortfall for Apr-Dec 2025 is 30,600 to 61,200, above overall materiality of 24,000, and the outcome of the 2024/25 contract year (Jan-Mar 2025) is not known. Private card takings of 647,243 (39% of revenue) are posted by Sue from the PMS with no independent reconciliation, and no takings are recorded or banked for 23-31 Dec 2025 (week 52).",
+      "evidence": ["N2", "N3", "N4", "N13", "FY24-W02", "account 4030", "account 4040", "BK-000001..BK-000034 (12 x 8,500,000)", "CS-000058 (last takings W51, 22 Dec)", "B25-00001..B25-00570 (no NHS debit/clawback in Jul 2025)", "MJ-000013", "B25-00437"],
+      "confidence": "high"
+    },
+    {
+      "area": "debtors",
+      "level": "baseline",
+      "assertions": ["existence", "valuation", "classification"],
+      "why": "Trade debtors are nil in both years because NHS pays in the month and patients pay at reception. The only exposures are items the draft TB does not carry yet: card takings in transit at the year end, and prepayments for indemnity and CQC instalments. No prepayments account exists.",
+      "evidence": ["account 1100", "N2", "N9", "accounts.csv (no prepayments account)", "PI-000357", "PI-000355"],
+      "confidence": "high"
+    },
+    {
+      "area": "purchasesCreditors",
+      "level": "elevated",
+      "assertions": ["completeness", "occurrence", "cutOff", "classification"],
+      "why": "Sue posted and approved 353 of the 373 purchase invoices herself, and the only compensating control is the director's release of BACS runs (FY24-W03). The associate dentist billed 'monthly' fees on only 7 invoices, with none for Apr or Jul-Oct, so unrecorded liabilities could be about 40-50k. Practice Growth Marketing (S009) raised 13 'Website - monthly' invoices, four of them in April alone, plus travel/CPD/rail invoices, and advertising rose 60% on the prior year.",
+      "evidence": ["N7", "FY24-W03", "FY24-W01", "S016 PI-000033/068/063/135/184/328/352", "account 5100 (+30% vs PY)", "S009", "PI-000100", "PI-000109", "PI-000103", "PI-000115", "PI-000026", "account 7500", "account 2100"],
+      "confidence": "medium"
+    },
+    {
+      "area": "payroll",
+      "level": "baseline",
+      "assertions": ["accuracy", "completeness", "occurrence"],
+      "why": "Payroll is identical every month at gross 31,350. The 120 net salary payments on the bank statement go to exactly the 10 employees in the party list, nobody joined or left, and PAYE reconciles: 9,800 + 11 x 11,599.50 = 137,394.50 paid, with 11,599.50 paid on 22 Jan 2026. Segregation is weak because Sue runs payroll, approves the journal and is herself a payee, but the planning match already covers existence. Gross pay is up 5% with no change in headcount, which needs explaining.",
+      "evidence": ["N6", "PR-000001..PR-000012 (approvedBy sue.pm)", "B25-00017..B25-00026", "B26-00019", "account 7000", "account 2210", "E001-E010"],
+      "confidence": "medium"
+    },
+    {
+      "area": "fixedAssets",
+      "level": "baseline",
+      "assertions": ["existence", "valuation", "rightsAndObligations"],
+      "why": "There was one addition, the Surgery 2 chair at 45,600 (above PM), which was approved by Raj and paid in full. Depreciation is a flat 2,200 a month manual journal posted by Sue with no approval, contrary to N12 which says Moorland posts it. The total of 26,400 is identical to the prior year, so the new chair has not been depreciated (understatement of about 2-5k, below PM).",
+      "evidence": ["N5", "N12", "PI-000373", "B25 BELMONT DENTAL EQUIPMENT UK -45,600", "MJ-000001..MJ-000012", "account 0030", "account 0040", "account 8000"],
+      "confidence": "high"
+    },
+    {
+      "area": "bankCash",
+      "level": "elevated",
+      "assertions": ["completeness", "existence", "rightsAndObligations"],
+      "why": "All 570 lines on the 2025 statement match the ledger, and the closing 643,933 agrees to TB 1200. However, several flows that should exist do not appear anywhere: no corporation tax payment in 2025, no dividends, and in the Q1 2026 statement no NHS receipts, card takings, January payroll or rent. That suggests either an incomplete statement or another bank account. There is also a manual journal to bank posted by a director.",
+      "evidence": ["account 1200", "B25-00570 balance 64,393,300", "bank_statement_2026q1 B26-00001..B26-00029 (payments only)", "MJ-000013", "B25-00437", "N9", "account 1230"],
+      "confidence": "medium"
+    },
+    {
+      "area": "relatedParties",
+      "level": "baseline",
+      "assertions": ["completeness", "presentation"],
+      "why": "The known related-party transactions are the two 50% director-shareholders' salaries of 57,720 net each. Two suppliers need corroborating as unconnected: the landlord, which the client asserts is unconnected and is paid 62,400 a year, and Wetherby Dental Laboratory, the largest supplier at 145,655. No dividends or director's loan balance appear in the ledger, and that needs explaining.",
+      "evidence": ["N1", "N8", "E001", "E002", "S010", "S004", "B25-00017", "B25-00018", "account 3200"],
+      "confidence": "medium"
+    },
+    {
+      "area": "journalsManagementOverride",
+      "level": "significant",
+      "assertions": ["occurrence", "accuracy", "cutOff", "completeness", "valuation"],
+      "why": "This is presumed significant under ISA (UK) 240. There are two dentist-owners, and Raj can post with no approval limit; he posted MJ-000013 himself, debiting revenue and crediting bank with no second approval. The ledger exported on 6 Mar 2026 is pre-close: Moorland's year-end journals are still to come and will carry every judgemental figure (clawback, accruals, tax, depreciation) on Sue's instruction. The planning-meeting answer about the clawback ('Moorland usually do that if needed') suggests the estimate is not being owned by management.",
+      "evidence": ["N4", "N12", "MJ-000013", "MJ-000001..MJ-000012 (approvedBy null)", "company.json users raj.md approvalLimitMinor null", "ledgerExportedAt 2026-03-06"],
+      "confidence": "high"
+    },
+    {
+      "area": "goingConcern",
+      "level": "baseline",
+      "assertions": ["presentation", "valuation"],
+      "why": "The practice is profitable (pre-adjustment profit about 563,600), has cash of 643,933 and no borrowings. The NHS contract runs to at least 2026/27 and the lease to 2031. The only open point is the Q1 2026 statement showing no receipts, which needs explaining before concluding.",
+      "evidence": ["account 1200", "N8", "N4", "bank_statement_2026q1"],
+      "confidence": "high"
+    },
+    {
+      "area": "stock",
+      "level": "notApplicable",
+      "assertions": [],
+      "why": "No stock account. Dental consumables on hand are immaterial, and the lab work is billed per case.",
+      "evidence": ["accounts.csv", "trial_balance.csv"],
+      "confidence": "medium"
+    },
+    {
+      "area": "openingBalances",
+      "level": "notApplicable",
+      "assertions": [],
+      "why": "This is the sixth year with an unmodified prior-year opinion, so OB-01 does not apply. The opening TB agrees to the prior-year closing. However, several prior-year P&L comparatives are identical to the current year to the penny (utilities, professional fees, travel, bank charges, depreciation), so the comparatives column should be agreed to the signed FY2024 accounts during the analytical work.",
+      "evidence": ["N1", "N12", "trial_balance.csv 7200/7400/7602/7900/8000 priorYear = closing"],
+      "confidence": "medium"
+    },
+    {
+      "area": "vat",
+      "level": "baseline",
+      "assertions": ["accuracy", "completeness", "presentation"],
+      "why": "Last year's file says the practice is exempt and not registered, yet HMRC VAT shows a 'VAT Q4 2025 VAT return' (nil) on 7 Feb 2026, which means a registration now exists. Implants are exempt but cosmetic work (whitening, some implant-adjacent work) can be standard-rated. The ledger codes everything T2/T9 and carries no VAT.",
+      "evidence": ["B26-00028", "prior_year_plan VAT-01 note", "tax_codes.csv", "N3"],
+      "confidence": "low"
+    },
+    {
+      "area": "accrualsProvisions",
+      "level": "significant",
+      "assertions": ["completeness", "accuracy", "valuation", "existence"],
+      "why": "There is no NHS clawback provision (30.6k-61.2k for FY2025 plus whatever 2024/25 needs), no corporation tax liability (about 140k at 25% on pre-tax profit of about 564k, which is a draft figure), and no audit fee accrual (7601 is nil in both years). Accruals of 4,100 have not moved all year, so the prior-year accrual was never reversed and no current one was made. Associate fees for at least 4 months may be missing. Taken together these are several times materiality.",
+      "evidence": ["N4", "N12", "account 2250 (410000 open = close)", "account 2260 (nil)", "account 7601 (nil both years)", "S013 (no transactions)", "S016", "trial_balance.csv (no tax creditor)"],
+      "confidence": "high"
+    },
+    {
+      "area": "completion",
+      "level": "elevated",
+      "assertions": ["completeness", "presentation"],
+      "why": "Subsequent events are central this year: the NHS 2025/26 year-end reconciliation (due about July 2026) settles the clawback, and the Q1 2026 bank anomaly needs explaining. Laws and regulations matter too: NHS GDS contract terms, CQC registration and a possible new VAT registration.",
+      "evidence": ["N4", "bank_statement_2026q1", "B26-00028", "PI-000085 (CQC registration)"],
+      "confidence": "medium"
+    }
+  ],
+  "mustSelect": [
+    {"procedureId": "REV-04", "extentOrFocus": "Treat the GDS contract (Apr-Mar contract year spanning the year end) as the contract. Obtain the contract value and the NHS BSA/Compass UDA delivery reports for 2024/25 and 2025/26 to date, plus the 2024/25 year-end reconciliation statement. Recompute FY2025 NHS revenue as delivered UDAs x the UDA rate, covering Jan-Mar 2025 from 2024/25 and Apr-Dec 2025 from 2025/26, and any clawback or carry-forward under the contract's 4% tolerance.", "why": "Significant risk on NHS revenue accuracy and valuation (N4). The shortfall of 30.6k-61.2k is above materiality, and the 92% figure is an oral forecast."},
+    {"procedureId": "JNL-02", "extentOrFocus": "Clawback estimate (method, data, independent range, sensitivity to 88-96% delivery), useful lives on the new chair, and the audit fee and tax accruals. Do a retrospective review of FY24-W02 (99% outcome) and the 2022/23 clawback of about 40k against what was provided at the time.", "why": "Mandatory. The clawback estimate is unprovided and has been delegated to Moorland 'if needed' (N4, N12)."},
+    {"procedureId": "ACC-01", "extentOrFocus": "Do this on the post-close TB once Moorland's journals are in. Confirm the 4,100 opening accrual (410000 pence) was reversed. Test the audit fee, corporation tax, the associate-fee gaps (Apr, Jul-Oct) and the clawback provision.", "why": "Significant risk: the accruals and provisions accounts are static or nil and known obligations are missing."},
+    {"procedureId": "JNL-01", "extentOrFocus": "Test 100% of manual journals: MJ-000001..MJ-000013 and every Moorland year-end journal. Must-test MJ-000013 (director-posted revenue debit to bank). Add 15 risk-selected system journals (round sums, entries around the year end, CS-000001 opening cut-off). Fifty is not needed because the manual population is about 13 plus the year-end batch.", "why": "Mandatory, and significant under ISA 240. The judgemental figures all arrive through journals posted after the ledger export."},
+    {"procedureId": "REV-06", "extentOrFocus": "Elevated: test 25 weeks of PMS/terminal reports against CS-* entries and the bank. Cover the whole year for gaps, including the missing W52 (23-31 Dec 2025), and the April implant launch (N3), noting implant lab costs start in Feb 2025 (PI-000035).", "why": "Card takings are 647k, keyed by Sue from the PMS (N2). This is the fraud-in-revenue presumption, and it was not performed last year."},
+    {"procedureId": "REV-02", "extentOrFocus": "Use takings, PMS treatment records and implant deposits in the 15 days either side of 31 Dec: 10 items plus all implant cases with deposits taken but treatment not complete (deferred income).", "why": "No takings recorded after 22 Dec. Implant fees are taken in advance (MJ-000013 refund for 'treatment not proceeding')."},
+    {"procedureId": "REV-03", "extentOrFocus": "Vouch every non-feed entry to 4030 or 4040: MJ-000013 (1,900) and the clawback journal when it is posted.", "why": "Manual revenue entries exist and revenue is significant."},
+    {"procedureId": "REV-01", "extentOrFocus": "Monthly NHS vs contract and private vs PY. Ask why private income shows no step-up after the April implant launch while being +12% on the year. Get corroboration from Raj or Claire, not Sue.", "why": "Baseline."},
+    {"procedureId": "PUR-05", "extentOrFocus": "Elevated: review the complete Jan-Mar 2026 payments and invoices. Specifically chase associate-fee invoices for Apr and Jul-Oct 2025 and the Dec 2025 Farooq month, our own audit fee, and Moorland's year-end fees.", "why": "Associate fees are invoiced irregularly (7 'monthly' invoices) and a large unrecorded liability is possible."},
+    {"procedureId": "PUR-02", "extentOrFocus": "Reconcile supplier statements for S004, S005, S003, S016 and S009, plus S011 and S012, which were paid more than invoiced in the year (8.2k and 6.1k over the year's invoices).", "why": "Baseline, with suppliers selected by value and by risk."},
+    {"procedureId": "PUR-03", "extentOrFocus": "Limit to S009 Practice Growth Marketing and S016. Look at self-approved invoice patterns (four 'monthly' website invoices in April), whether the bank payee details match the supplier masterfile, and invoice narratives that do not match the supplier's trade (e.g. Clinical Waste Yorkshire billing handpiece repairs).", "why": "The posts-and-approves control is relied on (FY24-W03), and the marketing spend shows an unusual pattern."},
+    {"procedureId": "PUR-04", "extentOrFocus": "Full year. Planning run found no duplicates other than the monthly rent.", "why": "Baseline. This found FY24-W01 last year."},
+    {"procedureId": "PUR-01", "extentOrFocus": "Margins and accounts vs PY. Agree the PY comparatives that equal CY to the penny (7200, 7400, 7602, 7900, 8000) to the signed FY2024 accounts.", "why": "Baseline."},
+    {"procedureId": "BNK-01", "extentOrFocus": "Year-end rec. The planning match shows no reconciling items.", "why": "Mandatory."},
+    {"procedureId": "BNK-02", "extentOrFocus": "Get a confirmation from Yorkshire Bank and from any other institution the directors name, explicitly asking for every account in the company's name.", "why": "Mandatory. Corporation tax, dividends and Q1 2026 receipts are all missing, which points to a possible second account."},
+    {"procedureId": "BNK-03", "extentOrFocus": "Most of this was done at planning: 570/570 lines matched. Document that work, then extend it to the complete, bank-sourced Q1 2026 statement.", "why": "A manual journal to bank exists (MJ-000013) and cash is handled (N9)."},
+    {"procedureId": "RP-01", "extentOrFocus": "Companies House check on the officers of Wetherby Health Centres Ltd (S010) and Wetherby Dental Laboratory (S004). Get the directors' remuneration and dividends for disclosure.", "why": "Mandatory."},
+    {"procedureId": "JNL-03", "extentOrFocus": "Absence of dividends and tax, the director-posted refund, and the possible second bank account.", "why": "Mandatory."},
+    {"procedureId": "DEB-03", "extentOrFocus": "Missing prepayments (indemnity, CQC), card takings in transit at 31 Dec, and any NHS amount receivable or payable.", "why": "Baseline."},
+    {"procedureId": "FA-01", "extentOrFocus": "Vouch PI-000373 (45,600, above PM), the only addition. Recompute depreciation from the register, given the flat 2,200 a month and the undepreciated chair.", "why": "Baseline. Depreciation is posted by Sue, not Moorland as N12 says."},
+    {"procedureId": "PAY-01", "extentOrFocus": "Explain the +5% with unchanged headcount. Agree the directors' and Sue's pay to contracts and board approval.", "why": "Baseline. Sue runs payroll and is herself a payee."},
+    {"procedureId": "PAY-04", "extentOrFocus": "Already reconciled at planning (B26-00019). Agree it to the RTI submissions.", "why": "Baseline."},
+    {"procedureId": "VAT-01", "extentOrFocus": "First confirm the registration date and scope (B26-00028). If registered, reconcile the returns to turnover and review the standard-rated private items.", "why": "Applicability is now likely met, contrary to last year's note."},
+    {"procedureId": "GC-01", "extentOrFocus": "Management's 12-month forecast, covering NHS contract continuity and the clawback cash outflow in July 2026.", "why": "Mandatory."},
+    {"procedureId": "COMP-01", "extentOrFocus": "Up to signing: the NHS 2025/26 year-end reconciliation if it is available, the complete 2026 bank statements, and post-year-end Moorland journals.", "why": "Mandatory. The clawback is settled by a subsequent event."},
+    {"procedureId": "COMP-02", "extentOrFocus": "GDS contract compliance, CQC registration, the VAT registration, and the associate dentist's self-employed status.", "why": "Mandatory."}
+  ],
+  "shouldOmit": [
+    {"procedureId": "REV-05", "why": "Trade debtors are nil (1100) and the procedure applies only to engagements with trade debtors. NHS pays in the month and patients pay at reception."},
+    {"procedureId": "DEB-01", "why": "No trade debtors ledger. Last year's plan also did not select it."},
+    {"procedureId": "DEB-02", "why": "No debtor balances, so there is nothing to confirm."},
+    {"procedureId": "PAY-02", "why": "No starters or leavers: all 10 staff were paid in all 12 months (B25 payroll lines) and the party list has no end dates. No prior-year leaver errors."},
+    {"procedureId": "PAY-03", "why": "Applicability is met because segregation is weak, but planning already matched all 120 salary payments to the 10 HR-listed employees with no unknown payees. The remaining accuracy risk is covered by the extended PAY-01. Low confidence: reinstate at 2 months if the partner prefers documented fieldwork."},
+    {"procedureId": "FA-02", "why": "The fixed assets are two surgeries of dental equipment, and there is no existence indicator. Confirm the register was verified within 3 years. If it was not, applicability is triggered and a light 1-hour walk-round of both surgeries is enough."},
+    {"procedureId": "FA-03", "why": "No impairment indicators: the assets are in use, revenue is growing, and the one new chair is replacing old equipment as planned."},
+    {"procedureId": "RP-02", "why": "No related-party transactions besides directors' remuneration have been identified. Reinstate if RP-01 finds the landlord or the lab is connected."},
+    {"procedureId": "RP-03", "why": "No director's loan account in the chart or TB and no personal spend identified. Reinstate if the absent dividends turn out to be drawings."},
+    {"procedureId": "GC-02", "why": "No borrowings or covenants, cash is 644k, and the practice is profitable."},
+    {"procedureId": "VAT-02", "why": "No input VAT is claimed (no VAT in the ledger), supplies are mainly exempt, and there were no prior-year VAT errors."},
+    {"procedureId": "STK-01", "why": "Not applicable: stock is not material."},
+    {"procedureId": "STK-02", "why": "Not applicable: stock is not material."},
+    {"procedureId": "OB-01", "why": "Not applicable: sixth-year engagement."}
+  ],
+  "keyFindings": [
+    "There is no NHS clawback provision. 4030 = 1,020,000 = 12 x 85,000 (BK-000001..BK-000034) against delivery of about 92% (N4). The FY2025 share of the 2025/26 shortfall is 30,600 (4% beyond tolerance) to 61,200 (full 8%), against overall materiality of 24,000. The 2024/25 contract-year outcome (Jan-Mar 2025) is unknown: no clawback or recovery appears in the 2025 bank.",
+    "The ledger is pre-close: the export of 6 Mar 2026 contains no Moorland journals (moor.accts posted nothing). Corporation tax is nil on the TB and no CT payment went through the bank in 2025 (pre-tax profit about 563.6k, so CT is roughly 140k). The audit fee (7601) is nil in both years, Thornbury (S013) has no transactions, and accruals of 410,000 pence (4,100) are unchanged from opening to closing.",
+    "The Q1 2026 statement (B26-00001..B26-00029) shows only payments of year-end creditors and PAYE. There are no NHS receipts on 1 Jan or 2 Feb, no card takings, no January payroll and no rent. Combined with no dividends and no CT payment in 2025, either the statement is incomplete or a second bank account exists.",
+    "Private takings stop at CS-000058 (W51, 22 Dec 2025). Nothing is recorded for 23-31 Dec, and nothing is banked in Jan 2026. Implant fees are taken in advance (MJ-000013/B25-00437 refund of 1,900 for 'treatment not proceeding') with no deferred income account.",
+    "The associate dentist S016 billed only 7 'monthly' invoices (71,397), with none for Apr or Jul-Oct 2025, while subcontractor cost is +30% on the prior year. That points to possible unrecorded liabilities of about 40-50k, or an undisclosed absence.",
+    "MJ-000013 was posted by director raj.md as a manual journal debiting 4040 and crediting bank, with no approver. Raj has no approval limit.",
+    "Depreciation MJ-000001..MJ-000012 is a flat 2,200 a month posted by Sue with no approval, contrary to N12 (Moorland). The 26,400 total equals the prior year and does not depreciate the 45,600 chair (PI-000373, May 2025).",
+    "Practice Growth Marketing (S009), self-approved by Sue: 13 'Website - monthly' invoices including 4 in April 2025 (PI-000100, PI-000109, PI-000103, PI-000115), plus CPD/travel/rail invoices coded to 7400. Advertising is up 60% (8,786 to 14,057). Several suppliers' invoice narratives do not match their trade (e.g. Clinical Waste Yorkshire billing handpiece repairs, Yorkshire Water billing electricity).",
+    "B26-00028 'HMRC VAT, VAT Q4 2025, VAT return' (nil) contradicts last year's note that the practice is not VAT-registered.",
+    "Positive results from planning: all 570 bank lines match the ledger and the closing 643,933 agrees to the TB. Every salary payment goes to one of the 10 listed employees. PAYE reconciles to B26-00019. Every purchase invoice over 5,000 was approved by Raj, there is no clustering below the limit, and there are no duplicate invoices. All 36,163 of closing trade creditors were paid in Jan-Feb 2026.",
+    "Several prior-year comparatives equal the current year to the penny (7200 utilities 32,031; 7602 38,743; 7400 1,675; 7900 642.35; 8000 26,400). Agree the comparatives column to the signed FY2024 accounts."
+  ],
+  "partnerQuestions": [
+    "Do we accept 'about 92%' as the basis for the provision, or do we insist on the NHS BSA/Compass delivery data for 2025/26 to date and the 2024/25 year-end reconciliation before fieldwork? And does the contract's 4% carry-forward apply?",
+    "Does the company have any bank account other than the Yorkshire Bank current account? Where were the 2024 corporation tax and any 2025 dividends paid from, and why does the Q1 2026 statement show no receipts?",
+    "Is our FY2024 audit fee unpaid? Thornbury has no transactions in 2025. If it is overdue, does that raise an ethical-standard self-interest issue?",
+    "When will Moorland post the year-end journals, and can fieldwork start only after they have? We should not test a pre-close TB.",
+    "Is the practice now VAT-registered, from what date, and for which supplies?",
+    "Why does Dr Farooq have no invoices for Apr and Jul-Oct 2025? Was he absent, or are invoices outstanding? And is his self-employed status supportable?",
+    "Is Wetherby Dental Laboratory (largest supplier) or Wetherby Health Centres Ltd (landlord) connected to either director?",
+    "Given N10, will you go back to Raj on fee and budget now that the clawback and the missing close have added work?"
+  ],
+  "hoursEstimateVsBudget": "60h is not adequate; I estimate 85-90h. Last year the firm budgeted 67h and spent 50h on a clean file with no clawback issue and no REV-06. This year adds REV-04 on the NHS contract (10h), REV-06 on takings (5h, missed last year), REV-03, PUR-03, VAT-01 and BNK-03 (about 11h), plus extended JNL-01, JNL-02, ACC-01 and PUR-05 for a pre-close ledger and an unprovided estimate that is above materiality (about 6h more). Mandatory procedures alone come to about 32h. Do not cut REV-04, ACC-01, JNL-01/02 or BNK-02 to fit; the excess should go to Ingrid as a budget and fee issue, as N10 already anticipates. Savings of about 5h are possible by limiting PUR-03 to two suppliers, relying on the planning bank match for BNK-03, and omitting PAY-03."
+}

@@ -1,0 +1,190 @@
+{
+  "client": "ashworth",
+  "areas": [
+    {
+      "area": "revenue",
+      "level": "significant",
+      "assertions": ["occurrence", "cutOff", "accuracy", "valuation"],
+      "why": "Presumed ISA 240 revenue fraud risk is live here: the sale price is a multiple of FY2025 EBITDA and the buyer wants accounts fast (N2), and a 156,250 net (187,500 gross) Brightwater 'final account' was booked as a manual journal on 11 Feb 2026, backdated to 30 Dec 2025, unapproved, posted at 19:42 by the person who raises every invoice, reusing invoice number INV-2025-1499 that was already issued to Wetherby Care Homes in June. It is the only FY25 debtor not received by 23 Feb 2026, and Martin only said it was 'agreed in principle' (N5). Revenue is recognised on payment-schedule invoices, not stage of completion, for three contracts spanning the year end (N5), and last year's cut-off misstatement was 22,000 (FY24-08).",
+      "evidence": ["N2", "N3", "N5", "MJ-000024", "SI-000499", "INV-2025-1499", "C003", "FY24-08", "FY24-15", "account 4000", "SI-001179", "SI-001132", "SI-001186"],
+      "confidence": "high"
+    },
+    {
+      "area": "debtors",
+      "level": "significant",
+      "assertions": ["existence", "valuation", "rightsAndObligations"],
+      "why": "Trade debtors went from 158,427 to 670,815. Of the 103 open FY25 invoices, 102 were settled in full in the Q1 2026 bank statement. The one that was not is MJ-000024 Brightwater 187,500, which is 3.75x overall materiality and has no third-party evidence. Retentions of 5% (N5) do not appear anywhere: there is no retention debtor, and housing invoices were paid in full.",
+      "evidence": ["account 1100", "MJ-000024", "C003", "bank_statement_2026q1 (no C003 receipt for INV-2025-1499)", "N5"],
+      "confidence": "medium"
+    },
+    {
+      "area": "purchasesCreditors",
+      "level": "significant",
+      "assertions": ["occurrence", "existence", "accuracy", "completeness"],
+      "why": "A new subcontractor shows the classic signs of a fictitious supplier. Wharfedale Site Services (S033) started in July with no contract, introduced by a site foreman (N11). It sent 9 invoices of 9,594 to 9,979 gross, all just under the 10,000 MD-approval limit, all posted AND approved by tom.finance (the only purchase invoices he posted apart from the refurbishment), with non-sequential references (WSS-887, -627, -548, -282, -239...). They were paid in about 7 days against a 27-day norm, 87,172 gross in total, and it explains half the 35% rise in subcontractor costs against 18% revenue growth. The approval control was also bypassed by splitting MTH-77120 into two 7,400 parts (PI-000773/774), paid as a single 14,800 BACS line (B25-00856). The FY24 duplicate-payment finding repeated at the same supplier: PCS-88231 and PCS88231 were both paid (B25-00628, B25-00646), despite management saying it was fixed (N19).",
+      "evidence": ["N3", "N11", "N19", "S033", "PI-000760..PI-000768", "MJ-000017", "B25-01071", "B25-02098", "PI-000773", "PI-000774", "B25-00856", "PI-000755", "PI-000756", "B25-00628", "B25-00646", "FY24-05", "FY24-12", "account 5100"],
+      "confidence": "high"
+    },
+    {
+      "area": "payroll",
+      "level": "elevated",
+      "assertions": ["occurrence", "existence", "completeness", "accuracy"],
+      "why": "Callum Reed (E019) left on 30 Jun 2025 but was paid 2,331 net every month from July to December (B25-01153, B25-01350, B25-01566, B25-01749, B25-01959, B25-02152), 13,986 net in total. That repeats FY24-14, which management said was addressed (N19), and contradicts 'one or two' leavers and 'flat at 24' (N6). Payroll is identical every month (74,500 gross, 5,513,000p net) with no starters or leavers reflected. Tom runs the payroll, approves the PR journals and prepares the BACS (N3, N6). There are no pension contributions anywhere in the ledger or bank despite auto-enrolment and a scheme move in September (N7). Tom's start date is 2024-05-01 in parties.csv and Feb 2025 in N3, and he was paid in Jan 2025. Amounts are below PM, so elevated rather than significant, but the partner may lift it given the repeat and the fraud indicators.",
+      "evidence": ["E019", "B25-01153", "B25-02152", "PR-000007..PR-000012", "FY24-14", "N3", "N6", "N7", "N19", "E003", "account 7000", "account 2210"],
+      "confidence": "medium"
+    },
+    {
+      "area": "fixedAssets",
+      "level": "baseline",
+      "assertions": ["existence", "valuation", "classification"],
+      "why": "Risk is low despite the size (memo item 4): last year 30 hours on the register found nothing (FY24-01, FY24-16). The only addition above PM is the Transit Custom at 61,250 (PI-000754, N4). Points to cover inside standard FA-01: a van service/MOT/tyres invoice of 1,840 capitalised to 0050 (PI-000775); the split Moorland kit invoice (PI-000773/774); depreciation is a flat 6,500 a month all year with no charge for the ~102k of additions.",
+      "evidence": ["N4", "N10", "PI-000754", "PI-000775", "PI-000773", "PI-000774", "MJ-000001..MJ-000015", "accounts 0030/0040/0050/8000", "FY24-01", "FY24-16"],
+      "confidence": "high"
+    },
+    {
+      "area": "bankCash",
+      "level": "elevated",
+      "assertions": ["existence", "completeness", "accuracy"],
+      "why": "I matched every statement line to the ledger. The ledger bank balance (1,031,635.09) is 9,500 below the statement (1,041,135.09, B25-02197). The whole difference is MJ-000019, a 'Transfer' journal the MD posted at 20:05 on 21 Nov, crediting bank and debiting advertising, with no matching bank line, no support and no approval. Other manual journals to bank: MJ-000016 and MJ-000020.",
+      "evidence": ["MJ-000019", "B25-02197", "account 1200", "MJ-000016", "MJ-000020", "FY24-11"],
+      "confidence": "high"
+    },
+    {
+      "area": "relatedParties",
+      "level": "significant",
+      "assertions": ["presentation", "completeness", "existence", "rightsAndObligations", "accuracy"],
+      "why": "MJ-000016 is a 35,000 advance to Martin Ashworth, posted by Martin himself at 19:12 and unapproved (B25-00843). It sits in other debtors at the year end and was not repaid by 23 Feb 2026. That breaches the s.197 10,000 threshold again, repeating FY24-03 after management said it was addressed (N19). The company also paid 24,000 + VAT to Ashworth Property Ltd (S029, Martin's company) to refurbish Ashworth Property's own unit. It was expensed as rent, with no board minute (N8), and paid in 1 day (B25-02094). MISC-OPS includes a 1,200 'Gift - chairman's 60th' (PI-000771). Helen Ashworth (E002, related) controls HR (N6). The pending sale (N2) raises the stakes on disclosure.",
+      "evidence": ["MJ-000016", "B25-00843", "account 1150", "PI-000769", "B25-02094", "S029", "E001", "E002", "PI-000771", "MJ-000019", "N2", "N6", "N8", "N19", "FY24-03", "FY24-04"],
+      "confidence": "high"
+    },
+    {
+      "area": "journalsManagementOverride",
+      "level": "significant",
+      "assertions": ["occurrence", "accuracy", "cutOff", "classification"],
+      "why": "Management has a strong incentive (EBITDA-based sale price, N2), and both the MD and the FM post manual journals with no approver (N3, N16). Of the 24 manual journals, 4 are unapproved entries by management, three of them after hours: MJ-000016 (advance to the MD), MJ-000019 (bank 'Transfer' with no bank line), MJ-000020 (2,500 staff loan to J Price coded to subcontractors 5100) and MJ-000024 (backdated 156k revenue reusing an invoice number). Also MJ-000017/018 accrues 12,000 and reverses 10,200. PI-000776 is unbalanced: a 624 VAT line is missing, so ledger 2201 does not agree to the TB.",
+      "evidence": ["N2", "N3", "N16", "MJ-000016", "MJ-000019", "MJ-000020", "MJ-000024", "MJ-000017", "MJ-000018", "PI-000776", "account 2201", "FY24-02", "FY24-03", "FY24-10"],
+      "confidence": "high"
+    },
+    {
+      "area": "goingConcern",
+      "level": "baseline",
+      "assertions": ["presentation", "valuation"],
+      "why": "Cash is over 1.0m at the year end and 1.29m by 23 Feb 2026, there are no borrowings (overdraft cancelled), there are no covenants, and profit before tax is 1.16m (N9, N1). The pending sale and a possible VAT exposure (see vat) are disclosure and subsequent-events points, not doubts over going concern.",
+      "evidence": ["N1", "N9", "account 1200", "B26-00153"],
+      "confidence": "high"
+    },
+    {
+      "area": "stock",
+      "level": "notApplicable",
+      "assertions": [],
+      "why": "There is no stock or WIP account in the chart or TB; materials (2.13m) are expensed as purchased. Unbilled work on the three contracts spanning the year end is dealt with under revenue (REV-04). I would confirm with the client that van/stores stock is immaterial.",
+      "evidence": ["accounts.csv", "account 5000", "N5"],
+      "confidence": "medium"
+    },
+    {
+      "area": "openingBalances",
+      "level": "notApplicable",
+      "assertions": [],
+      "why": "This is our fourth year with an unmodified prior-year opinion (N18). Opening TB equals the prior-year closing and balances to zero, so OB-01 does not apply. Two specific opening items are picked up elsewhere: the 9,500 opening accrual was never reversed (accrualsProvisions), and closing retained earnings (480,573) look inconsistent with the 878,867 prior-year profit in the comparatives (a partner question).",
+      "evidence": ["N18", "trial_balance.csv", "account 2250", "account 3200"],
+      "confidence": "high"
+    },
+    {
+      "area": "vat",
+      "level": "significant",
+      "assertions": ["accuracy", "completeness", "presentation"],
+      "why": "The VAT returns posted in the ledger do not agree to the ledger's own VAT. The Q2 transfer (MJ-000010) declares output VAT of 18,005 against 238,148 in the ledger and claims a 30,553 repayment (B25-01230). The ledger implies about 68,800 was payable. Q4 2025 also produced an HMRC repayment of 3,013 (B26-00140) against ledger net VAT due of about 113,500. Inputs are also under-claimed in Q1 to Q3, so at the year end the control accounts carry 160,976 net owed (2200 -498,504, 2201 +337,528) while 2202 shows nil. About 47,500 of that relates to quarters already filed. That is roughly 1x materiality of under-declaration, with penalty and interest exposure and a possible deliberate-misstatement and money-laundering-reporting angle. The preparer, Jane, leaves in April (N15). Repeats from last year: client dinner coded to advertising with VAT reclaimed (PI-000770, repeats FY24-06); T1 lines with zero VAT at Calder Fixings (PI-000757..759, repeats FY24-13). Subcontractors all charge 20% VAT where the CIS domestic reverse charge may apply.",
+      "evidence": ["MJ-000006", "MJ-000010", "MJ-000014", "B25-00609", "B25-01230", "B25-01825", "B26-00140", "accounts 2200/2201/2202", "N15", "PI-000770", "PI-000757", "PI-000758", "PI-000759", "PI-000776", "FY24-06", "FY24-13", "S030-S035"],
+      "confidence": "high"
+    },
+    {
+      "area": "accrualsProvisions",
+      "level": "elevated",
+      "assertions": ["completeness", "accuracy", "existence", "valuation"],
+      "why": "The only debit to accruals all year is MJ-000018. The 9,500 opening accrual was never reversed, repeating FY24-07 although management said accruals now carry a reversal flag (N19). The Wharfedale accrual of 12,000 was reversed at 10,200, leaving 1,800. Closing accruals of 41,650 include a new 14,200 holiday-pay estimate. Missing from the TB entirely: corporation tax on 1.16m profit (no tax accounts), pension accruals (N7) and the VAT exposure above.",
+      "evidence": ["account 2250", "MJ-000017", "MJ-000018", "MJ-000021", "MJ-000022", "MJ-000023", "FY24-07", "N7", "N19"],
+      "confidence": "high"
+    },
+    {
+      "area": "completion",
+      "level": "elevated",
+      "assertions": ["completeness", "presentation"],
+      "why": "There is substantial laws-and-regulations exposure: VAT returns misstated, no pension contributions under auto-enrolment (N7), possible s.197 breach, CIS status of new subcontractor Wharfedale (FY24-17 precedent), and no CIS liability account in the TB. A pending sale (N2) and possible fraud indicators need to go to those charged with governance and may need an MLRO consideration. Fee and timetable pressure from the MD (N2, N10) is a quality-management point.",
+      "evidence": ["N2", "N7", "N10", "N11", "FY24-17", "S033", "MJ-000016"],
+      "confidence": "medium"
+    }
+  ],
+  "mustSelect": [
+    {"procedureId": "REV-01", "extentOrFocus": "Monthly by customer; explain Brightwater 238k (156k of it from one MJ) and the 18% growth to someone other than Tom", "why": "Baseline; corroboration must bypass the invoice raiser (N3)."},
+    {"procedureId": "REV-02", "extentOrFocus": "Significant: 40 invoices either side of 31 Dec, include SI-001132, SI-001179 (C001), SI-001186 (C002), and Jan-26 credit notes", "why": "FY24-08 cut-off misstatement; contracts span year end (N5)."},
+    {"procedureId": "REV-03", "extentOrFocus": "Every manual credit to 4000; MJ-000024 is the only one and must be vouched to the signed final account, Brightwater's agreement and the original INV-2025-1499 numbering", "why": "Backdated unapproved 156k manual revenue entry posted in Feb 2026."},
+    {"procedureId": "REV-04", "extentOrFocus": "All three spanning contracts (C001, C002, C003): recompute FRS 102 s23 stage of completion and retentions", "why": "Invoice-based recognition, retentions unrecorded (N5)."},
+    {"procedureId": "REV-05", "extentOrFocus": "All debtors above 2,500. The Q1 2026 bank already clears 102 of 103; focus on INV-2025-1499 Brightwater", "why": "Existence of the 187.5k item; others are cheap to clear."},
+    {"procedureId": "DEB-01", "extentOrFocus": "Standard; include retention analysis", "why": "Baseline."},
+    {"procedureId": "DEB-02", "extentOrFocus": "Targeted positive confirmations: Brightwater (mandatory), Harrogate Homes, Calder Valley Housing, plus the 2 largest other balances", "why": "Significant existence risk on C003 balance, 3.75x materiality."},
+    {"procedureId": "DEB-03", "extentOrFocus": "1150 = MJ-000016 director advance 35,000", "why": "Connected-party debtor."},
+    {"procedureId": "PUR-01", "extentOrFocus": "Subcontractors +35%, advertising +40%, rent +26%, MISC-OPS +80% (65 lines, mismatched descriptions)", "why": "Baseline; drives the Wharfedale/MJ-000019/refurb points."},
+    {"procedureId": "PUR-02", "extentOrFocus": "Elevated (25): include Wharfedale S033 (statement, Companies House, VAT number, bank account vs employee bank details), Pennine Cable S007, Moorland S009, Ashworth Property S029, Calder Fixings S012", "why": "Risk-based selection per the programme."},
+    {"procedureId": "PUR-03", "extentOrFocus": "All 9 S033 invoices + the 10 tom.finance self-approved invoices; split invoices (MTH-77120/1,/2); payment speed outliers (S033 7 days, S029 3 days)", "why": "Clustering below the 10,000 limit and same user posting and approving."},
+    {"procedureId": "PUR-04", "extentOrFocus": "Full year; PCS-88231/PCS88231 already identified as paid twice", "why": "Repeat of FY24-05."},
+    {"procedureId": "PUR-05", "extentOrFocus": "Jan-Feb 2026 payments; subcontractor and Wharfedale December labour", "why": "Accrual completeness weak (FY24-07, MJ-000018)."},
+    {"procedureId": "PAY-01", "extentOrFocus": "Standard; explain identical monthly payroll and missing pension cost", "why": "Baseline."},
+    {"procedureId": "PAY-02", "extentOrFocus": "Every leaver and starter; Callum Reed E019 paid Jul-Dec; Tom Whitaker start date", "why": "Prior-year leaver error (FY24-14) has recurred; programme applicability met."},
+    {"procedureId": "PAY-03", "extentOrFocus": "All 12 months, 24 payees each (cheap, data in hand); confirm destination bank account for E019 payments", "why": "Weak segregation: Tom runs payroll, approves and prepares BACS (N3, N6)."},
+    {"procedureId": "PAY-04", "extentOrFocus": "Standard; plus pension contributions reconciliation", "why": "Baseline; auto-enrolment change (N7)."},
+    {"procedureId": "FA-01", "extentOrFocus": "Standard extent ONLY: Transit PI-000754 (>PM) plus 10 below including PI-000773/774, PI-000775; recompute depreciation", "why": "Baseline risk; do not repeat the 30h whole-register extension (N10, memo 4)."},
+    {"procedureId": "BNK-01", "extentOrFocus": "Investigate the 9,500 unreconciled difference (MJ-000019)", "why": "Mandatory."},
+    {"procedureId": "BNK-02", "extentOrFocus": "Standard; confirm no other accounts (where did MJ-000019 go?)", "why": "Mandatory."},
+    {"procedureId": "BNK-03", "extentOrFocus": "Full-year match (already run in planning: 1 unmatched ledger line MJ-000019, 0 unmatched statement lines); document and vouch manual bank journals MJ-000016/19/20", "why": "Manual journals to bank and a reconciliation difference exist."},
+    {"procedureId": "RP-01", "extentOrFocus": "Standard; include Helen Ashworth, Ashworth Property, the 'chairman' gift recipient", "why": "Mandatory."},
+    {"procedureId": "RP-02", "extentOrFocus": "Rent 102k plus 24k refurbishment of landlord's unit (PI-000769): authorisation, arm's length, s33 disclosure", "why": "RP transactions outside ordinary course."},
+    {"procedureId": "RP-03", "extentOrFocus": "MJ-000016 35,000, s.197 approval, s.413 disclosure, BIK, post-YE repayment; PI-000771 gift", "why": "Director balance at year end; repeat FY24-03 (was missed in FY24 because not selected)."},
+    {"procedureId": "JNL-01", "extentOrFocus": "Significant: all 24 manual journals (must-test: MJ-000016/19/20/24 unapproved management entries, MJ-000017/18), plus all 10 tom.finance-posted PIs, PI-000776, and a risk sample of system entries to reach 50", "why": "Management override with an EBITDA incentive."},
+    {"procedureId": "JNL-02", "extentOrFocus": "Holiday pay 14,200, accruals, depreciation lives, VAT exposure, CT, retentions; retrospective review of FY24 estimates", "why": "Mandatory; several estimates biased toward profit possible."},
+    {"procedureId": "JNL-03", "extentOrFocus": "Refurbishment of RP property, director advance, MJ-000019 transfer, Brightwater final account", "why": "Mandatory; unusual transactions in sale year."},
+    {"procedureId": "GC-01", "extentOrFocus": "Standard", "why": "Mandatory."},
+    {"procedureId": "VAT-01", "extentOrFocus": "Extended: reconcile all four FY25 returns and the Q4 return to the ledger, quantify under-declaration, obtain HMRC VAT account statement", "why": "Q2 and Q4 repayment claims contradict ledger; significant."},
+    {"procedureId": "VAT-02", "extentOrFocus": "Entertaining (PI-000770, PI-000772), insurance coded T1, subcontractor reverse charge", "why": "Prior-year VAT errors (FY24-06, FY24-13) recurred."},
+    {"procedureId": "ACC-01", "extentOrFocus": "Confirm every opening accrual reversed (9,500 was not), MJ-000017/018 residual 1,800, completeness: CT, pension, VAT, Wharfedale", "why": "Repeat FY24-07."},
+    {"procedureId": "COMP-01", "extentOrFocus": "To report date; sale progress, Brightwater cash, director repayment, Q1 2026 VAT", "why": "Mandatory."},
+    {"procedureId": "COMP-02", "extentOrFocus": "VAT, CIS gross status for S033, pensions auto-enrolment, Companies Act s.197", "why": "Mandatory; several non-compliance indicators."}
+  ],
+  "shouldOmit": [
+    {"procedureId": "REV-06", "why": "Not applicable: no cash or card takings; all receipts are BACS against invoices."},
+    {"procedureId": "FA-02", "why": "Fixed-asset existence is not a significant risk (FY24 found nothing in 30h; one van addition). Only applicable if the register has not been verified in 3 years; confirm with the file. If it has, omit (low confidence)."},
+    {"procedureId": "FA-03", "why": "No impairment indicators: business is growing, assets are in use, profitable."},
+    {"procedureId": "GC-02", "why": "No borrowings or covenants (N9) and no material uncertainty."},
+    {"procedureId": "STK-01", "why": "Not applicable: no stock recorded and stock not material."},
+    {"procedureId": "STK-02", "why": "Not applicable: no stock recorded; contract WIP covered by REV-04."},
+    {"procedureId": "OB-01", "why": "Not applicable: fourth-year engagement (N18)."}
+  ],
+  "keyFindings": [
+    "VAT returns do not match the ledger. Q2 2025 return (MJ-000010) declared output VAT of 18,005 vs 238,148 in the ledger and HMRC repaid 30,553 (B25-01230). The Q4 2025 return produced a 3,013 repayment (B26-00140) against ledger net VAT due of about 113,500. The control accounts carry 160,976 net owed at YE with 2202 nil; about 47,500 of that relates to quarters already filed.",
+    "MJ-000024: 187,500 gross / 156,250 net Brightwater 'Phase 3 final account' entered 11 Feb 2026 at 19:42, backdated to 30 Dec 2025, by tom.finance, unapproved, reusing invoice number INV-2025-1499 (already SI-000499 to Wetherby Care Homes, paid B25-01055). No cash by 23 Feb 2026; the only unsettled FY25 debtor.",
+    "Wharfedale Site Services (S033): 9 invoices of 9,594-9,979 gross, all just below the 10,000 MD-approval limit, all posted and self-approved by tom.finance, random WSS references, paid in about 7 days (B25-01071..B25-02098), 87,172 gross, no contract (N11). Also the MJ-000017 accrual of 12,000.",
+    "Leaver Callum Reed (E019, left 2025-06-30) paid 2,331 net in each of Jul-Dec 2025 (B25-01153..B25-02152): 13,986 net. Repeats FY24-14 after management said it was fixed.",
+    "Director advance MJ-000016 of 35,000 to Martin Ashworth, posted by himself at 19:12 and unapproved (B25-00843). Still in 1150 at YE and not repaid by 23 Feb 2026. Above the s.197 threshold; repeats FY24-03.",
+    "MJ-000019: 9,500 'Transfer' debited to advertising and credited to bank by martin.md at 20:05 on 21 Nov, with no bank statement line. This is the entire ledger-to-statement difference (ledger 1,031,635.09 vs statement 1,041,135.09).",
+    "PI-000769 (24,000 + 4,800 VAT): company paid Ashworth Property Ltd (S029, Martin's company) to refurbish Ashworth Property's own unit, expensed to rent, paid in 1 day (B25-02094), no board minute (N8).",
+    "Approval control bypassed: Moorland MTH-77120 split into two 7,400 parts (PI-000773/774) approved by tom.finance, paid as one 14,800 BACS (B25-00856).",
+    "Duplicate paid twice again at Pennine Cable: PCS-88231 / PCS88231 (PI-000755/756; B25-00628, B25-00646), 6,345. Repeats FY24-05.",
+    "No pension contributions anywhere in ledger or bank for 24 staff despite auto-enrolment and a September scheme change (N7). No corporation tax or CIS accounts in the TB.",
+    "The 9,500 opening accrual was never reversed (only debit to 2250 is MJ-000018). MJ-000017 accrued 12,000 and MJ-000018 reversed only 10,200. Repeats FY24-07.",
+    "Recurring VAT/classification errors: client dinner 3,200 coded to advertising with VAT reclaimed (PI-000770, repeats FY24-06); T1 lines with nil VAT at Calder Fixings (PI-000757..759, repeats FY24-13); PI-000776 is unbalanced (624 VAT line missing), so ledger 2201 differs from the TB by 624; MJ-000020 staff loan of 2,500 coded to subcontractors.",
+    "MISC-OPS grew 80% to 31,577 over 65 lines despite the instruction to retire it (FY24-09, N16), with descriptions that do not match the suppliers and a 1,200 'Gift - chairman's 60th' (PI-000771).",
+    "All three management-letter points management said were 'addressed' (N19) recurred: director's loan, leaver, duplicate invoice. Written management representations on controls should not be relied on."
+  ],
+  "partnerQuestions": [
+    "Given the VAT returns vs ledger mismatch (Q2 and Q4 repayment claims), do we need to consider an MLRO/POCA report and how do we raise it with Martin before the sale?",
+    "Do we treat Wharfedale Site Services as a suspected fictitious supplier and extend to verifying its existence (Companies House, VAT number, bank account vs employee/Tom details) before fieldwork, given Tom both posts and approves?",
+    "Is the Brightwater final account signed? If not, MJ-000024 should be reversed; how do we respond to management backdating a 156k revenue entry in a sale year?",
+    "Who received Callum Reed's July-December pay, and was it the same bank account as before he left?",
+    "Will the board ratify the 35,000 director advance under s.197, and who approved the refurbishment of the related-party landlord's unit?",
+    "Where did the 9,500 in MJ-000019 actually go? Is there another bank account or card?",
+    "Has the asset register been physically verified within the last three years (decides FA-02)?",
+    "Retained earnings of 480,573 sit beside a prior-year profit of 878,867 in the comparatives: were dividends paid, or is the comparative column pre-closing?",
+    "Is the 120h budget and the April deadline (N2, N10) compatible with this risk profile? I would not accept a timetable that cuts the VAT, revenue and payroll work.",
+    "Does any of the CIS domestic reverse charge apply to the subcontractors' VAT and to Ashworth's own sales to developers?"
+  ],
+  "hoursEstimateVsBudget": "Inadequate. Selected procedures at the extents above come to roughly 155-165h. By area: revenue ~45 (REV-02 at 40 samples ~20-24h, REV-04 10), debtors ~13, purchases ~23, payroll ~14, FA ~4, bank ~9, RP ~11, journals ~18 (all 24 manual journals plus risk sample), GC 3, VAT ~8, accruals ~4, completion ~6. The 120h budget holds only if significant areas are cut, which is exactly what the memo forbids. Savings already taken: FA held at baseline, which frees ~27h against last year's 30h actual, and BNK-03, PAY-03 and REV-05 are largely pre-computed from the ledger and bank files. I would report a 35-45h overrun to Ingrid and ask for a budget increase rather than trim REV-02/REV-04, VAT-01 or PUR-03."
+}

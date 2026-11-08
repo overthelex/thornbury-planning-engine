@@ -1,0 +1,997 @@
+{
+  "ashworth": {
+    "N1": [
+      {
+        "area": "goingConcern",
+        "direction": "lowers",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "Strong trading year and fuller 2026 order book with signed framework agreements support going concern."
+      }
+    ],
+    "N2": [
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "Sale priced on a multiple of FY2025 EBITDA gives the MD a direct incentive to inflate profit; pressure to accelerate the audit."
+      },
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "cutOff",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "EBITDA-based price creates incentive to pull revenue into FY2025."
+      },
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "valuation"
+        ],
+        "confidence": "medium",
+        "reason": "Profit incentive to understate accruals and provisions."
+      },
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "cutOff"
+        ],
+        "confidence": "medium",
+        "reason": "Profit incentive to defer or omit costs at year end."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "low",
+        "reason": "Planned sale and compressed timetable affect subsequent-events review and disclosure."
+      }
+    ],
+    "N3": [
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy",
+          "classification"
+        ],
+        "confidence": "high",
+        "reason": "New finance manager with manual-journal rights the predecessor lacked, and he also raises invoices, approves purchases and prepares BACS: poor segregation."
+      },
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Same person raises all sales invoices and can post journals."
+      },
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Finance manager approves sub-10k invoices and prepares the payments for them."
+      }
+    ],
+    "N4": [
+      {
+        "area": "fixedAssets",
+        "direction": "raises",
+        "assertions": [
+          "classification",
+          "existence",
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "'Buying a lot of test kit' unquantified: risk of capital items expensed or vice versa, and existence of portable kit; van addition itself is routine."
+      }
+    ],
+    "N5": [
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "cutOff",
+          "accuracy",
+          "occurrence"
+        ],
+        "confidence": "high",
+        "reason": "Contracts spanning year end recognised on invoice raising rather than stage of completion; Brightwater final account only 'agreed in principle'."
+      },
+      {
+        "area": "debtors",
+        "direction": "raises",
+        "assertions": [
+          "valuation",
+          "existence"
+        ],
+        "confidence": "high",
+        "reason": "5% retentions held twelve months and possible accrued income/amounts recoverable on contracts need valuation and existence work."
+      },
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "valuation"
+        ],
+        "confidence": "medium",
+        "reason": "Invoice-based recognition may leave deferred income or loss provisions on long contracts unrecorded."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "low",
+        "reason": "Revenue policy may not comply with FRS 102 contract accounting and requires disclosure review."
+      }
+    ],
+    "N6": [
+      {
+        "area": "payroll",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "existence",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "Payroll changes come by informal email from a part-time HR administrator, leavers answered vaguely ('one or two'), leaver process was a prior-year finding."
+      },
+      {
+        "area": "relatedParties",
+        "direction": "raises",
+        "assertions": [
+          "presentation",
+          "occurrence"
+        ],
+        "confidence": "low",
+        "reason": "HR handled by Helen Ashworth, apparently a family member of the MD; any remuneration needs related-party consideration."
+      }
+    ],
+    "N7": [
+      {
+        "area": "payroll",
+        "direction": "raises",
+        "assertions": [
+          "accuracy",
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "Mid-year pension scheme transfer accepted as 'no issues' on the broker's word; contributions and deductions may be wrong."
+      },
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness"
+        ],
+        "confidence": "low",
+        "reason": "Year-end pension contribution creditor may be misstated after the scheme change."
+      }
+    ],
+    "N8": [
+      {
+        "area": "relatedParties",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "presentation",
+          "rightsAndObligations"
+        ],
+        "confidence": "high",
+        "reason": "Company paid to refurbish premises owned by the MD's own company, without a board minute; rent to a related party."
+      },
+      {
+        "area": "fixedAssets",
+        "direction": "raises",
+        "assertions": [
+          "classification",
+          "rightsAndObligations",
+          "existence",
+          "valuation"
+        ],
+        "confidence": "high",
+        "reason": "December refurbishment of a related party's property: capitalise as leasehold improvement, expense, or treat as amount due from director/related party."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "Undocumented transaction with a director-controlled entity needs related-party disclosure and Companies Act consideration."
+      }
+    ],
+    "N9": [
+      {
+        "area": "goingConcern",
+        "direction": "lowers",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "high",
+        "reason": "Strong cash, no borrowings, overdraft cancelled as unused."
+      }
+    ],
+    "N10": [
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence"
+        ],
+        "confidence": "low",
+        "reason": "MD pressing for shorter fieldwork alongside a sale timetable: pressure on the audit."
+      }
+    ],
+    "N11": [
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "existence",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "New subcontractor introduced by a site foreman, 'cheaper', no written contract: fictitious supplier or kickback risk."
+      },
+      {
+        "area": "bankCash",
+        "direction": "raises",
+        "assertions": [
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "Payments to an unvetted subcontractor need tracing to genuine work and bank details."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "Construction Industry Scheme verification and deductions for a new subcontractor may not be compliant."
+      },
+      {
+        "area": "vat",
+        "direction": "raises",
+        "assertions": [
+          "accuracy"
+        ],
+        "confidence": "low",
+        "reason": "Construction services from a subcontractor may fall under the domestic reverse charge."
+      }
+    ],
+    "N12": [],
+    "N13": [],
+    "N14": [],
+    "N15": [
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "cutOff",
+          "accuracy",
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "Purchase ledger keyed in batches from scans by an outgoing bookkeeper: cut-off, duplicates and completeness risk; handover uncertain."
+      },
+      {
+        "area": "vat",
+        "direction": "raises",
+        "assertions": [
+          "accuracy",
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "VAT return prepared by the departing bookkeeper and submitted by the finance manager; continuity of review unclear."
+      }
+    ],
+    "N16": [
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "classification",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "Suspense-style MISC-OPS code still in use against last year's request, and the finance manager posts items the bookkeeper does not see."
+      },
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "classification",
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "'Bits and pieces' coded to MISC-OPS may hide misclassified or non-business expenditure."
+      }
+    ],
+    "N17": [
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "Completeness of the ledger export confirmed only 'as far as she knows' by someone who does not see all postings."
+      }
+    ],
+    "N18": [
+      {
+        "area": "openingBalances",
+        "direction": "lowers",
+        "assertions": [
+          "existence",
+          "accuracy",
+          "valuation"
+        ],
+        "confidence": "high",
+        "reason": "Fourth year as auditors, unmodified prior opinion, no system change: opening balances were audited by us."
+      }
+    ],
+    "N19": [
+      {
+        "area": "relatedParties",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "Director's loan approval was a prior-year finding; remediation is only management's written assertion."
+      },
+      {
+        "area": "payroll",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "existence"
+        ],
+        "confidence": "medium",
+        "reason": "Leaver process was a prior-year finding, remediation unverified (and N6 suggests it is still informal)."
+      },
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Duplicate-invoice check was a prior-year finding, remediation unverified (and N16 shows a prior request ignored)."
+      }
+    ],
+    "N20": []
+  },
+  "calder": {
+    "N1": [],
+    "N2": [
+      {
+        "area": "openingBalances",
+        "direction": "raises",
+        "assertions": [
+          "existence",
+          "accuracy",
+          "valuation",
+          "classification"
+        ],
+        "confidence": "high",
+        "reason": "First statutory audit; FY2024 accounts and comparatives compiled, not audited, by the company's own accountants."
+      }
+    ],
+    "N3": [
+      {
+        "area": "goingConcern",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "'Tough' year with squeezed margins for a company carrying bank debt."
+      },
+      {
+        "area": "fixedAssets",
+        "direction": "raises",
+        "assertions": [
+          "valuation"
+        ],
+        "confidence": "low",
+        "reason": "Canning line running only two days a week: possible impairment indicator."
+      }
+    ],
+    "N4": [
+      {
+        "area": "goingConcern",
+        "direction": "raises",
+        "assertions": [
+          "accuracy",
+          "classification",
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "600k loan with capital/interest split left to Xero and never checked; current/non-current split and interest feed the covenants."
+      }
+    ],
+    "N5": [
+      {
+        "area": "goingConcern",
+        "direction": "raises",
+        "assertions": [
+          "presentation",
+          "classification"
+        ],
+        "confidence": "high",
+        "reason": "Covenants tested on the audited accounts, and the MD cannot evidence headroom ('we're fine' with no numbers)."
+      },
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "EBITDA-based covenants give management an incentive to inflate profit."
+      },
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "cutOff"
+        ],
+        "confidence": "medium",
+        "reason": "Covenant incentive to overstate revenue."
+      },
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "Covenant incentive to understate accruals."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "A covenant breach would require loan reclassification and going-concern disclosure."
+      }
+    ],
+    "N6": [
+      {
+        "area": "fixedAssets",
+        "direction": "lowers",
+        "assertions": [
+          "existence",
+          "occurrence"
+        ],
+        "confidence": "low",
+        "reason": "Fermentation vessels were a planned, bank-notified purchase from a named supplier."
+      },
+      {
+        "area": "goingConcern",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "Capex paid from cash in August, followed by an unarranged overdraft in September (N17): liquidity tight."
+      }
+    ],
+    "N7": [
+      {
+        "area": "payroll",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Head brewer left in October; payroll prepared by one person from the rota with only a total check by the MD."
+      }
+    ],
+    "N8": [
+      {
+        "area": "stock",
+        "direction": "raises",
+        "assertions": [
+          "existence",
+          "valuation",
+          "completeness",
+          "cutOff"
+        ],
+        "confidence": "high",
+        "reason": "Count on 2 January on paper by management, WIP valued by rule of thumb, and contradictory account of who counted (Marcus had already left)."
+      },
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "MD's contradicted account reduces reliance on management representations; stock figure is his own."
+      }
+    ],
+    "N9": [
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "cutOff"
+        ],
+        "confidence": "high",
+        "reason": "Taproom cash counted, banked and recorded weekly from Z-reads by one person: completeness of cash takings."
+      },
+      {
+        "area": "bankCash",
+        "direction": "raises",
+        "assertions": [
+          "existence",
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "Cash held up to a week and banked by the same person who counts it."
+      }
+    ],
+    "N10": [
+      {
+        "area": "relatedParties",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "MD's partner on the payroll at a rate asserted to be market: related-party remuneration needs evidence and disclosure."
+      },
+      {
+        "area": "payroll",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Hours and pay of a connected employee supervised by nobody independent."
+      }
+    ],
+    "N11": [
+      {
+        "area": "relatedParties",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "presentation",
+          "completeness"
+        ],
+        "confidence": "high",
+        "reason": "MD had home works 'sorted through the company': personal expenditure / undisclosed director's loan."
+      },
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "classification"
+        ],
+        "confidence": "high",
+        "reason": "Director using the company for personal costs, with staff visibly uncomfortable: management override."
+      },
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "classification"
+        ],
+        "confidence": "high",
+        "reason": "Personal building invoices likely processed as business purchases."
+      },
+      {
+        "area": "vat",
+        "direction": "raises",
+        "assertions": [
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Input VAT may have been reclaimed on the director's private works."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation",
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "Possible loan to a director, benefit in kind and tax compliance issues requiring disclosure."
+      },
+      {
+        "area": "fixedAssets",
+        "direction": "raises",
+        "assertions": [
+          "existence",
+          "classification"
+        ],
+        "confidence": "low",
+        "reason": "Home works may have been capitalised as premises improvements."
+      }
+    ],
+    "N12": [
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "accuracy",
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "Beer duty rate changed in February; compliance rests on a template Hill & Co updated, unchecked."
+      },
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "accuracy",
+          "completeness"
+        ],
+        "confidence": "medium",
+        "reason": "Year-end duty liability may be wrong if the new rate was misapplied."
+      }
+    ],
+    "N13": [],
+    "N14": [
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "No written approval policy; office manager approves and posts invoices she also pays."
+      },
+      {
+        "area": "bankCash",
+        "direction": "raises",
+        "assertions": [
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "MD releases all payments, including any for his own benefit (see N11); no independent check."
+      }
+    ],
+    "N15": [
+      {
+        "area": "openingBalances",
+        "direction": "raises",
+        "assertions": [
+          "existence",
+          "accuracy",
+          "valuation"
+        ],
+        "confidence": "high",
+        "reason": "Hill & Co confirm no audit procedures on FY2024."
+      },
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Depreciation and year-end journals posted by external accountants on the office manager's instruction, unreviewed."
+      },
+      {
+        "area": "goingConcern",
+        "direction": "raises",
+        "assertions": [
+          "accuracy",
+          "classification"
+        ],
+        "confidence": "medium",
+        "reason": "Loan interest/capital split not reviewed for 2025; feeds interest cover and debt classification."
+      },
+      {
+        "area": "fixedAssets",
+        "direction": "raises",
+        "assertions": [
+          "valuation",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Depreciation posted on instruction without review."
+      }
+    ],
+    "N16": [
+      {
+        "area": "openingBalances",
+        "direction": "raises",
+        "assertions": [
+          "existence",
+          "valuation"
+        ],
+        "confidence": "high",
+        "reason": "FY2024 stock was the MD's figure with no count sheets: opening stock, and so FY2025 cost of sales, unsupported."
+      },
+      {
+        "area": "stock",
+        "direction": "raises",
+        "assertions": [
+          "valuation",
+          "existence"
+        ],
+        "confidence": "high",
+        "reason": "Stock valuation historically set by management without evidence."
+      }
+    ],
+    "N17": [
+      {
+        "area": "goingConcern",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "high",
+        "reason": "Four days of unarranged overdraft in September and a bank-imposed covenant certificate deadline."
+      }
+    ],
+    "N18": [
+      {
+        "area": "stock",
+        "direction": "raises",
+        "assertions": [
+          "existence"
+        ],
+        "confidence": "medium",
+        "reason": "Year-end count took place before our involvement, so we could not attend it."
+      }
+    ]
+  },
+  "wetherby": {
+    "N1": [
+      {
+        "area": "openingBalances",
+        "direction": "lowers",
+        "assertions": [
+          "existence",
+          "accuracy",
+          "valuation"
+        ],
+        "confidence": "high",
+        "reason": "Sixth year as auditors with unchanged structure: opening balances were audited by us."
+      }
+    ],
+    "N2": [
+      {
+        "area": "revenue",
+        "direction": "lowers",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "NHS income is a fixed monthly 1/12 payment from NHS England, predictable and third-party evidenced."
+      },
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "cutOff"
+        ],
+        "confidence": "medium",
+        "reason": "Private fees transferred manually from the practice system to Xero weekly by one person."
+      }
+    ],
+    "N3": [
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "cutOff"
+        ],
+        "confidence": "medium",
+        "reason": "New implant service from April drives private income growth; multi-stage treatments raise cut-off and deferred-income questions."
+      },
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness"
+        ],
+        "confidence": "low",
+        "reason": "Payments in advance or remedial obligations on implant treatment may need deferral or provision."
+      }
+    ],
+    "N4": [
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "valuation"
+        ],
+        "confidence": "high",
+        "reason": "~92% UDA delivery on a 1.02m contract implies a clawback well above materiality for the 9 months to December; no provision made, left to Moorland 'if needed'."
+      },
+      {
+        "area": "revenue",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "high",
+        "reason": "NHS income recognised as received overstates revenue for undelivered UDAs."
+      },
+      {
+        "area": "completion",
+        "direction": "raises",
+        "assertions": [
+          "presentation"
+        ],
+        "confidence": "medium",
+        "reason": "Clawback settles after the year end (usually July): subsequent events and estimate disclosure."
+      }
+    ],
+    "N5": [
+      {
+        "area": "fixedAssets",
+        "direction": "lowers",
+        "assertions": [
+          "existence",
+          "occurrence"
+        ],
+        "confidence": "low",
+        "reason": "Single planned addition per last year's budget, paid from cash."
+      }
+    ],
+    "N6": [
+      {
+        "area": "payroll",
+        "direction": "lowers",
+        "assertions": [
+          "occurrence",
+          "existence"
+        ],
+        "confidence": "medium",
+        "reason": "No starters or leavers all year: payroll is stable and predictable."
+      }
+    ],
+    "N7": [
+      {
+        "area": "purchasesCreditors",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Practice manager approves and posts her own invoices under 5k; reliance justified only by 'it has worked for ten years'."
+      },
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence"
+        ],
+        "confidence": "low",
+        "reason": "One person controls bookkeeping without independent review below 5k."
+      }
+    ],
+    "N8": [
+      {
+        "area": "relatedParties",
+        "direction": "lowers",
+        "assertions": [
+          "presentation",
+          "occurrence"
+        ],
+        "confidence": "medium",
+        "reason": "Premises rented from an unconnected landlord on a long lease: no related-party rent."
+      }
+    ],
+    "N9": [
+      {
+        "area": "bankCash",
+        "direction": "lowers",
+        "assertions": [
+          "existence"
+        ],
+        "confidence": "medium",
+        "reason": "Only a 200 float; everything else is card and bank transfer."
+      },
+      {
+        "area": "revenue",
+        "direction": "lowers",
+        "assertions": [
+          "completeness",
+          "occurrence"
+        ],
+        "confidence": "low",
+        "reason": "Card-only takings leave a bank trail; refunds authorised by a director."
+      }
+    ],
+    "N10": [],
+    "N11": [],
+    "N12": [
+      {
+        "area": "openingBalances",
+        "direction": "lowers",
+        "assertions": [
+          "existence",
+          "accuracy"
+        ],
+        "confidence": "medium",
+        "reason": "Unmodified prior opinion with no findings above trivial."
+      },
+      {
+        "area": "journalsManagementOverride",
+        "direction": "raises",
+        "assertions": [
+          "occurrence",
+          "accuracy"
+        ],
+        "confidence": "low",
+        "reason": "Year-end journals, including any provisions, posted by external accountants on the practice manager's instruction."
+      }
+    ],
+    "N13": [
+      {
+        "area": "accrualsProvisions",
+        "direction": "raises",
+        "assertions": [
+          "completeness",
+          "valuation"
+        ],
+        "confidence": "medium",
+        "reason": "Prior year needed no clawback provision at 99%; delivery has fallen to ~92%, so rolling forward last year's approach would miss it."
+      }
+    ]
+  }
+}

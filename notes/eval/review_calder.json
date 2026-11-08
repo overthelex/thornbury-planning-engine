@@ -1,0 +1,550 @@
+{
+ "client": "calder",
+ "areas": [
+  {
+   "area": "revenue",
+   "level": "significant",
+   "assertions": [
+    "completeness",
+    "occurrence",
+    "cutOff"
+   ],
+   "why": "ISA 240 presumption not rebutted: cash-handling taproom under a dominant owner with expressed willingness to run personal items through the company. The takings series has three missing weeks in peak season (no ledger entry and no bank deposit for c. 8 May, 15 May, 15 Aug; ~33k gross, above PM), duplicated week labels, and weekly combined 'CARD/CASH DEPOSIT' credits although the card terminal supposedly settles daily. Trade sales are clean (sequential CVB-2025-1001..1661, no gaps, no credit notes, no manual revenue entries), so trade cut-off is only elevated in substance.",
+   "evidence": [
+    "N9",
+    "N11",
+    "N3",
+    "4020",
+    "4010",
+    "CS-000020",
+    "CS-000021",
+    "CS-000034",
+    "CS-000035",
+    "B25-00375",
+    "B25-00435",
+    "B25-00788",
+    "B25-00844",
+    "CS-000005/CS-000006 (both W5)",
+    "CVB-2025-1631",
+    "CVB-2025-1634"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "debtors",
+   "level": "baseline",
+   "assertions": [
+    "existence",
+    "valuation"
+   ],
+   "why": "Trade debtors rose from 75,935 to 210,658, but every one of the 74 open invoices at 31/12 was received in full by 2 Mar 2026 (B26 BACS credits total exactly 210,657.86) and all opening debtors were received in 2025. No credit notes, no unmatched receipts; ageing all <60 days. Other debtors are nil, which is itself wrong (director's personal spend should sit there).",
+   "evidence": [
+    "1100",
+    "1150",
+    "bank_statement_2026q1 BACS credits x74",
+    "B26-00111"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "purchasesCreditors",
+   "level": "elevated",
+   "assertions": [
+    "occurrence",
+    "completeness",
+    "classification",
+    "cutOff"
+   ],
+   "why": "No written approval policy (N14); Kate both posts and approves 384 of 494 purchase invoices and Dan approved an invoice for his own house (PI-000494). Seventeen 'monthly' alcohol duty returns were posted for twelve months, including four in December (78,870 unpaid at YE), which needs agreeing to HMRC's duty account; 'Valley Cleaning Services' invoices staff pizza nights and customer tasting evenings coded to entertaining. Year-end creditors 155,283 all cleared by 2 Mar 2026 and opening creditors 64,983 cleared in Jan 2025, so existence is lower risk than classification/completeness.",
+   "evidence": [
+    "N14",
+    "PI-000494",
+    "S007",
+    "PI-000466",
+    "PI-000459",
+    "PI-000476",
+    "PI-000461",
+    "S020",
+    "7403",
+    "2100",
+    "N12"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "area": "payroll",
+   "level": "elevated",
+   "assertions": [
+    "occurrence",
+    "accuracy",
+    "presentation"
+   ],
+   "why": "Kate runs payroll from the rota and approves the payroll journal herself (PR-000001..12 approvedBy kate.office); Dan only checks the total. Bank salary lines agree to the 18 named employees and the one leaver (Marcus, E004) was last paid 28 Oct, so no ghost/leaver issue in the data, but gross pay is identical every month Jan-Oct (46,150) despite a rota-driven, seasonal taproom, and Rosie Crossley (related party, 20 h/week) is paid 1,924 net/month, more than most full-time staff (e.g. 1,480). N7 says 18 on payroll at YE; bank shows 17.",
+   "evidence": [
+    "N7",
+    "N10",
+    "E002",
+    "E004",
+    "PR-000001",
+    "PR-000011",
+    "B25-00046",
+    "7000",
+    "7006",
+    "2210"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "fixedAssets",
+   "level": "elevated",
+   "assertions": [
+    "existence",
+    "valuation",
+    "rightsAndObligations",
+    "completeness"
+   ],
+   "why": "Register has never been audited or physically verified (first audit, compiled PY). Only addition is two fermenters 96,000 net (PI-000493, paid B25-00942) - above PM. Depreciation was posted as an unchanged monthly template (5,900) all year, so the fermenters were not depreciated from August; the canning line runs two days a week (N3), an impairment indicator for the largest asset class (P&M 352,000).",
+   "evidence": [
+    "N3",
+    "N6",
+    "0030",
+    "0020",
+    "0050",
+    "8000",
+    "PI-000493",
+    "B25-00942",
+    "MJ-000001",
+    "MJ-000015"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "area": "bankCash",
+   "level": "elevated",
+   "assertions": [
+    "existence",
+    "completeness",
+    "rightsAndObligations",
+    "presentation"
+   ],
+   "why": "Ledger 1200 agrees to the statement at 31/12 (-130,893) and every statement line matches a ledger posting (salaries match in aggregate per payroll run). But the account was overdrawn on 108 days, continuously from 12 Sep 2025 to 9 Feb 2026 with a peak of -161,323, whereas the bank's letter refers to four days of unarranged overdraft in September: either an arranged facility exists that is not in the file or the letter is incomplete. Cash in hand 1,500 is unchanged all year despite weekly cash takings. Q1 2026 statement ends 2 Mar and contains no takings, salaries, rent or loan DD.",
+   "evidence": [
+    "N17",
+    "N9",
+    "1200",
+    "1230",
+    "B25-00942",
+    "bank_statement_2025 EOD balances 2025-09-12..2026-02-09",
+    "B26-00111"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "relatedParties",
+   "level": "significant",
+   "assertions": [
+    "completeness",
+    "presentation",
+    "existence",
+    "rightsAndObligations",
+    "classification"
+   ],
+   "why": "Dan's home kitchen (Hebden Kitchen Studio, '14 Birchcliffe Road', 10,080 gross) was approved by Dan, coded to equipment maintenance 7700 with 1,680 input VAT reclaimed, paid by the company (B25-00787), and the director's loan account 2310 shows nil all year: a director's advance above the s.197 10,000 threshold, undisclosed, with BIK and VAT consequences. Rosie Crossley's pay is not on the 'same as anyone' terms claimed. Kate's reaction (N11) points to possible further items.",
+   "evidence": [
+    "N11",
+    "N10",
+    "PI-000494",
+    "B25-00787",
+    "S011",
+    "2310",
+    "7700",
+    "E001",
+    "E002",
+    "B25-00046"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "journalsManagementOverride",
+   "level": "significant",
+   "assertions": [
+    "occurrence",
+    "accuracy",
+    "cutOff",
+    "valuation",
+    "classification"
+   ],
+   "why": "Owner-manager with unlimited posting/approval rights, a covenant test on these accounts (incentive), a PY loss turning into a profit while he says margins were squeezed (GP 46.8% to 50.4%), and an inconsistent account of who did the stock count. The only material manual entry is the round-sum stock uplift MJ-000016 (+56,000 in round thousands, posted 21 Jan 2026, approved by Dan). A Xero bank rule posts all loan interest (36,000) to bank charges; VAT transfer journals MJ-000010/MJ-000014 do not agree to the ledger; Hill & Co's year-end journals are not yet in the ledger (no hill.accts postings at all).",
+   "evidence": [
+    "N8",
+    "N3",
+    "N5",
+    "N11",
+    "N15",
+    "MJ-000016",
+    "MJ-000010",
+    "MJ-000014",
+    "BK-000001",
+    "7900",
+    "7903",
+    "5200"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "goingConcern",
+   "level": "significant",
+   "assertions": [
+    "presentation",
+    "valuation"
+   ],
+   "why": "Covenants (N5) recomputed from the TB with the 36,000 interest reclassified out of bank charges: EBITDA ~146k, interest cover 4.1x, net debt/EBITDA 3.41x against a 4.0x limit, headroom ~21.5k of EBITDA, which is below PM; an unrecorded audit fee or a stock overstatement above ~22k breaches it. FY2024 (compiled) would have failed both tests (EBITDA 58k vs interest 34.5k). The account has been in overdraft since 12 Sep 2025, and the bank wants audited accounts and a compliance certificate by 30 June.",
+   "evidence": [
+    "N4",
+    "N5",
+    "N17",
+    "2300",
+    "1200",
+    "7900",
+    "7903",
+    "PY-HILL-02",
+    "trial_balance priorYear"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "stock",
+   "level": "significant",
+   "assertions": [
+    "existence",
+    "completeness",
+    "valuation",
+    "cutOff"
+   ],
+   "why": "Stock 234,000 (7.8x materiality), counted without the auditor on 2 Jan on paper sheets by Dan with a contradictory account of who helped (N8), WIP valued 'by rule of thumb', posted as a round-sum journal (MJ-000016) three weeks after year end. The 56,000 increase drives the profit swing and covenant headroom and contradicts the margin squeeze in N3. Opening stock 178,000 was 'Dan's figure' with no count sheets.",
+   "evidence": [
+    "N8",
+    "N3",
+    "N16",
+    "PY-HILL-01",
+    "MJ-000016",
+    "1000",
+    "1010",
+    "1020",
+    "5200"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "openingBalances",
+   "level": "significant",
+   "assertions": [
+    "existence",
+    "completeness",
+    "valuation",
+    "rightsAndObligations",
+    "classification"
+   ],
+   "why": "First audit; FY2024 compiled, not audited (N2, N15). Opening stock 178,000 is unverified (PY-HILL-01) and flows straight into 2025 cost of sales. The opening loan of 600,000 is the full drawdown although repayments started in 2024 and 34,500 was booked as interest (PY-HILL-02), so capital/interest in FY2024 is likely misallocated. Opening debtors (75,935), creditors (64,983) and the VAT liability (19,000, B25-00077) are already cleared by 2025 cash.",
+   "evidence": [
+    "N2",
+    "N15",
+    "N16",
+    "PY-HILL-01",
+    "PY-HILL-02",
+    "2300",
+    "1000",
+    "1010",
+    "1020",
+    "1100",
+    "2100",
+    "2202",
+    "B25-00077"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "vat",
+   "level": "significant",
+   "assertions": [
+    "accuracy",
+    "completeness",
+    "presentation"
+   ],
+   "why": "Ledger VAT for 2025 is ~182.5k net payable but returns paid/claimed total ~103.8k: the Q1 transfer agrees to the ledger, but the Q2 return claimed a 9,421 repayment (received B25-00780) against ledger Q2 net payable 44,739, Q3 transferred 54,876 against 24,575, and Q4 was settled at 4,138 (B26-00096) against 59,013. About 78.7k of net output VAT sits in 2200/2201 undeclared, which is above materiality and carries a penalty/interest provision and cash consequences. Non-business input VAT was also reclaimed on PI-000494 and on customer entertaining (S020 tasting evenings).",
+   "evidence": [
+    "MJ-000006",
+    "MJ-000010",
+    "MJ-000014",
+    "B25-00780",
+    "B26-00096",
+    "2200",
+    "2201",
+    "2202",
+    "PI-000494",
+    "7403"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "accrualsProvisions",
+   "level": "elevated",
+   "assertions": [
+    "completeness",
+    "accuracy",
+    "existence"
+   ],
+   "why": "Accruals of 6,200 are identical at the start and end of the year with no postings at all; there is no audit fee (7601 nil, no Thornbury invoice), no loan interest accrual, no holiday pay, no corporation tax account or charge, and no provision for VAT/duty penalties. With covenant headroom below PM, completeness matters more than size suggests.",
+   "evidence": [
+    "2250",
+    "7601",
+    "S019",
+    "N5",
+    "2200"
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "completion",
+   "level": "elevated",
+   "assertions": [
+    "completeness",
+    "presentation"
+   ],
+   "why": "The subsequent-events window must cover the bank's 30 June deadline, VAT/duty regularisation with HMRC and the overdraft position. The Q1 2026 statement provided appears partial (ends 2 Mar, has no takings, payroll, rent or loan DD), and alcohol duty compliance (rate change Feb 2025, 17 returns) falls under ISA 250.",
+   "evidence": [
+    "N12",
+    "N17",
+    "bank_statement_2026q1",
+    "S007"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "mustSelect": [
+  {
+   "procedureId": "REV-01",
+   "extentOrFocus": "Monthly by customer and stream; taproom vs PY and summer pattern; corroborate with someone other than Kate",
+   "why": "Baseline; GP up 3.6 pts against claimed margin squeeze (N3)."
+  },
+  {
+   "procedureId": "REV-02",
+   "extentOrFocus": "20 invoices (elevated) either side of YE incl. CVB-2025-1631/1634 dated 25 Dec and CVB-2025-1647",
+   "why": "Trade cut-off is clean in the data (sequential, same-day posting), so elevated rather than significant extent."
+  },
+  {
+   "procedureId": "REV-03",
+   "extentOrFocus": "Full extract of non-sales/non-till credits to 4010/4020/4900 (expected nil; confirm from the final TB after Hill & Co journals)",
+   "why": "Applicable because revenue is significant; costs ~1h because the ledger has none."
+  },
+  {
+   "procedureId": "REV-05",
+   "extentOrFocus": "All 74 YE invoices (210,658) to the 2026 bank, already matched in full",
+   "why": "Baseline; can be closed from the bank file."
+  },
+  {
+   "procedureId": "REV-06",
+   "extentOrFocus": "Significant: 40 weeks of Z-reads and terminal settlement reports to ledger and bank, plus every gap (W19, W20, W33 / c. 8 May, 15 May, 15 Aug), duplicate-label weeks and Christmas week; obtain opening-hours record",
+   "why": "Core response to the significant taproom completeness risk."
+  },
+  {
+   "procedureId": "DEB-01",
+   "extentOrFocus": "Standard",
+   "why": "Baseline; low risk."
+  },
+  {
+   "procedureId": "DEB-03",
+   "extentOrFocus": "Focus on amounts due from Dan (kitchen 10,080) that should be in other debtors/DLA",
+   "why": "Baseline; nil balance is itself the issue."
+  },
+  {
+   "procedureId": "PUR-01",
+   "extentOrFocus": "Standard; duty versus volumes and the Feb 2025 rate change; bank charges 7900 up 800%",
+   "why": "Baseline."
+  },
+  {
+   "procedureId": "PUR-02",
+   "extentOrFocus": "Include HMRC alcohol duty account (S007), Valley Cleaning (S020), Hebden Kitchen (S011), plus top suppliers by value",
+   "why": "Risk-based supplier selection."
+  },
+  {
+   "procedureId": "PUR-03",
+   "extentOrFocus": "New and unusual suppliers (S011, S018); same-user post+approve population (384 Kate items); Dan self-approval",
+   "why": "Purchases elevated; approval control is undocumented."
+  },
+  {
+   "procedureId": "PUR-04",
+   "extentOrFocus": "Full-year routine; run shows only rent and different-van fuel pairs (PI-000479/480)",
+   "why": "Baseline; cheap."
+  },
+  {
+   "procedureId": "PUR-05",
+   "extentOrFocus": "Elevated (25): Jan-Mar 2026 payments and invoices; audit fee, interest, utilities, duty",
+   "why": "Accruals look unmaintained."
+  },
+  {
+   "procedureId": "PAY-01",
+   "extentOrFocus": "Standard; explain the flat 46,150 monthly gross despite a rota-based taproom",
+   "why": "Baseline."
+  },
+  {
+   "procedureId": "PAY-02",
+   "extentOrFocus": "Every leaver (Marcus E004) and confirm no starters; Leah promotion pay change",
+   "why": "Payroll elevated; population is one leaver, so minimal hours."
+  },
+  {
+   "procedureId": "PAY-03",
+   "extentOrFocus": "3 months (Jan, Oct, Dec) bank to register to HR list",
+   "why": "Applicable because SoD is weak (Kate prepares and approves); data already matches, so small extent."
+  },
+  {
+   "procedureId": "PAY-04",
+   "extentOrFocus": "Standard",
+   "why": "Baseline; reconciles in the data (199,498.50 paid)."
+  },
+  {
+   "procedureId": "FA-01",
+   "extentOrFocus": "Fermenters PI-000493 (96,000 net, above PM) and recompute depreciation (template not updated after August)",
+   "why": "Baseline; there is only one addition."
+  },
+  {
+   "procedureId": "FA-03",
+   "extentOrFocus": "Canning line (two days a week) and taproom fit-out",
+   "why": "Impairment indicator N3."
+  },
+  {
+   "procedureId": "BNK-01",
+   "extentOrFocus": "Standard",
+   "why": "Mandatory."
+  },
+  {
+   "procedureId": "BNK-02",
+   "extentOrFocus": "Must cover the overdraft facility (arranged/unarranged), covenants, security, loan amortisation schedule and the FY2024 capital/interest split",
+   "why": "Mandatory; resolves N17 against 108 overdrawn days."
+  },
+  {
+   "procedureId": "BNK-03",
+   "extentOrFocus": "Full year (already run: all lines match; payroll matched by run)",
+   "why": "Applicable because cash is handled; mostly done from data."
+  },
+  {
+   "procedureId": "RP-01",
+   "extentOrFocus": "Include landlord Hebden Mills Estates and Calder Creative Agency ownership checks at Companies House",
+   "why": "Mandatory."
+  },
+  {
+   "procedureId": "RP-02",
+   "extentOrFocus": "Rosie's pay terms against market; Dan's remuneration; kitchen",
+   "why": "RP transactions exist."
+  },
+  {
+   "procedureId": "RP-03",
+   "extentOrFocus": "Kitchen 10,080 through 7700; s.197, s.413, P11D; post-YE repayment; ask about other personal items (N11)",
+   "why": "A director balance existed in substance."
+  },
+  {
+   "procedureId": "JNL-01",
+   "extentOrFocus": "Significant: 50 including all 16 manual journals, MJ-000016, the 12 loan bank-rule splits (BK-000001 etc.), PI-000494, PI-000493, Christmas Day postings, and all Hill & Co YE journals once posted",
+   "why": "Mandatory; management override is significant."
+  },
+  {
+   "procedureId": "JNL-02",
+   "extentOrFocus": "Extended: WIP rule-of-thumb, stock NRV, depreciation template, accruals, VAT/duty penalty provision",
+   "why": "Mandatory; several estimates drive covenant headroom."
+  },
+  {
+   "procedureId": "JNL-03",
+   "extentOrFocus": "Kitchen; fermenter purchase funded from cash into overdraft; VAT Q2 repayment claim",
+   "why": "Mandatory."
+  },
+  {
+   "procedureId": "GC-01",
+   "extentOrFocus": "12 months from approval; overdraft dependency",
+   "why": "Mandatory."
+  },
+  {
+   "procedureId": "GC-02",
+   "extentOrFocus": "Recompute both covenants on audited figures with interest reclassified; sensitivity on stock, audit fee and VAT exposure",
+   "why": "Covenants exist; headroom below PM."
+  },
+  {
+   "procedureId": "STK-01",
+   "extentOrFocus": "Attend a count now and roll back to 31/12 using brew sheets, duty returns and sales; obtain the 2 Jan count sheets and establish who counted",
+   "why": "Mandatory; the count took place without the auditor."
+  },
+  {
+   "procedureId": "STK-02",
+   "extentOrFocus": "Significant: 40 lines plus full WIP recompute from brew records; NRV on finished goods to post-YE sales",
+   "why": "Valuation significant."
+  },
+  {
+   "procedureId": "OB-01",
+   "extentOrFocus": "Focus on opening stock 178,000 (roll back via FY2024 duty returns and purchases) and the loan 600,000 (bank schedule)",
+   "why": "Mandatory first year; the predecessor did no audit work."
+  },
+  {
+   "procedureId": "VAT-01",
+   "extentOrFocus": "All four 2025 returns as filed (HMRC online account) to 2200/2201 and turnover",
+   "why": "Baseline procedure, extended because a ~78.7k gap was found."
+  },
+  {
+   "procedureId": "VAT-02",
+   "extentOrFocus": "PI-000494 and S020 customer tasting evenings",
+   "why": "Judgment selection: the strict applicability test is not met (no PY, entertaining 7,131), but non-business input VAT reclaims have been found; 2h. Low confidence."
+  },
+  {
+   "procedureId": "ACC-01",
+   "extentOrFocus": "Rebuild the listing; audit fee, interest, holiday pay, corporation tax, HMRC penalties",
+   "why": "Baseline; static accruals."
+  },
+  {
+   "procedureId": "COMP-01",
+   "extentOrFocus": "To the signing date; the bank response to the covenant certificate; HMRC VAT/duty correspondence; full Q1 2026 statement",
+   "why": "Mandatory."
+  },
+  {
+   "procedureId": "COMP-02",
+   "extentOrFocus": "Alcohol duty (rate change, return count), premises licence, VAT",
+   "why": "Mandatory."
+  }
+ ],
+ "shouldOmit": [
+  {
+   "procedureId": "REV-04",
+   "why": "Not applicable: no long-term contracts; brewing sales are point-of-delivery. Not an omission."
+  },
+  {
+   "procedureId": "DEB-02",
+   "why": "Level significant not reached: every YE debtor (210,658) was received by 2 Mar 2026 per the bank, which is stronger evidence than confirmations."
+  },
+  {
+   "procedureId": "FA-02",
+   "why": "Applicability is met (register never verified), but the area is elevated, not significant. Compensate at no extra cost by sighting the fermenters, canning line and both vans (YD21 KLM, YE23 PQR) during the STK-01 count visit. Low confidence: a partner may prefer to run it at reduced extent in year one."
+  }
+ ],
+ "keyFindings": [
+  "Loan interest 36,000 is posted to bank charges 7900 by a Xero bank rule (BK-000001..BK-000038, 3,000/month); 7903 is nil. As recorded, the covenant interest cover is undefined and EBITDA is understated. Corrected: cover 4.1x, ND/EBITDA 3.41x vs a 4.0x limit, headroom ~21.5k of EBITDA, below PM 22.5k.",
+  "Dan's home kitchen: PI-000494 Hebden Kitchen Studio '14 Birchcliffe Road' 10,080 gross, approved by dan.md, coded 7700 with 1,680 VAT reclaimed, paid B25-00787 on 8 Aug; DLA 2310 nil. Over the s.197 10,000 threshold; BIK, VAT and disclosure follow (N11).",
+  "VAT control does not agree to returns: Q2 claimed a 9,421 repayment (B25-00780) where the ledger shows 44,739 payable; Q3 transfer MJ-000014 and the Q4 payment of 4,138 (B26-00096) also disagree. About 78.7k net output VAT sits undeclared in 2200/2201 at YE.",
+  "Bank overdrawn on 108 days, continuously from 12 Sep 2025 (fermenter payment B25-00942, 115,200) to 9 Feb 2026, peak -161,323. The bank letter (N17) mentions only four days of unarranged overdraft in September.",
+  "Stock uplift MJ-000016 +56,000 in round thousands (16,000/11,000/29,000), posted by Kate 21 Jan 2026, approved by Dan. Count by Dan on 2 Jan with a contradictory account of who helped (N8); WIP by rule of thumb. GP% rose 46.8% to 50.4% against a stated margin squeeze. Opening stock 178,000 was also \"Dan's figure\" (PY-HILL-01).",
+  "Taproom takings: no ledger entry and no bank deposit for c. 8 May, 15 May and 15 Aug (W19, W20, W33; ~33k gross at the summer run-rate); week labels duplicated (W5, W13, W22, W26, W35, W44, W48); bank takings are one combined weekly deposit despite \"card settles daily\" (N9).",
+  "Opening loan 600,000 at 31/12/2024 equals the full March 2024 drawdown although repayments began in 2024 (PY-HILL-02: 34,500 all booked to interest). The FY2024 capital/interest split and the opening liability need the bank schedule.",
+  "Alcohol duty: 17 monthly returns posted for 12 months, including four in December (PI-000466, PI-000459, PI-000476, PI-000461 = 78,870 unpaid at YE). Possible duplication or period misallocation, which would affect cost of sales and covenant EBITDA.",
+  "Rosie Crossley (E002, related party, 20 h/week) is paid 1,924 net/month, more than most full-time staff (Aoife Riley 1,480, Tom Lumb 1,480), contradicting N10.",
+  "Accruals 2250 are unchanged at 6,200 with no postings; there is no audit fee, interest accrual or corporation tax. Hill & Co have posted nothing in the ledger (exported 4 Mar 2026), so the TB is not final.",
+  "Depreciation is an unchanged 5,900/month template all year (MJ-000001..MJ-000015); the 96,000 fermenters added in August were not depreciated.",
+  "FY2024 comparatives: loss 40.6k and EBITDA 58k against interest 34.5k, so on those figures both covenants would have failed."
+ ],
+ "partnerQuestions": [
+  "Does Yorkshire Bank provide an arranged overdraft facility? The statement shows overdraft from 12 Sep 2025 to 9 Feb 2026, but the letter says four days.",
+  "Will you treat Dan's kitchen (and any other personal items, given Kate's reaction) as a director's loan, and do we need a fraud/ISA 240 discussion with Dan before fieldwork?",
+  "Are we comfortable accepting the engagement risk if covenant headroom is below PM? Do we report to the bank directly or only via the compliance certificate?",
+  "Do we raise the VAT under-declaration with the client now, given potential HMRC voluntary disclosure and penalty exposure (and money-laundering reporting considerations)?",
+  "Was the 2 Jan count capable of being relied on at all, or do we plan for a possible limitation of scope on opening and closing stock (two years of \"Dan's figure\")?",
+  "Will Hill & Co give access to their FY2024 compilation files, and when will their year-end journals be posted? We should not plan JNL-01 on a non-final TB.",
+  "Is the landlord (Hebden Mills Estates) or any supplier connected to Dan or Rosie?",
+  "The budget of 150h appears ~45h short: accept an overrun or a fee revision? Cutting is not appropriate given four significant areas plus opening balances."
+ ],
+ "hoursEstimateVsBudget": "Inadequate. The selection above sums to about 195h (revenue ~34h incl. REV-06 at 40 weeks, journals ~36h with JNL-01 at 50 items, stock ~26h incl. roll-back, payroll 10h, purchases 20h, GC 11h, OB 12h, RP 11h, bank 9h, VAT 7h, others ~19h). The mandatory floor alone is ~50h. N18's reasoning that the count 'has already happened' cuts the wrong way: an unattended count means a roll-back count plus opening stock work, not less. Savings come from data-driven work already done (BNK-03, REV-05, PAY-03, PUR-04 are near-complete from the files), which is why the excess is ~45h and not more. Report the shortfall to Ingrid; do not cut REV-06, STK, JNL-01 or GC-02."
+}
