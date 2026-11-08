@@ -1,0 +1,62 @@
+{
+  "name": "Ashworth Electrical Ltd",
+  "companyNumber": "07421886",
+  "registeredOffice": "Unit 4, Kirkstall Trading Estate, Leeds LS5 3BT",
+  "activity": "Electrical contracting: commercial fit-out, housing developments, periodic inspection",
+  "employees": 24,
+  "financialYear": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "currency": "GBP",
+  "amountsIn": "minor units (pence), debit positive",
+  "ledgerSource": "Xero general ledger export, all journals",
+  "ledgerExportedAt": "2026-03-02T09:14:00Z",
+  "engagement": {
+    "firstYear": false,
+    "yearsAsAuditor": 4,
+    "materialityMinor": {
+      "overall": 5000000,
+      "performance": 3750000,
+      "clearlyTrivial": 250000
+    },
+    "fieldworkBudgetHours": 120,
+    "partner": "Ingrid Solheim"
+  },
+  "users": [
+    {
+      "id": "jane.bookkeeper",
+      "name": "Jane Holroyd",
+      "role": "External bookkeeper (Pennine Bookkeeping)",
+      "canPost": true,
+      "canApprove": false
+    },
+    {
+      "id": "tom.finance",
+      "name": "Tom Whitaker",
+      "role": "Finance manager",
+      "canPost": true,
+      "canApprove": true,
+      "approvalLimitMinor": 1000000
+    },
+    {
+      "id": "martin.md",
+      "name": "Martin Ashworth",
+      "role": "Managing director",
+      "canPost": true,
+      "canApprove": true,
+      "approvalLimitMinor": null
+    },
+    {
+      "id": "system.xero",
+      "name": "Xero bank feed and payroll import",
+      "role": "system",
+      "canPost": true,
+      "canApprove": false
+    }
+  ],
+  "controls": {
+    "purchaseApproval": "Purchase invoices with a gross value of 10,000 or more require the managing director's approval in Xero. Below that, the finance manager approves.",
+    "bankPayments": "All BACS runs are prepared by the finance manager and released by the managing director."
+  }
+}

@@ -1,0 +1,23 @@
+{"financialYear":2024,"procedureId":"REV-01","selected":true,"budgetHours":4,"actualHours":3,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"REV-02","selected":true,"budgetHours":6,"actualHours":4,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"REV-05","selected":false,"budgetHours":0,"actualHours":0,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"DEB-01","selected":false,"budgetHours":0,"actualHours":0,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"DEB-03","selected":true,"budgetHours":2,"actualHours":1,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"PUR-01","selected":true,"budgetHours":3,"actualHours":3,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"PUR-02","selected":true,"budgetHours":5,"actualHours":4,"findingsRaised":["FY24-W03"],"note":""}
+{"financialYear":2024,"procedureId":"PUR-04","selected":true,"budgetHours":2,"actualHours":2,"findingsRaised":["FY24-W01"],"note":""}
+{"financialYear":2024,"procedureId":"PUR-05","selected":true,"budgetHours":4,"actualHours":3,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"PAY-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"PAY-04","selected":true,"budgetHours":2,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"FA-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"BNK-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"BNK-02","selected":true,"budgetHours":2,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"RP-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"JNL-01","selected":true,"budgetHours":8,"actualHours":6,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"JNL-02","selected":true,"budgetHours":3,"actualHours":3,"findingsRaised":["FY24-W02"],"note":""}
+{"financialYear":2024,"procedureId":"JNL-03","selected":true,"budgetHours":3,"actualHours":1,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"GC-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"VAT-01","selected":false,"budgetHours":0,"actualHours":0,"findingsRaised":[],"note":"Not selected: practice is VAT exempt, not registered."}
+{"financialYear":2024,"procedureId":"ACC-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"COMP-01","selected":true,"budgetHours":3,"actualHours":2,"findingsRaised":[],"note":""}
+{"financialYear":2024,"procedureId":"COMP-02","selected":true,"budgetHours":2,"actualHours":2,"findingsRaised":[],"note":""}

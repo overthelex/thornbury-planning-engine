@@ -1,0 +1,42 @@
+code,name,class,category
+0020,Leasehold improvements,asset,fixedAssets
+0030,Plant and machinery,asset,fixedAssets
+0050,Motor vehicles,asset,fixedAssets
+1000,Stock - raw materials,asset,stock
+1010,Stock - work in progress,asset,stock
+1020,Stock - finished goods,asset,stock
+1100,Trade debtors,asset,currentAssets
+1150,Other debtors,asset,currentAssets
+1200,Bank current account,asset,cash
+1230,Cash in hand and floats,asset,cash
+2100,Trade creditors,liability,currentLiabilities
+2200,VAT on sales (output),liability,currentLiabilities
+2201,VAT on purchases (input),asset,currentAssets
+2202,VAT liability,liability,currentLiabilities
+2210,PAYE and NI payable,liability,currentLiabilities
+2250,Accruals,liability,currentLiabilities
+2300,Bank loan,liability,longTermLiabilities
+2310,Director's loan account,liability,currentLiabilities
+3000,Share capital,equity,equity
+3200,Retained earnings,equity,equity
+4010,Sales - trade (wholesale),income,revenue
+4020,Sales - taproom (cash and card),income,revenue
+4900,Other income,income,otherIncome
+5010,"Raw materials - malt, hops, yeast",expense,costOfSales
+5020,Packaging and kegs,expense,costOfSales
+5050,Beer duty,expense,costOfSales
+5200,Stock movement,expense,costOfSales
+7000,Gross wages,expense,staffCosts
+7006,Employer's NI,expense,staffCosts
+7100,Rent,expense,overheads
+7200,Utilities,expense,overheads
+7300,Motor expenses,expense,overheads
+7400,Travel and subsistence,expense,overheads
+7403,Entertaining,expense,overheads
+7500,Advertising and marketing,expense,overheads
+7601,Audit and accountancy,expense,overheads
+7602,Professional fees,expense,overheads
+7700,Equipment maintenance,expense,overheads
+7900,Bank charges,expense,overheads
+7903,Loan interest,expense,overheads
+8000,Depreciation,expense,overheads

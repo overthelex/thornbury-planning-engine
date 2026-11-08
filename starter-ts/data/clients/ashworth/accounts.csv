@@ -1,0 +1,31 @@
+code,name,class,category
+0030,Plant and machinery,asset,fixedAssets
+0040,Office equipment and tools,asset,fixedAssets
+0050,Motor vehicles,asset,fixedAssets
+1100,Trade debtors,asset,currentAssets
+1150,Other debtors,asset,currentAssets
+1200,Bank current account,asset,cash
+2100,Trade creditors,liability,currentLiabilities
+2200,VAT on sales (output),liability,currentLiabilities
+2201,VAT on purchases (input),asset,currentAssets
+2202,VAT liability,liability,currentLiabilities
+2210,PAYE and NI payable,liability,currentLiabilities
+2250,Accruals,liability,currentLiabilities
+3000,Share capital,equity,equity
+3200,Retained earnings,equity,equity
+4000,Sales - contracting,income,revenue
+4900,Other income,income,otherIncome
+5000,Materials purchased,expense,costOfSales
+5100,Subcontractors,expense,costOfSales
+7000,Gross wages,expense,staffCosts
+7006,Employer's NI,expense,staffCosts
+7100,Rent,expense,overheads
+7300,Motor expenses,expense,overheads
+7400,Travel and subsistence,expense,overheads
+7403,Entertaining,expense,overheads
+7500,Advertising and marketing,expense,overheads
+7601,Audit and accountancy,expense,overheads
+7602,Professional fees,expense,overheads
+7900,Bank charges,expense,overheads
+8000,Depreciation,expense,overheads
+MISC-OPS,Miscellaneous operating,expense,

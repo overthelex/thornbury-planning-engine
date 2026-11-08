@@ -1,0 +1,42 @@
+account,name,priorYearMinor,openingMinor,closingMinor
+0020,Leasehold improvements,4500000,4500000,3540000
+0030,Plant and machinery,31000000,31000000,35200000
+0050,Motor vehicles,2800000,2800000,2080000
+1000,Stock - raw materials,5200000,5200000,6800000
+1010,Stock - work in progress,3000000,3000000,4100000
+1020,Stock - finished goods,9600000,9600000,12500000
+1100,Trade debtors,7593519,7593519,21065786
+1150,Other debtors,0,0,0
+1200,Bank current account,11800000,11800000,-130893
+1230,Cash in hand and floats,150000,150000,150000
+2100,Trade creditors,-6498270,-6498270,-15528321
+2200,VAT on sales (output),0,0,-22812439
+2201,VAT on purchases (input),0,0,14525174
+2202,VAT liability,-1900000,-1900000,0
+2210,PAYE and NI payable,-1300000,-1300000,-1574350
+2250,Accruals,-620000,-620000,-620000
+2300,Bank loan,-60000000,-60000000,-50000004
+2310,Director's loan account,0,0,0
+3000,Share capital,-10000,-10000,-10000
+3200,Retained earnings,-5315249,-5315249,-5315249
+4010,Sales - trade (wholesale),-155259197,0,-169232525
+4020,Sales - taproom (cash and card),-43286014,0,-49778916
+4900,Other income,0,0,0
+5010,"Raw materials - malt, hops, yeast",62634810,0,65766550
+5020,Packaging and kegs,16129818,0,17742800
+5050,Beer duty,29052453,0,30795600
+5200,Stock movement,-2100000,0,-5600000
+7000,Gross wages,50611111,0,54660000
+7006,Employer's NI,5567222,0,6012600
+7100,Rent,5040000,0,5040000
+7200,Utilities,10311083,0,12373300
+7300,Motor expenses,1195700,0,1195700
+7400,Travel and subsistence,258000,0,258000
+7403,Entertaining,713100,0,713100
+7500,Advertising and marketing,4144909,0,4559400
+7601,Audit and accountancy,0,0,0
+7602,Professional fees,2024700,0,2024700
+7700,Equipment maintenance,6732308,0,8752000
+7900,Bank charges,407554,0,3667987
+7903,Loan interest,3450000,0,0
+8000,Depreciation,6436364,0,7080000

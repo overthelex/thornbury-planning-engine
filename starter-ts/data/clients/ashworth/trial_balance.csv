@@ -1,0 +1,31 @@
+account,name,priorYearMinor,openingMinor,closingMinor
+0030,Plant and machinery,18000000,18000000,15000000
+0040,Office equipment and tools,4200000,4200000,6378834
+0050,Motor vehicles,9500000,9500000,12689000
+1100,Trade debtors,15842655,15842655,67081523
+1150,Other debtors,0,0,3500000
+1200,Bank current account,23600000,23600000,103163509
+2100,Trade creditors,-10225364,-10225364,-20827504
+2200,VAT on sales (output),0,0,-49850446
+2201,VAT on purchases (input),0,0,33752839
+2202,VAT liability,-6100000,-6100000,0
+2210,PAYE and NI payable,-5800000,-5800000,-2756500
+2250,Accruals,-950000,-950000,-4165000
+3000,Share capital,-10000,-10000,-10000
+3200,Retained earnings,-48057291,-48057291,-48057291
+4000,Sales - contracting,-448070001,0,-528722601
+4900,Other income,0,0,0
+5000,Materials purchased,188229915,0,212699804
+5100,Subcontractors,45956624,0,62041442
+7000,Gross wages,85679245,0,90820000
+7006,Employer's NI,9277358,0,9834000
+7100,Rent,10000000,0,12600000
+7300,Motor expenses,2651091,0,2916200
+7400,Travel and subsistence,1135778,0,1022200
+7403,Entertaining,320000,0,480000
+7500,Advertising and marketing,4130857,0,5783200
+7601,Audit and accountancy,980000,0,980000
+7602,Professional fees,3274750,0,2619800
+7900,Bank charges,69291,0,69291
+8000,Depreciation,6724138,0,7800000
+MISC-OPS,Miscellaneous operating,1754278,0,3157700

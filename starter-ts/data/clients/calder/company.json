@@ -1,0 +1,63 @@
+{
+  "name": "Calder Valley Brewing Co Ltd",
+  "companyNumber": "10233871",
+  "registeredOffice": "Hebble End Mill, Hebden Bridge HX7 6HJ",
+  "activity": "Brewing: cask, keg and canned beer for the trade; on-site taproom",
+  "employees": 18,
+  "financialYear": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "currency": "GBP",
+  "amountsIn": "minor units (pence), debit positive",
+  "ledgerSource": "Xero general ledger export, all journals",
+  "ledgerExportedAt": "2026-03-04T11:02:00Z",
+  "engagement": {
+    "firstYear": true,
+    "yearsAsAuditor": 1,
+    "materialityMinor": {
+      "overall": 3000000,
+      "performance": 2250000,
+      "clearlyTrivial": 150000
+    },
+    "fieldworkBudgetHours": 150,
+    "partner": "Ingrid Solheim"
+  },
+  "users": [
+    {
+      "id": "kate.office",
+      "name": "Kate Bolton",
+      "role": "Office manager: invoicing, purchase ledger, payroll, VAT",
+      "canPost": true,
+      "canApprove": true,
+      "approvalLimitMinor": 500000
+    },
+    {
+      "id": "dan.md",
+      "name": "Dan Crossley",
+      "role": "Managing director",
+      "canPost": true,
+      "canApprove": true,
+      "approvalLimitMinor": null
+    },
+    {
+      "id": "hill.accts",
+      "name": "Hill & Co Accountants",
+      "role": "External accountants: year-end journals",
+      "canPost": true,
+      "canApprove": false
+    },
+    {
+      "id": "system.xero",
+      "name": "Xero bank feed, card terminal and payroll import",
+      "role": "system",
+      "canPost": true,
+      "canApprove": false
+    }
+  ],
+  "controls": {
+    "purchaseApproval": "No written policy. Invoices under 5,000 are approved by the office manager; above that by the managing director.",
+    "bankPayments": "All BACS runs are prepared by the office manager and released by the managing director.",
+    "cash": "Taproom cash counted on Mondays by the office manager and banked on Tuesdays. Card terminal settles daily."
+  }
+}

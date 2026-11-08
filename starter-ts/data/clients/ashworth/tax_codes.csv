@@ -1,0 +1,5 @@
+code,name,ratePercent
+T0,Zero rated,0
+T1,Standard rate,20
+T2,Exempt,0
+T9,Outside scope,0

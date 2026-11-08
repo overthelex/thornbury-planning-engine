@@ -1,0 +1,62 @@
+{
+  "name": "Wetherby Dental Practice Ltd",
+  "companyNumber": "08120455",
+  "registeredOffice": "12 Market Place, Wetherby LS22 6LQ",
+  "activity": "Dental practice: NHS General Dental Services contract and private treatment",
+  "employees": 10,
+  "financialYear": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "currency": "GBP",
+  "amountsIn": "minor units (pence), debit positive",
+  "ledgerSource": "Xero general ledger export, all journals",
+  "ledgerExportedAt": "2026-03-06T08:31:00Z",
+  "engagement": {
+    "firstYear": false,
+    "yearsAsAuditor": 6,
+    "materialityMinor": {
+      "overall": 2400000,
+      "performance": 1800000,
+      "clearlyTrivial": 120000
+    },
+    "fieldworkBudgetHours": 60,
+    "partner": "Ingrid Solheim"
+  },
+  "users": [
+    {
+      "id": "sue.pm",
+      "name": "Sue Marshall",
+      "role": "Practice manager: all bookkeeping and payroll",
+      "canPost": true,
+      "canApprove": true,
+      "approvalLimitMinor": 500000
+    },
+    {
+      "id": "raj.md",
+      "name": "Raj Patel",
+      "role": "Director and dentist",
+      "canPost": true,
+      "canApprove": true,
+      "approvalLimitMinor": null
+    },
+    {
+      "id": "moor.accts",
+      "name": "Moorland Accountants",
+      "role": "External accountants: year-end journals",
+      "canPost": true,
+      "canApprove": false
+    },
+    {
+      "id": "system.xero",
+      "name": "Xero bank feed, card terminal and payroll import",
+      "role": "system",
+      "canPost": true,
+      "canApprove": false
+    }
+  ],
+  "controls": {
+    "purchaseApproval": "Invoices under 5,000 are approved by the practice manager, who also posts them; above 5,000 by a director.",
+    "bankPayments": "BACS runs are prepared by the practice manager and released by a director. Patient refunds are authorised by a director."
+  }
+}

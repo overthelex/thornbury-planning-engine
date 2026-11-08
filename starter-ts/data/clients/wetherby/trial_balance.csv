@@ -1,0 +1,28 @@
+account,name,priorYearMinor,openingMinor,closingMinor
+0030,Plant and machinery,6400000,6400000,8680000
+0040,Office equipment and tools,900000,900000,540000
+1100,Trade debtors,0,0,0
+1200,Bank current account,9200000,9200000,64393300
+1230,Cash in hand and floats,20000,20000,20000
+2100,Trade creditors,-3041521,-3041521,-3616303
+2210,PAYE and NI payable,-980000,-980000,-1159950
+2250,Accruals,-410000,-410000,-410000
+2260,Provisions,0,0,0
+3000,Share capital,-10000,-10000,-10000
+3200,Retained earnings,-12078479,-12078479,-12078479
+4030,NHS contract income,-100000000,0,-102000000
+4040,Private patient income,-57789554,0,-64724300
+4900,Other income,0,0,0
+5030,Dental materials and laboratory fees,38329256,0,41395597
+5100,Subcontractors,5492077,0,7139700
+7000,Gross wages,35828571,0,37620000
+7006,Employer's NI,3941143,0,4138200
+7100,Rent,6240000,0,6240000
+7200,Utilities,3203100,0,3203100
+7400,Travel and subsistence,167500,0,167500
+7500,Advertising and marketing,878563,0,1405700
+7601,Audit and accountancy,0,0,0
+7602,Professional fees,3874300,0,3874300
+7700,Equipment maintenance,2252182,0,2477400
+7900,Bank charges,64235,0,64235
+8000,Depreciation,2640000,0,2640000
