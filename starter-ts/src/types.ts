@@ -3,7 +3,7 @@
  * Amounts are integers in minor units (pence). Debit is positive, credit is negative.
  */
 
-export type Journal = "sales" | "purchases" | "bank" | "payroll" | "manual";
+export type Journal = "sales" | "purchases" | "bank" | "payroll" | "manual" | "cash";
 
 export interface LedgerLine {
   line: number;

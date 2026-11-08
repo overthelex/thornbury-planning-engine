@@ -1,0 +1,2964 @@
+{
+  "clientId": "ashworth",
+  "riskAssessment": [
+    {
+      "area": "revenue",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "cutOff",
+        "occurrence",
+        "valuation"
+      ],
+      "rationale": "Significant (R1 highest source: significant; R4 fraud risk presumed and not rebutted). Led by: MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger (+6 more sources).",
+      "evidenceIds": [
+        "MJ-000024",
+        "tom.finance",
+        "C003",
+        "1100",
+        "4000",
+        "2200",
+        "N2",
+        "N3",
+        "N5",
+        "FY24-08"
+      ]
+    },
+    {
+      "area": "debtors",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "cutOff",
+        "existence",
+        "occurrence",
+        "valuation"
+      ],
+      "rationale": "Significant (R1 highest source: elevated; R2 corroborated by data + notes, exposure £187,500 at or above performance materiality £37,500). Led by: MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger (+2 more sources).",
+      "evidenceIds": [
+        "MJ-000024",
+        "tom.finance",
+        "C003",
+        "1100",
+        "4000",
+        "2200",
+        "N5"
+      ]
+    },
+    {
+      "area": "purchasesCreditors",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "cutOff",
+        "existence",
+        "occurrence"
+      ],
+      "rationale": "Significant (R1 highest source: elevated; R2 corroborated by data + notes, exposure £87,172 at or above performance materiality £37,500). Led by: 9 of 9 invoices from Wharfedale Site Services Ltd (S033) fall between 90% and 100% of tom.finance's £10,000 approval limit and were approved by tom.finance, £87,172 in all; first invoice 2025-07-07, a supplier new in the year (+11 more sources).",
+      "evidenceIds": [
+        "S033",
+        "tom.finance",
+        "PI-000760",
+        "PI-000761",
+        "PI-000762",
+        "PI-000763",
+        "PI-000764",
+        "PI-000765",
+        "PI-000766",
+        "PI-000767",
+        "PI-000768",
+        "MJ-000017",
+        "jane.bookkeeper",
+        "5100",
+        "2250",
+        "MJ-000018",
+        "MJ-000019",
+        "martin.md",
+        "7500",
+        "1200",
+        "MJ-000020",
+        "E011",
+        "2100",
+        "MISC-OPS",
+        "FY24-09",
+        "PI-000005",
+        "PI-000009",
+        "PI-000041",
+        "PI-000029",
+        "PI-000039",
+        "N3",
+        "N11",
+        "N15",
+        "N16",
+        "N19"
+      ]
+    },
+    {
+      "area": "payroll",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "cutOff",
+        "existence",
+        "occurrence"
+      ],
+      "rationale": "Significant (R1 highest source: elevated; R3 recurrence of FY24-14 in this year's data (payroll:leaver-paid:E019)). Led by: Callum Reed (E019) left on 2025-06-30 but received 6 bank payments totalling £13,986 after that date (2025-07-25 to 2025-12-25) (+4 more sources).",
+      "evidenceIds": [
+        "E019",
+        "B25-01153",
+        "B25-01350",
+        "B25-01566",
+        "B25-01749",
+        "B25-01959",
+        "B25-02152",
+        "N6",
+        "N7",
+        "N19",
+        "PY:PAY-02",
+        "FY24-14"
+      ]
+    },
+    {
+      "area": "fixedAssets",
+      "level": "elevated",
+      "assertions": [
+        "classification",
+        "completeness",
+        "existence",
+        "rightsAndObligations",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated; R6 raised by the notes alone (N4, N8, N10): elevated at most until the data or the prior year corroborates it). Led by: N4 (hypothesis from the notes, to confirm in fieldwork): Significant test kit purchases and a new van may be inconsistently capitalised or expensed, and additions may be incomplete or misstated. (\"been buying a lot of test kit\") (+2 more sources).",
+      "evidenceIds": [
+        "N4",
+        "N8",
+        "N10"
+      ]
+    },
+    {
+      "area": "bankCash",
+      "level": "elevated",
+      "assertions": [
+        "completeness",
+        "existence",
+        "occurrence"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated). Led by: bank statement balance at 2025-12-31 £1,041,135 differs from the trial balance £1,031,635 by £9,500; exactly the unmatched MJ-000019 (+2 more sources).",
+      "evidenceIds": [
+        "B25-02197",
+        "1200",
+        "MJ-000019",
+        "N3"
+      ]
+    },
+    {
+      "area": "relatedParties",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "existence",
+        "occurrence",
+        "presentation",
+        "rightsAndObligations"
+      ],
+      "rationale": "Significant (R1 highest source: significant). Led by: Martin Ashworth (Managing director, 80% shareholder) had a balance owed to the company: MJ-000016 \"Advance - M Ashworth\" £35,000 posted by martin.md with no approver; above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed (+6 more sources).",
+      "evidenceIds": [
+        "MJ-000016",
+        "martin.md",
+        "E001",
+        "1150",
+        "1200",
+        "S029",
+        "PI-000769",
+        "PI-000051",
+        "PI-000105",
+        "PI-000168",
+        "N6",
+        "N8",
+        "N19",
+        "PY:RP-03",
+        "FY24-03"
+      ]
+    },
+    {
+      "area": "journalsManagementOverride",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "cutOff",
+        "occurrence"
+      ],
+      "rationale": "Significant (R1 highest source: significant). Led by: MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger (+10 more sources).",
+      "evidenceIds": [
+        "MJ-000016",
+        "martin.md",
+        "E001",
+        "1150",
+        "1200",
+        "MJ-000017",
+        "jane.bookkeeper",
+        "S033",
+        "5100",
+        "2250",
+        "MJ-000018",
+        "MJ-000019",
+        "7500",
+        "MJ-000020",
+        "tom.finance",
+        "E011",
+        "MJ-000024",
+        "C003",
+        "1100",
+        "4000",
+        "2200",
+        "N2",
+        "N3",
+        "N10",
+        "N16",
+        "N17"
+      ]
+    },
+    {
+      "area": "goingConcern",
+      "level": "baseline",
+      "assertions": [],
+      "rationale": "Baseline: nothing in the file raises this area; the programme's baseline procedures apply.",
+      "evidenceIds": []
+    },
+    {
+      "area": "stock",
+      "level": "notApplicable",
+      "assertions": [],
+      "rationale": "Not applicable: stock accounts total £0, below performance materiality.",
+      "evidenceIds": [
+        "company.json"
+      ]
+    },
+    {
+      "area": "openingBalances",
+      "level": "notApplicable",
+      "assertions": [],
+      "rationale": "Not applicable: continuing engagement (year 4): opening balances were audited last year.",
+      "evidenceIds": [
+        "company.json"
+      ]
+    },
+    {
+      "area": "vat",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness"
+      ],
+      "rationale": "Significant (R1 highest source: significant). Led by: the VAT returns for Q2 2025 and Q4 2025 declare £215,869 less than the VAT control accounts record: Q2 2025 declared -£30,553 against £68,823 net in the ledger; Q4 2025 declared -£3,013 against £113,480 net in the ledger (+2 more sources).",
+      "evidenceIds": [
+        "PI-000770",
+        "MJ-000010",
+        "B25-01230",
+        "B26-00140",
+        "N15"
+      ]
+    },
+    {
+      "area": "accrualsProvisions",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "occurrence",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated). Led by: MJ-000017 \"Accrual - Wharfedale Sept labour (invoice awaited)\" £12,000: no approver; round sum (+3 more sources).",
+      "evidenceIds": [
+        "MJ-000017",
+        "jane.bookkeeper",
+        "S033",
+        "5100",
+        "2250",
+        "MJ-000018",
+        "N2",
+        "FY24-07"
+      ]
+    },
+    {
+      "area": "completion",
+      "level": "elevated",
+      "assertions": [
+        "completeness",
+        "presentation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated; R6 raised by the notes alone (N2, N11): elevated at most until the data or the prior year corroborates it). Led by: N2 (hypothesis from the notes, to confirm in fieldwork): Possible sale negotiations after the year end need to be considered for subsequent events and disclosure, and the deadline pressure could compromise completion procedures. (\"the company is in discussions with a national M&E group about a sale in 2026\") (+1 more source).",
+      "evidenceIds": [
+        "N2",
+        "N11"
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "procedureId": "REV-01",
+      "area": "revenue",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to completeness, occurrence, accuracy at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 4
+    },
+    {
+      "procedureId": "REV-02",
+      "area": "revenue",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to cutOff, occurrence at risk.",
+      "evidenceIds": [],
+      "extent": "40 items (significant, REV-02's own table)",
+      "hours": 24
+    },
+    {
+      "procedureId": "REV-03",
+      "area": "revenue",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to occurrence, accuracy, cutOff at risk. Programme level elevated. Applies because manual revenue entries exist: MJ-000024. Must cover: MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500.",
+      "evidenceIds": [
+        "MJ-000024",
+        "tom.finance"
+      ],
+      "extent": "every item the file identifies: 1 (MJ-000024); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 5
+    },
+    {
+      "procedureId": "REV-04",
+      "area": "revenue",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to accuracy, cutOff, valuation at risk. Programme level elevated. Applies because long-term contracts span the year end: N5 says \"Three housing contracts (Calder Valley Housing, Harrogate Homes, Brightwater Developments) span the year end.\".",
+      "evidenceIds": [
+        "N5"
+      ],
+      "extent": null,
+      "hours": 10
+    },
+    {
+      "procedureId": "REV-05",
+      "area": "revenue",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to valuation at risk. Applies because the company has trade debtors.",
+      "evidenceIds": [
+        "1100"
+      ],
+      "extent": "40 items (significant, the firm's general table)",
+      "hours": 16
+    },
+    {
+      "procedureId": "REV-06",
+      "area": "revenue",
+      "level": "elevated",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: no material cash or card takings. Programme: \"Where cash or card takings are a material revenue stream.\"",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "DEB-01",
+      "area": "debtors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "debtors is assessed significant. Responds to valuation, existence at risk. Applies because the company has trade debtors.",
+      "evidenceIds": [
+        "1100"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "DEB-02",
+      "area": "debtors",
+      "level": "significant",
+      "status": "selected",
+      "selected": true,
+      "reason": "debtors is assessed significant. Responds to existence at risk. Programme level significant. Applies because debtor existence is a significant risk.",
+      "evidenceIds": [],
+      "extent": "40 items (significant, the firm's general table)",
+      "hours": 21.5
+    },
+    {
+      "procedureId": "DEB-03",
+      "area": "debtors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "debtors is assessed significant. Responds to existence, valuation at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "PUR-01",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed significant. Responds to completeness, accuracy at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "PUR-02",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed significant. Responds to completeness, existence at risk. Applies because the company has trade creditors. Must cover: 9 of 9 invoices from Wharfedale Site Services Ltd (S033) fall between 90% and 100% of tom.finance's £10,000 approval limit and were approved by tom.finance, £87,172 in all; first invoice 2025-07-07, a supplier new in the year.",
+      "evidenceIds": [
+        "2100",
+        "S033",
+        "tom.finance"
+      ],
+      "extent": "40 items (significant, the firm's general table), including S033",
+      "hours": 13.5
+    },
+    {
+      "procedureId": "PUR-03",
+      "area": "purchasesCreditors",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed significant. Responds to occurrence, accuracy at risk. Programme level elevated. Applies because purchases are assessed significant. Must cover: 9 of 9 invoices from Wharfedale Site Services Ltd (S033) fall between 90% and 100% of tom.finance's £10,000 approval limit and were approved by tom.finance, £87,172 in all; first invoice 2025-07-07, a supplier new in the year.",
+      "evidenceIds": [
+        "PI-000760",
+        "PI-000761",
+        "PI-000762",
+        "PI-000763",
+        "PI-000764",
+        "PI-000765",
+        "PI-000766",
+        "PI-000767",
+        "PI-000768",
+        "S033",
+        "tom.finance"
+      ],
+      "extent": null,
+      "hours": 4
+    },
+    {
+      "procedureId": "PUR-04",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed significant. Responds to occurrence at risk. Applies because the company keeps a purchase ledger.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "PUR-05",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed significant. Responds to completeness, cutOff at risk.",
+      "evidenceIds": [],
+      "extent": "40 items (significant, the firm's general table)",
+      "hours": 10.5
+    },
+    {
+      "procedureId": "PAY-01",
+      "area": "payroll",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed significant. Responds to completeness, accuracy at risk. Applies because 24 employees.",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "PAY-02",
+      "area": "payroll",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed significant. Responds to occurrence, accuracy at risk. Programme level elevated. Applies because the prior year found leaver or starter errors (FY24-14). Must cover: Callum Reed (E019) left on 2025-06-30 but received 6 bank payments totalling £13,986 after that date (2025-07-25 to 2025-12-25); 1 employee joined or left in the year.",
+      "evidenceIds": [
+        "FY24-14",
+        "E019",
+        "B25-01153"
+      ],
+      "extent": "every item the file identifies: 1 (E019); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 4
+    },
+    {
+      "procedureId": "PAY-03",
+      "area": "payroll",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed significant. Responds to occurrence, existence at risk. Programme level elevated. Applies because segregation in payroll is weak: the payroll is approved by tom.finance, who can also post to the ledger. Must cover: Callum Reed (E019) left on 2025-06-30 but received 6 bank payments totalling £13,986 after that date (2025-07-25 to 2025-12-25).",
+      "evidenceIds": [
+        "tom.finance",
+        "B25-01153",
+        "B25-01350",
+        "B25-01566",
+        "B25-01749",
+        "B25-01959",
+        "B25-02152",
+        "E019"
+      ],
+      "extent": "all 12 months (significant, the firm's general table, capped at the 12 months in the year), including 2025-07, 2025-08, 2025-09, 2025-10, 2025-11, 2025-12",
+      "hours": 5
+    },
+    {
+      "procedureId": "PAY-04",
+      "area": "payroll",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed significant. Responds to accuracy, completeness at risk. Applies because 24 employees.",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "FA-01",
+      "area": "fixedAssets",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "fixedAssets is assessed elevated. Responds to existence, valuation, rightsAndObligations at risk. Applies because the company has fixed assets. Last year FA-01 took 30h against 3h budgeted and found no misstatement (FY24-01: notAnException, FY24-16: notAnException); held at the programme's extent, and any extension needs a documented reason.",
+      "evidenceIds": [
+        "0030",
+        "0040",
+        "0050",
+        "PY:FA-01",
+        "FY24-01",
+        "FY24-16"
+      ],
+      "extent": "additions above performance materiality plus a sample of ten below (programme extent)",
+      "hours": 3
+    },
+    {
+      "procedureId": "FA-02",
+      "area": "fixedAssets",
+      "level": "significant",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: the file does not say whether the asset register has been physically verified in the last three years; treated as not applying and put to the partner. Programme: \"Where fixed asset existence is a significant risk or the register has not been verified in three years.\"",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 0,
+      "unknown": true
+    },
+    {
+      "procedureId": "FA-03",
+      "area": "fixedAssets",
+      "level": "elevated",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: the file does not say whether there are indicators of impairment; treated as not applying and put to the partner. Programme: \"Where indicators of impairment exist.\"",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 0,
+      "unknown": true
+    },
+    {
+      "procedureId": "BNK-01",
+      "area": "bankCash",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to existence, completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "BNK-02",
+      "area": "bankCash",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to existence, completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "BNK-03",
+      "area": "bankCash",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "bankCash is assessed elevated. Responds to completeness, existence at risk. Programme level elevated. Applies because 3 manual journals to the bank account; the bank does not agree to the ledger. Must cover: MJ-000019 \"Transfer\" moves -£9,500 through the bank account in the ledger, but no line on the bank statement matches it.",
+      "evidenceIds": [
+        "MJ-000016",
+        "MJ-000020",
+        "MJ-000019",
+        "B25-02197",
+        "1200"
+      ],
+      "extent": null,
+      "hours": 4
+    },
+    {
+      "procedureId": "RP-01",
+      "area": "relatedParties",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to completeness, presentation at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "RP-02",
+      "area": "relatedParties",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "relatedParties is assessed significant. Responds to presentation, accuracy at risk. Programme level elevated. Applies because transactions with related parties are in the ledger. Must cover: 13 transactions with related party Ashworth Property Ltd (Company controlled by Martin Ashworth (director and majority shareholder); landlord of Unit 4), £151,200; outside the recurring pattern.",
+      "evidenceIds": [
+        "S029",
+        "PI-000051",
+        "PI-000105",
+        "PI-000168",
+        "PI-000234",
+        "PI-000303",
+        "PI-000375",
+        "PI-000444",
+        "PI-000504",
+        "PI-000573",
+        "PI-000642",
+        "PI-000705",
+        "PI-000753",
+        "PI-000769"
+      ],
+      "extent": "every item the file identifies: 13 (PI-000051, PI-000105, PI-000168, PI-000234, PI-000303, PI-000375, PI-000444, PI-000504, PI-000573, PI-000642, PI-000705, PI-000753, PI-000769); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 5
+    },
+    {
+      "procedureId": "RP-03",
+      "area": "relatedParties",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "relatedParties is assessed significant. Responds to presentation, existence, rightsAndObligations at risk. Programme level elevated. Applies because a director's balance or personal expenditure exists or existed in the year. Must cover: Martin Ashworth (Managing director, 80% shareholder) had a balance owed to the company.",
+      "evidenceIds": [
+        "E001",
+        "MJ-000016"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "JNL-01",
+      "area": "journalsManagementOverride",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to occurrence, accuracy, cutOff at risk. Must cover: MJ-000016 \"Advance - M Ashworth\" £35,000; MJ-000017 \"Accrual - Wharfedale Sept labour (invoice awaited)\" £12,000; MJ-000018 \"Reverse accrual - Wharfedale Sept labour\" £10,200; MJ-000019 \"Transfer\" £9,500; MJ-000020 \"Loan to J Price - to be repaid from wages\" £2,500; MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500.",
+      "evidenceIds": [
+        "MJ-000016",
+        "MJ-000017",
+        "MJ-000018",
+        "MJ-000019",
+        "MJ-000020",
+        "MJ-000024",
+        "martin.md",
+        "jane.bookkeeper",
+        "tom.finance"
+      ],
+      "extent": "sample of 50 (significant, JNL-01's own table) plus 6 must-test: MJ-000016, MJ-000017, MJ-000018, MJ-000019, MJ-000020, MJ-000024",
+      "hours": 30
+    },
+    {
+      "procedureId": "JNL-02",
+      "area": "journalsManagementOverride",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to completeness at risk.",
+      "evidenceIds": [],
+      "extent": "every item the file identifies: 2 (2250, 8000); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 3
+    },
+    {
+      "procedureId": "JNL-03",
+      "area": "journalsManagementOverride",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to occurrence at risk. Must cover: 13 transactions with related party Ashworth Property Ltd (Company controlled by Martin Ashworth (director and majority shareholder); landlord of Unit 4), £151,200; outside the recurring pattern.",
+      "evidenceIds": [
+        "PI-000769",
+        "S029"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "GC-01",
+      "area": "goingConcern",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "GC-02",
+      "area": "goingConcern",
+      "level": "significant",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: N9 rules out that borrowing covenants exist: \"Cash position is strong and there are no borrowings.\", and going concern is not a significant risk. Programme: \"Where borrowing covenants exist or material uncertainty related to going concern is a significant risk.\"",
+      "evidenceIds": [
+        "N9"
+      ],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "STK-01",
+      "area": "stock",
+      "level": "mandatory",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: stock is not material or not held. Programme: \"Where stock is material.\"",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "STK-02",
+      "area": "stock",
+      "level": "baseline",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: stock is not material or not held. Programme: \"Where stock is material.\"",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "OB-01",
+      "area": "openingBalances",
+      "level": "mandatory",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: continuing engagement, year 4. Programme: \"First-year engagements only.\"",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "VAT-01",
+      "area": "vat",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "vat is assessed significant. Responds to accuracy, completeness at risk. Applies because VAT-registered: VAT control accounts are in use. Must cover: the VAT returns for Q2 2025 and Q4 2025 declare £215,869 less than the VAT control accounts record.",
+      "evidenceIds": [
+        "2200",
+        "2201",
+        "2202",
+        "B25-01230",
+        "B26-00140",
+        "MJ-000010"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "VAT-02",
+      "area": "vat",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "vat is assessed significant. Responds to accuracy at risk. Programme level elevated. Applies because the prior year found VAT errors (FY24-06, FY24-13); this year's ledger shows input VAT reclaimed on hospitality or non-business costs. Must cover: hospitality coded outside the entertaining account with input VAT reclaimed.",
+      "evidenceIds": [
+        "FY24-06",
+        "FY24-13",
+        "PI-000770"
+      ],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "ACC-01",
+      "area": "accrualsProvisions",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "accrualsProvisions is assessed elevated. Responds to completeness, accuracy at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "COMP-01",
+      "area": "completion",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to completeness, presentation at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "COMP-02",
+      "area": "completion",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to presentation, completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    }
+  ],
+  "totalHours": 207.5,
+  "budgetHours": 120,
+  "limitations": [
+    "The engine plans from the file as received; it has not seen the client's systems, minutes or contracts.",
+    "Planning notes are read through a committed model extraction (claude-opus-5-5, claude-opus-5-5, claude-sonnet-5-5; 3 runs, majority of two). 5 items were dropped as unverified or not agreed by two runs; they are listed in plan.json under notesExtraction.disagreements.",
+    "Hours are the programme's baseline hours scaled linearly with sample size; must-test items under JNL-01 are added at the per-item rate.",
+    "ISA (UK) 240 treats management override as a significant risk on every audit; the firm's response is the three mandatory JNL procedures, and the area level here sets their extent."
+  ],
+  "rulesetVersion": "2026.11-2",
+  "inputs": {
+    "data/programme/audit_programme.md": "7902fad7c0d0a96738542d9cb90e959ca7653530fe4c7e17db1aa55aca47302d",
+    "data/clients/ashworth/accounts.csv": "b83db8f15a54a0a43cec511576a3896c0a47fd5ac82ff21eb6ef59a679436fe8",
+    "data/clients/ashworth/bank_statement_2025.csv": "4a9c696fb5dd994fa927c8963e674cf15da44b8b94e30529962cf746db4bb63f",
+    "data/clients/ashworth/bank_statement_2026q1.csv": "f9e073b6ded7b9825261cf71d80bfafbd65140fcd40060f32ba3377046e677a5",
+    "data/clients/ashworth/company.json": "abd62e4c3ccca55d0ff67b5c168676a8631e49abe5af5e5ae5fa486f2f272a8b",
+    "data/clients/ashworth/ledger.jsonl": "08a09260b2f7dbd30aa619c520c2a0dd66a36089ed7169c4166834f65dc1a987",
+    "data/clients/ashworth/parties.csv": "8d63763b2c564e69205b5e18dfe997b1755f54c00ed37039a8860fb770de6e90",
+    "data/clients/ashworth/planning_notes.md": "09b70c5c8f7bf664431ba2002c55af9184416f0d8730a39b125d87a3bbc5502d",
+    "data/clients/ashworth/prior_year_findings.jsonl": "50da815943543ec9f2140f6600d17ced6da42aec99b71215140ef650eb9d415a",
+    "data/clients/ashworth/prior_year_plan.jsonl": "5d2ac0032f53c9fd2a4a9e44604a0eaf744a365529964479c2ad32f5b1218bec",
+    "data/clients/ashworth/tax_codes.csv": "5fc3406c98e649ad3b2b83b9775aa6c7a31f21328268353a980587c839bab5d1",
+    "data/clients/ashworth/trial_balance.csv": "4fb46dae7595fe0b7fff44e202c864ceb04f957639e6660a3a4449be522a2ab3"
+  },
+  "notesExtraction": {
+    "file": "data/derived/ashworth/notes_extraction.json",
+    "models": [
+      "claude-opus-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+    ],
+    "inputSha256": "09b70c5c8f7bf664431ba2002c55af9184416f0d8730a39b125d87a3bbc5502d",
+    "promptSha256": "48f8b112733f579e345c25a4b7441a57397128006b65deb279d314bea4547116",
+    "runs": 3,
+    "disagreements": [
+      "claim N1 / revenue / raises made by 1 of 3 runs; not used",
+      "claim N5 / accrualsProvisions / raises made by 1 of 3 runs; not used",
+      "claim N1 / goingConcern / lowers made by 1 of 3 runs; not used",
+      "claim N3 / bankCash / lowers made by 1 of 3 runs; not used",
+      "claim N8 / journalsManagementOverride / raises made by 1 of 3 runs; not used"
+    ]
+  },
+  "areas": [
+    {
+      "area": "revenue",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "cutOff",
+        "occurrence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: significant",
+        "R4 fraud risk presumed and not rebutted"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "occurrence",
+            "cutOff",
+            "accuracy"
+          ],
+          "amountMinor": 18750000,
+          "exposure": true,
+          "text": "MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger",
+          "evidenceIds": [
+            "MJ-000024",
+            "tom.finance",
+            "C003",
+            "1100",
+            "4000",
+            "2200"
+          ],
+          "ref": "journal:MJ-000024"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "cutOff",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N2 (hypothesis from the notes, to confirm in fieldwork): An EBITDA-based sale price creates pressure to recognise revenue early or record revenue that did not occur. (\"The indicative price is a multiple of FY2025 EBITDA.\")",
+          "evidenceIds": [
+            "N2"
+          ],
+          "ref": "note:N2"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N3 (hypothesis from the notes, to confirm in fieldwork): One person raises all sales invoices and can post journals, so revenue entries are not independently checked. (\"Tom raises all sales invoices\")",
+          "evidenceIds": [
+            "N3"
+          ],
+          "ref": "note:N3"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "cutOff",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N5 (hypothesis from the notes, to confirm in fieldwork): Revenue on contracts spanning the year end is recognised when payment-schedule invoices are raised rather than on work done, so it could be over- or understated at the year end. (\"revenue is recognised when the payment-schedule invoice is raised, not on stage of completion\")",
+          "evidenceIds": [
+            "N5"
+          ],
+          "ref": "note:N5"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N5: estimate needed: Value of the Brightwater phase 3 final account, agreed only in principle (\"Brightwater phase 3 final account was \"agreed in principle before Christmas\"\")",
+          "evidenceIds": [
+            "N5"
+          ],
+          "ref": "estimate:N5"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "elevated",
+          "assertions": [
+            "cutOff"
+          ],
+          "amountMinor": 2200000,
+          "text": "FY24-08 last year: Invoice dated 31 Dec for work certified 9 Jan (£22,000 misstatement; Revenue reversed into FY2025. Cutoff is a known weak spot at year end.)",
+          "evidenceIds": [
+            "FY24-08"
+          ],
+          "ref": "FY24-08"
+        },
+        {
+          "kind": "standard",
+          "severity": "significant",
+          "assertions": [
+            "occurrence",
+            "cutOff"
+          ],
+          "amountMinor": null,
+          "text": "fraud in revenue recognition presumed (ISA (UK) 240.26) and not rebutted: 1195 revenue entries are raised by tom.finance; 1 manual journals credit revenue",
+          "evidenceIds": [
+            "tom.finance",
+            "MJ-000024"
+          ],
+          "ref": "ISA240.26"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 18750000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "debtors",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "cutOff",
+        "existence",
+        "occurrence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R2 corroborated by data + notes, exposure £187,500 at or above performance materiality £37,500"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "cutOff",
+            "accuracy"
+          ],
+          "amountMinor": 18750000,
+          "exposure": true,
+          "text": "MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger",
+          "evidenceIds": [
+            "MJ-000024",
+            "tom.finance",
+            "C003",
+            "1100",
+            "4000",
+            "2200"
+          ],
+          "ref": "journal:MJ-000024"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "valuation"
+          ],
+          "amountMinor": 51238868,
+          "exposure": false,
+          "text": "1100 Trade debtors moved from £158,427 to £670,815 (323%)",
+          "evidenceIds": [
+            "1100"
+          ],
+          "ref": "tb:movement:1100"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N5 (hypothesis from the notes, to confirm in fieldwork): Retentions held for twelve months after completion may be misstated or irrecoverable if defects or disputes arise. (\"Customers hold 5% retentions for twelve months after practical completion.\")",
+          "evidenceIds": [
+            "N5"
+          ],
+          "ref": "note:N5"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 18750000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "purchasesCreditors",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "cutOff",
+        "existence",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R2 corroborated by data + notes, exposure £87,172 at or above performance materiality £37,500"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "accuracy"
+          ],
+          "amountMinor": 8717210,
+          "exposure": true,
+          "text": "9 of 9 invoices from Wharfedale Site Services Ltd (S033) fall between 90% and 100% of tom.finance's £10,000 approval limit and were approved by tom.finance, £87,172 in all; first invoice 2025-07-07, a supplier new in the year",
+          "evidenceIds": [
+            "S033",
+            "tom.finance",
+            "PI-000760",
+            "PI-000761",
+            "PI-000762",
+            "PI-000763",
+            "PI-000764",
+            "PI-000765",
+            "PI-000766",
+            "PI-000767",
+            "PI-000768"
+          ],
+          "ref": "approval:below-limit:S033"
+        },
+        {
+          "kind": "data",
+          "severity": "info",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 8717210,
+          "exposure": false,
+          "text": "tom.finance posted and approved 9 purchase invoices (£87,172); the same arrangement was examined last year (FY24-12: Within the finance manager's 10,000 limit. Segregation is by limit, not by role.)",
+          "evidenceIds": [
+            "tom.finance",
+            "FY24-12",
+            "PI-000760",
+            "PI-000768",
+            "PI-000763",
+            "PI-000765",
+            "PI-000766"
+          ],
+          "ref": "approval:self:tom.finance"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 1200000,
+          "exposure": true,
+          "text": "MJ-000017 \"Accrual - Wharfedale Sept labour (invoice awaited)\" £12,000: no approver; round sum",
+          "evidenceIds": [
+            "MJ-000017",
+            "jane.bookkeeper",
+            "S033",
+            "5100",
+            "2250"
+          ],
+          "ref": "journal:MJ-000017"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 1020000,
+          "exposure": true,
+          "text": "MJ-000018 \"Reverse accrual - Wharfedale Sept labour\" £10,200: no approver; reverses MJ-000017 (£12,000) for a different amount",
+          "evidenceIds": [
+            "MJ-000018",
+            "jane.bookkeeper",
+            "S033",
+            "2250",
+            "5100"
+          ],
+          "ref": "journal:MJ-000018"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 950000,
+          "exposure": true,
+          "text": "MJ-000019 \"Transfer\" £9,500: no approver; posted by martin.md (unlimited approval authority); keyed at 20:05; moves cash by manual journal; description is only \"Transfer\"",
+          "evidenceIds": [
+            "MJ-000019",
+            "martin.md",
+            "7500",
+            "1200"
+          ],
+          "ref": "journal:MJ-000019"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "classification"
+          ],
+          "amountMinor": 250000,
+          "exposure": true,
+          "text": "MJ-000020 \"Loan to J Price - to be repaid from wages\" £2,500: no approver; moves cash by manual journal; amount to employee E011 coded to 5100 Subcontractors",
+          "evidenceIds": [
+            "MJ-000020",
+            "tom.finance",
+            "E011",
+            "5100",
+            "1200"
+          ],
+          "ref": "journal:MJ-000020"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "existence"
+          ],
+          "amountMinor": 10602140,
+          "exposure": false,
+          "text": "2100 Trade creditors moved from -£102,254 to -£208,275 (-104%)",
+          "evidenceIds": [
+            "2100"
+          ],
+          "ref": "tb:movement:2100"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "classification"
+          ],
+          "amountMinor": 3157700,
+          "exposure": false,
+          "text": "65 lines (£31,577) posted to MISC-OPS, a code with no category in the chart, which FY24-09 last year said would be retired (Bookkeeper to reclassify and retire the code in 2025. Immaterial.)",
+          "evidenceIds": [
+            "MISC-OPS",
+            "FY24-09",
+            "PI-000005",
+            "PI-000009",
+            "PI-000041",
+            "PI-000029",
+            "PI-000039"
+          ],
+          "ref": "tb:non-standard-code:MISC-OPS"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": 1000000,
+          "exposure": false,
+          "text": "N3 (hypothesis from the notes, to confirm in fieldwork): The same person approves purchase invoices under £10,000 and prepares payments, so fictitious or inflated supplier invoices could be paid without independent review. (\"approves purchase invoices under 10,000 and prepares the BACS runs\")",
+          "evidenceIds": [
+            "N3"
+          ],
+          "ref": "note:N3"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N11 (hypothesis from the notes, to confirm in fieldwork): A new subcontractor introduced by a site foreman with no contract carries a risk of fictitious or inflated invoices or collusion. (\"introduced by a site foreman\")",
+          "evidenceIds": [
+            "N11"
+          ],
+          "ref": "note:N11"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "accuracy",
+            "cutOff"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N15 (hypothesis from the notes, to confirm in fieldwork): Purchase invoices are keyed in periodic batches by a bookkeeper who is leaving, so year-end invoices may be posted late or missed. (\"She keys the purchase ledger from scanned invoices, usually in Friday or Saturday batches\")",
+          "evidenceIds": [
+            "N15"
+          ],
+          "ref": "note:N15"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "classification"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N16 (hypothesis from the notes, to confirm in fieldwork): A miscellaneous code still in use despite prior advice could hide misclassified or inappropriate expenditure. (\"the MISC-OPS code \"is still being used for bits and pieces\"\")",
+          "evidenceIds": [
+            "N16"
+          ],
+          "ref": "note:N16"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N19 (hypothesis from the notes, to confirm in fieldwork): Duplicate supplier invoices could be paid as the prior-year weakness is fixed only on management's word. (\"the duplicate-invoice check\")",
+          "evidenceIds": [
+            "N19"
+          ],
+          "ref": "note:N19"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "info",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 215000,
+          "text": "FY24-05 last year: Duplicate supplier invoice, paid twice (£2,150 misstatement; Credit note obtained after year end. Recommended reference normalisation in Xero.)",
+          "evidenceIds": [
+            "FY24-05"
+          ],
+          "ref": "FY24-05"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 8717210,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "payroll",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "cutOff",
+        "existence",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R3 recurrence of FY24-14 in this year's data (payroll:leaver-paid:E019)"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "existence"
+          ],
+          "amountMinor": 1398600,
+          "exposure": true,
+          "text": "Callum Reed (E019) left on 2025-06-30 but received 6 bank payments totalling £13,986 after that date (2025-07-25 to 2025-12-25)",
+          "evidenceIds": [
+            "E019",
+            "B25-01153",
+            "B25-01350",
+            "B25-01566",
+            "B25-01749",
+            "B25-01959",
+            "B25-02152"
+          ],
+          "ref": "payroll:leaver-paid:E019"
+        },
+        {
+          "kind": "data",
+          "severity": "info",
+          "assertions": [
+            "occurrence",
+            "accuracy"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "1 employee joined or left in the year: Callum Reed (E019, left 2025-06-30)",
+          "evidenceIds": [
+            "E019"
+          ],
+          "ref": "payroll:starters-leavers"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N6 (hypothesis from the notes, to confirm in fieldwork): Payroll changes come by email from a part-time administrator and the director is vague about leavers, so leavers could continue to be paid or changes missed. (\"Asked about leavers in the year, Martin said \"one or two, the usual\"\")",
+          "evidenceIds": [
+            "N6"
+          ],
+          "ref": "note:N6"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "accuracy",
+            "cutOff"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N7 (hypothesis from the notes, to confirm in fieldwork): A mid-year change of pension provider, accepted as having 'no issues' without checking, could lead to missed or misstated pension contributions and creditors. (\"the auto-enrolment scheme moved from NEST to a Scottish Widows group scheme in September\")",
+          "evidenceIds": [
+            "N7"
+          ],
+          "ref": "note:N7"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N19 (hypothesis from the notes, to confirm in fieldwork): The leaver process was weak last year and the claimed fix is unverified and contradicted by the director's vagueness about leavers. (\"the leaver process\")",
+          "evidenceIds": [
+            "N19"
+          ],
+          "ref": "note:N19"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "info",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 210000,
+          "text": "FY24-14 last year: Leaver paid one month after leaving date (£2,100 misstatement; Recovered from leaver. Recommended leaver checklist; HR to notify payroll same day.)",
+          "evidenceIds": [
+            "FY24-14"
+          ],
+          "ref": "FY24-14"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "accuracy"
+          ],
+          "amountMinor": 210000,
+          "text": "missed coverage: PAY-02 was not run last year and FY24-14 (Leaver paid one month after leaving date, misstatement) was found only through PAY-01",
+          "evidenceIds": [
+            "PY:PAY-02",
+            "FY24-14"
+          ],
+          "ref": "missed:PAY-02"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 1398600,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "fixedAssets",
+      "level": "elevated",
+      "assertions": [
+        "classification",
+        "completeness",
+        "existence",
+        "rightsAndObligations",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R6 raised by the notes alone (N4, N8, N10): elevated at most until the data or the prior year corroborates it"
+      ],
+      "sources": [
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness",
+            "classification"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N4 (hypothesis from the notes, to confirm in fieldwork): Significant test kit purchases and a new van may be inconsistently capitalised or expensed, and additions may be incomplete or misstated. (\"been buying a lot of test kit\")",
+          "evidenceIds": [
+            "N4"
+          ],
+          "ref": "note:N4"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "valuation",
+            "rightsAndObligations",
+            "classification"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N8 (hypothesis from the notes, to confirm in fieldwork): Refurbishment of a building owned by the director's company may be wrongly capitalised as the company's asset or misclassified. (\"the unit was refurbished in December at the company's cost\")",
+          "evidenceIds": [
+            "N8"
+          ],
+          "ref": "note:N8"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N10 (hypothesis from the notes, to confirm in fieldwork): Vans needed extensive work last year and the director wants less scrutiny there, suggesting persistent issues in vehicle balances. (\"spent far too long on the vans\")",
+          "evidenceIds": [
+            "N10"
+          ],
+          "ref": "note:N10"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "bankCash",
+      "level": "elevated",
+      "assertions": [
+        "completeness",
+        "existence",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: elevated"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness"
+          ],
+          "amountMinor": 950000,
+          "exposure": true,
+          "text": "bank statement balance at 2025-12-31 £1,041,135 differs from the trial balance £1,031,635 by £9,500; exactly the unmatched MJ-000019",
+          "evidenceIds": [
+            "B25-02197",
+            "1200",
+            "MJ-000019"
+          ],
+          "ref": "bank:closing-difference"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "occurrence"
+          ],
+          "amountMinor": 950000,
+          "exposure": true,
+          "text": "MJ-000019 \"Transfer\" moves -£9,500 through the bank account in the ledger, but no line on the bank statement matches it",
+          "evidenceIds": [
+            "MJ-000019",
+            "1200"
+          ],
+          "ref": "bank:ledger-only:MJ-000019"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N3 (hypothesis from the notes, to confirm in fieldwork): Payment runs are prepared by the person who approves invoices and posts journals, so a release by the director may not detect improper payments. (\"prepares the BACS runs; Martin releases them\")",
+          "evidenceIds": [
+            "N3"
+          ],
+          "ref": "note:N3"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 950000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "relatedParties",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "existence",
+        "occurrence",
+        "presentation",
+        "rightsAndObligations"
+      ],
+      "rules": [
+        "R1 highest source: significant"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 3500000,
+          "exposure": true,
+          "text": "MJ-000016 \"Advance - M Ashworth\" £35,000: no approver; posted by martin.md (unlimited approval authority); round sum; moves cash by manual journal",
+          "evidenceIds": [
+            "MJ-000016",
+            "martin.md",
+            "E001",
+            "1150",
+            "1200"
+          ],
+          "ref": "journal:MJ-000016"
+        },
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "presentation",
+            "existence",
+            "rightsAndObligations"
+          ],
+          "amountMinor": 3500000,
+          "exposure": true,
+          "text": "Martin Ashworth (Managing director, 80% shareholder) had a balance owed to the company: MJ-000016 \"Advance - M Ashworth\" £35,000 posted by martin.md with no approver; above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed",
+          "evidenceIds": [
+            "E001",
+            "MJ-000016",
+            "martin.md"
+          ],
+          "ref": "rp:director-balance:E001"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "presentation",
+            "occurrence"
+          ],
+          "amountMinor": 2880000,
+          "exposure": true,
+          "text": "13 transactions with related party Ashworth Property Ltd (Company controlled by Martin Ashworth (director and majority shareholder); landlord of Unit 4), £151,200; outside the recurring pattern: PI-000769 \"Ashworth Property Ltd - Refurbishment of Unit 4 - as agreed\" £28,800 coded to 7100/2201",
+          "evidenceIds": [
+            "S029",
+            "PI-000769",
+            "PI-000051",
+            "PI-000105",
+            "PI-000168"
+          ],
+          "ref": "rp:transactions:S029"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N6 (hypothesis from the notes, to confirm in fieldwork): HR is run by a director's family member whose role and any remuneration may be a related party transaction needing identification and disclosure. (\"handled by Helen Ashworth, who is not in the office every day\")",
+          "evidenceIds": [
+            "N6"
+          ],
+          "ref": "note:N6"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "accuracy",
+            "presentation",
+            "occurrence"
+          ],
+          "amountMinor": 850000,
+          "exposure": false,
+          "text": "N8 (hypothesis from the notes, to confirm in fieldwork): Rent is paid to and a refurbishment funded for the director's own property company without board approval, which may benefit the director and must be disclosed as related party transactions. (\"Unit 4 is rented from Ashworth Property Ltd under a lease signed in 2022 at 8,500 a month\")",
+          "evidenceIds": [
+            "N8"
+          ],
+          "ref": "note:N8"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "presentation",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N19 (hypothesis from the notes, to confirm in fieldwork): Director's loan approval was a prior-year weakness and the fix rests only on management's assertion. (\"the director's loan approval\")",
+          "evidenceIds": [
+            "N19"
+          ],
+          "ref": "note:N19"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "elevated",
+          "assertions": [
+            "presentation",
+            "existence",
+            "rightsAndObligations"
+          ],
+          "amountMinor": 1200000,
+          "text": "missed coverage: RP-03 was not run last year and FY24-03 (Loan to director of 12,000 posted by the director, explained) was found only through JNL-01",
+          "evidenceIds": [
+            "PY:RP-03",
+            "FY24-03"
+          ],
+          "ref": "missed:RP-03"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 3500000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "journalsManagementOverride",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "cutOff",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: significant"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 3500000,
+          "exposure": true,
+          "text": "MJ-000016 \"Advance - M Ashworth\" £35,000: no approver; posted by martin.md (unlimited approval authority); round sum; moves cash by manual journal",
+          "evidenceIds": [
+            "MJ-000016",
+            "martin.md",
+            "E001",
+            "1150",
+            "1200"
+          ],
+          "ref": "journal:MJ-000016"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 1200000,
+          "exposure": true,
+          "text": "MJ-000017 \"Accrual - Wharfedale Sept labour (invoice awaited)\" £12,000: no approver; round sum",
+          "evidenceIds": [
+            "MJ-000017",
+            "jane.bookkeeper",
+            "S033",
+            "5100",
+            "2250"
+          ],
+          "ref": "journal:MJ-000017"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 1020000,
+          "exposure": true,
+          "text": "MJ-000018 \"Reverse accrual - Wharfedale Sept labour\" £10,200: no approver; reverses MJ-000017 (£12,000) for a different amount",
+          "evidenceIds": [
+            "MJ-000018",
+            "jane.bookkeeper",
+            "S033",
+            "2250",
+            "5100"
+          ],
+          "ref": "journal:MJ-000018"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 950000,
+          "exposure": true,
+          "text": "MJ-000019 \"Transfer\" £9,500: no approver; posted by martin.md (unlimited approval authority); keyed at 20:05; moves cash by manual journal; description is only \"Transfer\"",
+          "evidenceIds": [
+            "MJ-000019",
+            "martin.md",
+            "7500",
+            "1200"
+          ],
+          "ref": "journal:MJ-000019"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "classification"
+          ],
+          "amountMinor": 250000,
+          "exposure": true,
+          "text": "MJ-000020 \"Loan to J Price - to be repaid from wages\" £2,500: no approver; moves cash by manual journal; amount to employee E011 coded to 5100 Subcontractors",
+          "evidenceIds": [
+            "MJ-000020",
+            "tom.finance",
+            "E011",
+            "5100",
+            "1200"
+          ],
+          "ref": "journal:MJ-000020"
+        },
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "occurrence",
+            "cutOff",
+            "accuracy"
+          ],
+          "amountMinor": 18750000,
+          "exposure": true,
+          "text": "MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger",
+          "evidenceIds": [
+            "MJ-000024",
+            "tom.finance",
+            "C003",
+            "1100",
+            "4000",
+            "2200"
+          ],
+          "ref": "journal:MJ-000024"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N2 (hypothesis from the notes, to confirm in fieldwork): The sale price depends on FY2025 EBITDA, giving the owner a direct incentive to inflate profit through journals or estimates, and he is also pushing for a faster audit. (\"The indicative price is a multiple of FY2025 EBITDA.\")",
+          "evidenceIds": [
+            "N2"
+          ],
+          "ref": "note:N2"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N3 (hypothesis from the notes, to confirm in fieldwork): A new finance manager now has manual journal posting rights as well as invoicing and payment duties, removing segregation over journals. (\"Tom also has posting rights for manual journals in Xero, which the previous bookkeeper did not.\")",
+          "evidenceIds": [
+            "N3"
+          ],
+          "ref": "note:N3"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N10 (hypothesis from the notes, to confirm in fieldwork): The director is pressing to limit audit scope ahead of a sale, which is a fraud risk indicator. (\"asked for shorter fieldwork this year\")",
+          "evidenceIds": [
+            "N10"
+          ],
+          "ref": "note:N10"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "classification",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N16 (hypothesis from the notes, to confirm in fieldwork): The finance manager posts entries the bookkeeper does not see, so unreviewed manual entries could misstate the accounts. (\"Tom \"posts a few things himself now\" and she does not always see them\")",
+          "evidenceIds": [
+            "N16"
+          ],
+          "ref": "note:N16"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N17 (hypothesis from the notes, to confirm in fieldwork): Completeness of the ledger export is confirmed only loosely by someone who does not see all postings, so the data population may be incomplete. (\"is complete \"as far as she knows\"\")",
+          "evidenceIds": [
+            "N17"
+          ],
+          "ref": "note:N17"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 18750000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "goingConcern",
+      "level": "baseline",
+      "assertions": [],
+      "rules": [],
+      "sources": [],
+      "mitigating": [
+        {
+          "kind": "notes",
+          "severity": "info",
+          "assertions": [
+            "valuation",
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N9 (hypothesis from the notes, to confirm in fieldwork): Strong cash and no borrowings or facilities reduce going concern risk. (\"Cash position is strong and there are no borrowings.\")",
+          "evidenceIds": [
+            "N9"
+          ],
+          "ref": "note:N9"
+        }
+      ],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "stock",
+      "level": "notApplicable",
+      "assertions": [],
+      "rules": [
+        "R5 stock accounts total £0, below performance materiality"
+      ],
+      "sources": [],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": "stock accounts total £0, below performance materiality",
+      "scopeEvidence": [
+        "company.json"
+      ]
+    },
+    {
+      "area": "openingBalances",
+      "level": "notApplicable",
+      "assertions": [],
+      "rules": [
+        "R5 continuing engagement (year 4): opening balances were audited last year"
+      ],
+      "sources": [],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": "continuing engagement (year 4): opening balances were audited last year",
+      "scopeEvidence": [
+        "company.json"
+      ]
+    },
+    {
+      "area": "vat",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness"
+      ],
+      "rules": [
+        "R1 highest source: significant"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "classification",
+            "accuracy"
+          ],
+          "amountMinor": 64000,
+          "exposure": true,
+          "text": "hospitality coded outside the entertaining account with input VAT reclaimed: PI-000770 \"Hendersons Brasserie - Client dinner - Fenwick Group directors\"; £3,200 net, £640 VAT reclaimed",
+          "evidenceIds": [
+            "PI-000770"
+          ],
+          "ref": "class:hospitality"
+        },
+        {
+          "kind": "data",
+          "severity": "info",
+          "assertions": [
+            "accuracy",
+            "completeness"
+          ],
+          "amountMinor": 62400,
+          "exposure": true,
+          "text": "ledger movement on 2201 VAT on purchases (input) differs from the trial balance by -£624; unbalanced voucher PI-000776",
+          "evidenceIds": [
+            "2201",
+            "PI-000776"
+          ],
+          "ref": "tb:ledger-mismatch:2201"
+        },
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "completeness",
+            "accuracy"
+          ],
+          "amountMinor": 21586908,
+          "exposure": true,
+          "text": "the VAT returns for Q2 2025 and Q4 2025 declare £215,869 less than the VAT control accounts record: Q2 2025 declared -£30,553 against £68,823 net in the ledger; Q4 2025 declared -£3,013 against £113,480 net in the ledger",
+          "evidenceIds": [
+            "MJ-000010",
+            "B25-01230",
+            "B26-00140"
+          ],
+          "ref": "vat:returns-vs-ledger"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "accuracy"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N15 (hypothesis from the notes, to confirm in fieldwork): VAT returns are prepared by a departing outsourced bookkeeper with no named successor, risking errors in the VAT balance. (\"prepares the VAT return for Tom to submit\")",
+          "evidenceIds": [
+            "N15"
+          ],
+          "ref": "note:N15"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "info",
+          "assertions": [
+            "classification"
+          ],
+          "amountMinor": 41000,
+          "text": "FY24-06 last year: Client entertaining coded to advertising, VAT reclaimed (£410 misstatement; Reclassified to 7403; VAT adjusted on next return.)",
+          "evidenceIds": [
+            "FY24-06"
+          ],
+          "ref": "FY24-06"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "info",
+          "assertions": [
+            "accuracy"
+          ],
+          "amountMinor": 18000,
+          "text": "FY24-13 last year: VAT rate on line does not agree to tax code (£180 misstatement; Trivial; corrected on next return.)",
+          "evidenceIds": [
+            "FY24-13"
+          ],
+          "ref": "FY24-13"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 21586908,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "accrualsProvisions",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "occurrence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 1200000,
+          "exposure": true,
+          "text": "MJ-000017 \"Accrual - Wharfedale Sept labour (invoice awaited)\" £12,000: no approver; round sum",
+          "evidenceIds": [
+            "MJ-000017",
+            "jane.bookkeeper",
+            "S033",
+            "5100",
+            "2250"
+          ],
+          "ref": "journal:MJ-000017"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 1020000,
+          "exposure": true,
+          "text": "MJ-000018 \"Reverse accrual - Wharfedale Sept labour\" £10,200: no approver; reverses MJ-000017 (£12,000) for a different amount",
+          "evidenceIds": [
+            "MJ-000018",
+            "jane.bookkeeper",
+            "S033",
+            "2250",
+            "5100"
+          ],
+          "ref": "journal:MJ-000018"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N2 (hypothesis from the notes, to confirm in fieldwork): Profit-based sale pressure increases the risk that accruals and provisions are understated to boost EBITDA. (\"The indicative price is a multiple of FY2025 EBITDA.\")",
+          "evidenceIds": [
+            "N2"
+          ],
+          "ref": "note:N2"
+        },
+        {
+          "kind": "priorYear",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy"
+          ],
+          "amountMinor": 640000,
+          "text": "FY24-07 last year: Year-end accrual never reversed (£6,400 misstatement; Adjusted. Accruals now carry a reversal flag.)",
+          "evidenceIds": [
+            "FY24-07"
+          ],
+          "ref": "FY24-07"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 1200000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "completion",
+      "level": "elevated",
+      "assertions": [
+        "completeness",
+        "presentation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R6 raised by the notes alone (N2, N11): elevated at most until the data or the prior year corroborates it"
+      ],
+      "sources": [
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N2 (hypothesis from the notes, to confirm in fieldwork): Possible sale negotiations after the year end need to be considered for subsequent events and disclosure, and the deadline pressure could compromise completion procedures. (\"the company is in discussions with a national M&E group about a sale in 2026\")",
+          "evidenceIds": [
+            "N2"
+          ],
+          "ref": "note:N2"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N11 (hypothesis from the notes, to confirm in fieldwork): A new subcontractor without a contract raises compliance questions on CIS verification and deductions. (\"introduced by a site foreman and are \"cheaper than the others\"\")",
+          "evidenceIds": [
+            "N11"
+          ],
+          "ref": "note:N11"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    }
+  ],
+  "signals": [
+    {
+      "mustTest": {
+        "PUR-03": [
+          "PI-000760",
+          "PI-000761",
+          "PI-000762",
+          "PI-000763",
+          "PI-000764",
+          "PI-000765",
+          "PI-000766",
+          "PI-000767",
+          "PI-000768"
+        ],
+        "PUR-02": [
+          "S033"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "approval:below-limit:S033",
+      "detector": "approval-limit analytics",
+      "areas": [
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "occurrence",
+        "accuracy"
+      ],
+      "severity": "elevated",
+      "amountMinor": 8717210,
+      "summary": "9 of 9 invoices from Wharfedale Site Services Ltd (S033) fall between 90% and 100% of tom.finance's £10,000 approval limit and were approved by tom.finance, £87,172 in all; first invoice 2025-07-07, a supplier new in the year",
+      "evidenceIds": [
+        "S033",
+        "tom.finance",
+        "PI-000760",
+        "PI-000761",
+        "PI-000762",
+        "PI-000763",
+        "PI-000764",
+        "PI-000765",
+        "PI-000766",
+        "PI-000767",
+        "PI-000768"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "approval:self:tom.finance",
+      "detector": "approval-limit analytics",
+      "areas": [
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "occurrence"
+      ],
+      "severity": "info",
+      "amountMinor": 8717210,
+      "summary": "tom.finance posted and approved 9 purchase invoices (£87,172); the same arrangement was examined last year (FY24-12: Within the finance manager's 10,000 limit. Segregation is by limit, not by role.)",
+      "evidenceIds": [
+        "tom.finance",
+        "FY24-12",
+        "PI-000760",
+        "PI-000768",
+        "PI-000763",
+        "PI-000765",
+        "PI-000766"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "bank:closing-difference",
+      "detector": "bank to ledger matching",
+      "areas": [
+        "bankCash"
+      ],
+      "assertions": [
+        "existence",
+        "completeness"
+      ],
+      "severity": "elevated",
+      "amountMinor": 950000,
+      "summary": "bank statement balance at 2025-12-31 £1,041,135 differs from the trial balance £1,031,635 by £9,500; exactly the unmatched MJ-000019",
+      "evidenceIds": [
+        "B25-02197",
+        "1200",
+        "MJ-000019"
+      ]
+    },
+    {
+      "mustTest": {
+        "BNK-03": [
+          "MJ-000019"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "bank:ledger-only:MJ-000019",
+      "detector": "bank to ledger matching",
+      "areas": [
+        "bankCash"
+      ],
+      "assertions": [
+        "existence",
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 950000,
+      "summary": "MJ-000019 \"Transfer\" moves -£9,500 through the bank account in the ledger, but no line on the bank statement matches it",
+      "evidenceIds": [
+        "MJ-000019",
+        "1200"
+      ]
+    },
+    {
+      "mustTest": {
+        "VAT-02": [
+          "PI-000770"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "class:hospitality",
+      "detector": "classification",
+      "areas": [
+        "vat"
+      ],
+      "assertions": [
+        "classification",
+        "accuracy"
+      ],
+      "severity": "elevated",
+      "amountMinor": 64000,
+      "summary": "hospitality coded outside the entertaining account with input VAT reclaimed: PI-000770 \"Hendersons Brasserie - Client dinner - Fenwick Group directors\"; £3,200 net, £640 VAT reclaimed",
+      "evidenceIds": [
+        "PI-000770"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000016"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "journal:MJ-000016",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "relatedParties"
+      ],
+      "assertions": [
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 3500000,
+      "summary": "MJ-000016 \"Advance - M Ashworth\" £35,000: no approver; posted by martin.md (unlimited approval authority); round sum; moves cash by manual journal",
+      "evidenceIds": [
+        "MJ-000016",
+        "martin.md",
+        "E001",
+        "1150",
+        "1200"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000017"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "journal:MJ-000017",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "purchasesCreditors",
+        "accrualsProvisions"
+      ],
+      "assertions": [
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 1200000,
+      "summary": "MJ-000017 \"Accrual - Wharfedale Sept labour (invoice awaited)\" £12,000: no approver; round sum",
+      "evidenceIds": [
+        "MJ-000017",
+        "jane.bookkeeper",
+        "S033",
+        "5100",
+        "2250"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000018"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "journal:MJ-000018",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "accrualsProvisions",
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 1020000,
+      "summary": "MJ-000018 \"Reverse accrual - Wharfedale Sept labour\" £10,200: no approver; reverses MJ-000017 (£12,000) for a different amount",
+      "evidenceIds": [
+        "MJ-000018",
+        "jane.bookkeeper",
+        "S033",
+        "2250",
+        "5100"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000019"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "journal:MJ-000019",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 950000,
+      "summary": "MJ-000019 \"Transfer\" £9,500: no approver; posted by martin.md (unlimited approval authority); keyed at 20:05; moves cash by manual journal; description is only \"Transfer\"",
+      "evidenceIds": [
+        "MJ-000019",
+        "martin.md",
+        "7500",
+        "1200"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000020"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "journal:MJ-000020",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "occurrence",
+        "classification"
+      ],
+      "severity": "elevated",
+      "amountMinor": 250000,
+      "summary": "MJ-000020 \"Loan to J Price - to be repaid from wages\" £2,500: no approver; moves cash by manual journal; amount to employee E011 coded to 5100 Subcontractors",
+      "evidenceIds": [
+        "MJ-000020",
+        "tom.finance",
+        "E011",
+        "5100",
+        "1200"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000024"
+        ],
+        "REV-03": [
+          "MJ-000024"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {
+        "debtors": "elevated"
+      },
+      "id": "journal:MJ-000024",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "debtors",
+        "revenue"
+      ],
+      "assertions": [
+        "occurrence",
+        "cutOff",
+        "accuracy"
+      ],
+      "severity": "significant",
+      "amountMinor": 18750000,
+      "summary": "MJ-000024 \"INV-2025-1499 Brightwater Developments - Phase 3 final account\" £187,500: keyed 2026-02-11, 42 days after the year end, into 2025-12-30; no approver; credits revenue outside the sales ledger",
+      "evidenceIds": [
+        "MJ-000024",
+        "tom.finance",
+        "C003",
+        "1100",
+        "4000",
+        "2200"
+      ]
+    },
+    {
+      "mustTest": {
+        "PAY-02": [
+          "E019"
+        ],
+        "PAY-03": [
+          "B25-01153",
+          "B25-01350",
+          "B25-01566",
+          "B25-01749",
+          "B25-01959",
+          "B25-02152"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "payroll:leaver-paid:E019",
+      "detector": "leaver paid after leaving date",
+      "areas": [
+        "payroll"
+      ],
+      "assertions": [
+        "occurrence",
+        "existence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 1398600,
+      "summary": "Callum Reed (E019) left on 2025-06-30 but received 6 bank payments totalling £13,986 after that date (2025-07-25 to 2025-12-25)",
+      "evidenceIds": [
+        "E019",
+        "B25-01153",
+        "B25-01350",
+        "B25-01566",
+        "B25-01749",
+        "B25-01959",
+        "B25-02152"
+      ]
+    },
+    {
+      "mustTest": {
+        "PAY-02": [
+          "E019"
+        ]
+      },
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "payroll:starters-leavers",
+      "detector": "leaver paid after leaving date",
+      "areas": [
+        "payroll"
+      ],
+      "assertions": [
+        "occurrence",
+        "accuracy"
+      ],
+      "severity": "info",
+      "amountMinor": null,
+      "summary": "1 employee joined or left in the year: Callum Reed (E019, left 2025-06-30)",
+      "evidenceIds": [
+        "E019"
+      ]
+    },
+    {
+      "mustTest": {
+        "RP-03": [
+          "MJ-000016"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "rp:director-balance:E001",
+      "detector": "related-party transactions",
+      "areas": [
+        "relatedParties"
+      ],
+      "assertions": [
+        "presentation",
+        "existence",
+        "rightsAndObligations"
+      ],
+      "severity": "significant",
+      "amountMinor": 3500000,
+      "summary": "Martin Ashworth (Managing director, 80% shareholder) had a balance owed to the company: MJ-000016 \"Advance - M Ashworth\" £35,000 posted by martin.md with no approver; above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed",
+      "evidenceIds": [
+        "E001",
+        "MJ-000016",
+        "martin.md"
+      ]
+    },
+    {
+      "mustTest": {
+        "RP-02": [
+          "PI-000051",
+          "PI-000105",
+          "PI-000168",
+          "PI-000234",
+          "PI-000303",
+          "PI-000375",
+          "PI-000444",
+          "PI-000504",
+          "PI-000573",
+          "PI-000642",
+          "PI-000705",
+          "PI-000753",
+          "PI-000769"
+        ],
+        "JNL-03": [
+          "PI-000769"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "rp:transactions:S029",
+      "detector": "related-party transactions",
+      "areas": [
+        "relatedParties"
+      ],
+      "assertions": [
+        "presentation",
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 2880000,
+      "summary": "13 transactions with related party Ashworth Property Ltd (Company controlled by Martin Ashworth (director and majority shareholder); landlord of Unit 4), £151,200; outside the recurring pattern: PI-000769 \"Ashworth Property Ltd - Refurbishment of Unit 4 - as agreed\" £28,800 coded to 7100/2201",
+      "evidenceIds": [
+        "S029",
+        "PI-000769",
+        "PI-000051",
+        "PI-000105",
+        "PI-000168"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "tb:ledger-mismatch:2201",
+      "detector": "ledger to trial balance",
+      "areas": [
+        "vat"
+      ],
+      "assertions": [
+        "accuracy",
+        "completeness"
+      ],
+      "severity": "info",
+      "amountMinor": 62400,
+      "summary": "ledger movement on 2201 VAT on purchases (input) differs from the trial balance by -£624; unbalanced voucher PI-000776",
+      "evidenceIds": [
+        "2201",
+        "PI-000776"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "tb:movement:1100",
+      "detector": "balance analytics",
+      "areas": [
+        "debtors"
+      ],
+      "assertions": [
+        "existence",
+        "valuation"
+      ],
+      "severity": "elevated",
+      "amountMinor": 51238868,
+      "summary": "1100 Trade debtors moved from £158,427 to £670,815 (323%)",
+      "evidenceIds": [
+        "1100"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "tb:movement:2100",
+      "detector": "balance analytics",
+      "areas": [
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "completeness",
+        "existence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 10602140,
+      "summary": "2100 Trade creditors moved from -£102,254 to -£208,275 (-104%)",
+      "evidenceIds": [
+        "2100"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "tb:non-standard-code:MISC-OPS",
+      "detector": "ledger to trial balance",
+      "areas": [
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "classification"
+      ],
+      "severity": "elevated",
+      "amountMinor": 3157700,
+      "summary": "65 lines (£31,577) posted to MISC-OPS, a code with no category in the chart, which FY24-09 last year said would be retired (Bookkeeper to reclassify and retire the code in 2025. Immaterial.)",
+      "evidenceIds": [
+        "MISC-OPS",
+        "FY24-09",
+        "PI-000005",
+        "PI-000009",
+        "PI-000041",
+        "PI-000029",
+        "PI-000039"
+      ]
+    },
+    {
+      "mustTest": {
+        "VAT-01": [
+          "MJ-000010",
+          "B25-01230",
+          "B26-00140"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "vat:returns-vs-ledger",
+      "detector": "VAT returns against control accounts",
+      "areas": [
+        "vat"
+      ],
+      "assertions": [
+        "completeness",
+        "accuracy"
+      ],
+      "severity": "significant",
+      "amountMinor": 21586908,
+      "summary": "the VAT returns for Q2 2025 and Q4 2025 declare £215,869 less than the VAT control accounts record: Q2 2025 declared -£30,553 against £68,823 net in the ledger; Q4 2025 declared -£3,013 against £113,480 net in the ledger",
+      "evidenceIds": [
+        "MJ-000010",
+        "B25-01230",
+        "B26-00140"
+      ]
+    }
+  ],
+  "budget": {
+    "totalHours": 207.5,
+    "budgetHours": 120,
+    "gapHours": 87.5,
+    "mandatoryHours": 52,
+    "deferrable": [
+      {
+        "procedureId": "BNK-03",
+        "hours": 4,
+        "consequence": "bankCash (elevated) loses its completeness/existence procedure \"Bank statement to ledger matching\""
+      },
+      {
+        "procedureId": "ACC-01",
+        "hours": 3,
+        "consequence": "accrualsProvisions (elevated) loses its completeness/accuracy/existence procedure \"Accruals and provisions review\""
+      },
+      {
+        "procedureId": "FA-01",
+        "hours": 3,
+        "consequence": "fixedAssets (elevated) loses its existence/valuation/rightsAndObligations procedure \"Fixed asset additions\""
+      },
+      {
+        "procedureId": "REV-02",
+        "hours": 24,
+        "consequence": "revenue (significant) loses its cutOff/occurrence procedure \"Sales cut-off testing\""
+      },
+      {
+        "procedureId": "DEB-02",
+        "hours": 21.5,
+        "consequence": "debtors (significant) loses its existence/rightsAndObligations procedure \"Debtor confirmations\""
+      },
+      {
+        "procedureId": "REV-05",
+        "hours": 16,
+        "consequence": "revenue (significant) loses its existence/valuation procedure \"Subsequent receipts testing\""
+      },
+      {
+        "procedureId": "PUR-02",
+        "hours": 13.5,
+        "consequence": "purchasesCreditors (significant) loses its completeness/existence procedure \"Supplier statement reconciliations\""
+      },
+      {
+        "procedureId": "PUR-05",
+        "hours": 10.5,
+        "consequence": "purchasesCreditors (significant) loses its completeness/cutOff procedure \"Purchase cut-off and unrecorded liabilities\""
+      },
+      {
+        "procedureId": "REV-04",
+        "hours": 10,
+        "consequence": "revenue (significant) loses its accuracy/cutOff/valuation procedure \"Contract revenue and stage of completion\""
+      },
+      {
+        "procedureId": "PAY-03",
+        "hours": 5,
+        "consequence": "payroll (significant) loses its occurrence/existence procedure \"Payroll existence: bank to payroll register\""
+      },
+      {
+        "procedureId": "REV-03",
+        "hours": 5,
+        "consequence": "revenue (significant) loses its occurrence/accuracy/cutOff procedure \"Manual and non-standard revenue entries\""
+      },
+      {
+        "procedureId": "RP-02",
+        "hours": 5,
+        "consequence": "relatedParties (significant) loses its presentation/accuracy/classification procedure \"Terms and disclosure of related-party transactions\""
+      },
+      {
+        "procedureId": "PAY-02",
+        "hours": 4,
+        "consequence": "payroll (significant) loses its occurrence/accuracy procedure \"Starters and leavers\""
+      },
+      {
+        "procedureId": "PUR-03",
+        "hours": 4,
+        "consequence": "purchasesCreditors (significant) loses its occurrence/accuracy procedure \"New supplier and approval-limit analytics\""
+      },
+      {
+        "procedureId": "REV-01",
+        "hours": 4,
+        "consequence": "revenue (significant) loses its completeness/occurrence/accuracy procedure \"Analytical review of revenue\""
+      },
+      {
+        "procedureId": "DEB-01",
+        "hours": 3,
+        "consequence": "debtors (significant) loses its valuation/existence procedure \"Debtors ageing and recoverability\""
+      },
+      {
+        "procedureId": "PAY-01",
+        "hours": 3,
+        "consequence": "payroll (significant) loses its completeness/accuracy procedure \"Payroll analytical review\""
+      },
+      {
+        "procedureId": "PUR-01",
+        "hours": 3,
+        "consequence": "purchasesCreditors (significant) loses its completeness/accuracy procedure \"Purchases analytical review\""
+      },
+      {
+        "procedureId": "RP-03",
+        "hours": 3,
+        "consequence": "relatedParties (significant) loses its presentation/existence/rightsAndObligations procedure \"Directors' loans, advances and personal expenditure\""
+      },
+      {
+        "procedureId": "VAT-01",
+        "hours": 3,
+        "consequence": "vat (significant) loses its accuracy/completeness procedure \"VAT reconciliation\""
+      },
+      {
+        "procedureId": "DEB-03",
+        "hours": 2,
+        "consequence": "debtors (significant) loses its existence/classification/valuation procedure \"Other debtors and prepayments\""
+      },
+      {
+        "procedureId": "PAY-04",
+        "hours": 2,
+        "consequence": "payroll (significant) loses its accuracy/completeness procedure \"PAYE and NI reconciliation\""
+      },
+      {
+        "procedureId": "PUR-04",
+        "hours": 2,
+        "consequence": "purchasesCreditors (significant) loses its occurrence procedure \"Duplicate and unusual payment analytics\""
+      },
+      {
+        "procedureId": "VAT-02",
+        "hours": 2,
+        "consequence": "vat (significant) loses its accuracy procedure \"Input VAT recoverability\""
+      }
+    ]
+  },
+  "questions": [
+    "FA-02: the file does not say whether the asset register has been physically verified in the last three years; treated as not applying and put to the partner. Programme: \"Where fixed asset existence is a significant risk or the register has not been verified in three years.\"",
+    "FA-03: the file does not say whether there are indicators of impairment; treated as not applying and put to the partner. Programme: \"Where indicators of impairment exist.\"",
+    "The plan needs 207.5h against a budget of 120h. Accept the overrun, or defer from the list in the budget section?"
+  ]
+}

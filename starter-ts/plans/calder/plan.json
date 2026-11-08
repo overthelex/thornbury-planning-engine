@@ -1,0 +1,2341 @@
+{
+  "clientId": "calder",
+  "riskAssessment": [
+    {
+      "area": "revenue",
+      "level": "significant",
+      "assertions": [
+        "completeness",
+        "cutOff",
+        "occurrence"
+      ],
+      "rationale": "Significant (R1 highest source: significant; R4 fraud risk presumed and not rebutted). Led by: fraud in revenue recognition presumed (ISA (UK) 240.26) and not rebutted: 661 revenue entries are raised by kate.office (+2 more sources).",
+      "evidenceIds": [
+        "CS-000020",
+        "CS-000021",
+        "CS-000034",
+        "CS-000035",
+        "N9",
+        "kate.office"
+      ]
+    },
+    {
+      "area": "debtors",
+      "level": "elevated",
+      "assertions": [
+        "existence",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated). Led by: 1100 Trade debtors moved from £75,935 to £210,658 (177%).",
+      "evidenceIds": [
+        "1100"
+      ]
+    },
+    {
+      "area": "purchasesCreditors",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "existence",
+        "occurrence"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated). Led by: kate.office posted and approved 384 purchase invoices (£744,419) (+3 more sources).",
+      "evidenceIds": [
+        "kate.office",
+        "PI-000477",
+        "PI-000489",
+        "PI-000101",
+        "PI-000470",
+        "PI-000126",
+        "2100",
+        "N11",
+        "N14"
+      ]
+    },
+    {
+      "area": "payroll",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "occurrence"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated; R6 raised by the notes alone (N7, N10): elevated at most until the data or the prior year corroborates it). Led by: N7 (hypothesis from the notes, to confirm in fieldwork): A senior leaver mid-year, with payroll prepared by one person and reviewed only at total level, creates a risk of payments after leaving or other errors going unnoticed. (\"Marcus, the head brewer, left at the end of October\") (+1 more source).",
+      "evidenceIds": [
+        "N7",
+        "N10"
+      ]
+    },
+    {
+      "area": "fixedAssets",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "existence",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated; R6 raised by the notes alone (N3, N6, N15): elevated at most until the data or the prior year corroborates it). Led by: N3 (hypothesis from the notes, to confirm in fieldwork): The canning line is only running two days a week, which may mean it is under-used and its carrying value is impaired. (\"the canning line bought in 2024 is now running two days a week\") (+2 more sources).",
+      "evidenceIds": [
+        "N3",
+        "N6",
+        "N15"
+      ]
+    },
+    {
+      "area": "bankCash",
+      "level": "elevated",
+      "assertions": [
+        "completeness",
+        "existence",
+        "occurrence",
+        "presentation",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated). Led by: the account was overdrawn on 82 statement dates (2025-05-30 to 2025-12-31), lowest -£161,323, and at the year end (-£1,309) (+2 more sources).",
+      "evidenceIds": [
+        "B25-00481",
+        "B25-01188",
+        "B25-01396",
+        "N9",
+        "N14"
+      ]
+    },
+    {
+      "area": "relatedParties",
+      "level": "significant",
+      "assertions": [
+        "classification",
+        "completeness",
+        "occurrence",
+        "presentation"
+      ],
+      "rationale": "Significant (R1 highest source: significant). Led by: purchase invoices for work at a street address other than the registered office: PI-000494 \"Hebden Kitchen Studio - Kitchen supply and fit - 14 Birchcliffe Road\" £10,080, coded to 7700/2201, input VAT reclaimed; the company paid £10,080, so if the work was for a director, above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed (+2 more sources).",
+      "evidenceIds": [
+        "PI-000494",
+        "S011",
+        "N10",
+        "N11"
+      ]
+    },
+    {
+      "area": "journalsManagementOverride",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "cutOff",
+        "occurrence",
+        "valuation"
+      ],
+      "rationale": "Significant (R1 highest source: elevated; R2 corroborated by data + notes, exposure £56,000 at or above performance materiality £22,500). Led by: MJ-000016 \"Year-end stock adjustment per count sheets\" £56,000: round sum (+6 more sources).",
+      "evidenceIds": [
+        "MJ-000016",
+        "kate.office",
+        "1000",
+        "1010",
+        "1020",
+        "5200",
+        "N2",
+        "N5",
+        "N8",
+        "N11",
+        "N14",
+        "N15"
+      ]
+    },
+    {
+      "area": "goingConcern",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "presentation",
+        "valuation"
+      ],
+      "rationale": "Significant (R1 highest source: elevated; R8 borrowing covenants are tested on these accounts (N5: \"The loan agreement contains two covenants tested annually on the audited accounts\") and the data shows liquidity stress (overdrawn) and covenant inputs misstated (loan interest posted elsewhere): a breach would make the loan repayable and change its classification). Led by: the account was overdrawn on 82 statement dates (2025-05-30 to 2025-12-31), lowest -£161,323, and at the year end (-£1,309) (+6 more sources).",
+      "evidenceIds": [
+        "B25-00481",
+        "B25-01188",
+        "B25-01396",
+        "2300",
+        "7903",
+        "BK-000001",
+        "BK-000004",
+        "BK-000008",
+        "7900",
+        "N3",
+        "N4",
+        "N5",
+        "N6",
+        "N17"
+      ]
+    },
+    {
+      "area": "stock",
+      "level": "significant",
+      "assertions": [
+        "completeness",
+        "cutOff",
+        "existence",
+        "occurrence",
+        "valuation"
+      ],
+      "rationale": "Significant (R1 highest source: elevated; R2 corroborated by data + notes, exposure £56,000 at or above performance materiality £22,500). Led by: MJ-000016 \"Year-end stock adjustment per count sheets\" £56,000: round sum (+5 more sources).",
+      "evidenceIds": [
+        "MJ-000016",
+        "kate.office",
+        "1000",
+        "1010",
+        "1020",
+        "5200",
+        "N8",
+        "N16",
+        "N18"
+      ]
+    },
+    {
+      "area": "openingBalances",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "existence",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated; R6 raised by the notes alone (N2, N15, N16): elevated at most until the data or the prior year corroborates it). Led by: N2 (hypothesis from the notes, to confirm in fieldwork): FY2025 is the first audited year and the brought-forward balances come from compiled, unaudited FY2024 accounts, so opening balances and comparatives may be misstated. (\"The FY2024 accounts were compiled, not audited, by Hill & Co\") (+3 more sources).",
+      "evidenceIds": [
+        "N2",
+        "N15",
+        "N16",
+        "company.json"
+      ]
+    },
+    {
+      "area": "vat",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "occurrence",
+        "presentation"
+      ],
+      "rationale": "Significant (R1 highest source: significant). Led by: purchase invoices for work at a street address other than the registered office: PI-000494 \"Hebden Kitchen Studio - Kitchen supply and fit - 14 Birchcliffe Road\" £10,080, coded to 7700/2201, input VAT reclaimed; the company paid £10,080, so if the work was for a director, above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed (+2 more sources).",
+      "evidenceIds": [
+        "PI-000494",
+        "S011",
+        "MJ-000010",
+        "B25-00780",
+        "B26-00096",
+        "N11"
+      ]
+    },
+    {
+      "area": "accrualsProvisions",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "valuation"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated). Led by: 2250 Accruals closes at -£6,200, exactly its opening balance, with no postings in the year: the year-end estimate appears not to have been made (+1 more source).",
+      "evidenceIds": [
+        "2250",
+        "N12"
+      ]
+    },
+    {
+      "area": "completion",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness"
+      ],
+      "rationale": "Elevated (R1 highest source: elevated; R6 raised by the notes alone (N12): elevated at most until the data or the prior year corroborates it). Led by: N12 (hypothesis from the notes, to confirm in fieldwork): The beer duty rate changed in the year and only the external accountant updated the template, so duty returns may be non-compliant. (\"The rate changed in February 2025\").",
+      "evidenceIds": [
+        "N12"
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "procedureId": "REV-01",
+      "area": "revenue",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to completeness, occurrence at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 4
+    },
+    {
+      "procedureId": "REV-02",
+      "area": "revenue",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to cutOff, occurrence at risk.",
+      "evidenceIds": [],
+      "extent": "40 items (significant, REV-02's own table)",
+      "hours": 24
+    },
+    {
+      "procedureId": "REV-03",
+      "area": "revenue",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to occurrence, cutOff at risk. Programme level elevated. Applies because revenue is a significant risk.",
+      "evidenceIds": [],
+      "extent": "the file holds no items in this procedure's population; confirm the client's own listing agrees, at programme hours",
+      "hours": 5
+    },
+    {
+      "procedureId": "REV-04",
+      "area": "revenue",
+      "level": "elevated",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: no paragraph of the planning notes mentions a contract, and nothing in the ledger is billed by stage of completion. Programme: \"Where long-term contracts span the year end.\"",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "REV-05",
+      "area": "revenue",
+      "level": "baseline",
+      "extentArea": "debtors",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed elevated. Extent set by debtors (elevated), which this procedure also responds to. Responds to existence, valuation at risk. Applies because the company has trade debtors.",
+      "evidenceIds": [
+        "1100"
+      ],
+      "extent": "25 items (elevated, the firm's general table)",
+      "hours": 10
+    },
+    {
+      "procedureId": "REV-06",
+      "area": "revenue",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "revenue is assessed significant. Responds to completeness, occurrence at risk. Programme level elevated. Applies because cash and card takings are a material revenue stream (£497,789 credited to 4020 through the takings journal). Must cover: no takings are recorded for weeks 19, 20, 33 of 52; at the median week (£9,563) that is about £28,688 of revenue.",
+      "evidenceIds": [
+        "4020",
+        "CS-000020",
+        "CS-000021"
+      ],
+      "extent": "40 weeks (significant, the firm's general table, capped at the 52 weeks in the year), including week 19, week 20, week 33",
+      "hours": 13.5
+    },
+    {
+      "procedureId": "DEB-01",
+      "area": "debtors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "debtors is assessed elevated. Responds to valuation, existence at risk. Applies because the company has trade debtors.",
+      "evidenceIds": [
+        "1100"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "DEB-02",
+      "area": "debtors",
+      "level": "significant",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: debtor existence is not a significant risk (debtors assessed elevated). Programme: \"Where debtor existence is a significant risk.\"",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 0
+    },
+    {
+      "procedureId": "DEB-03",
+      "area": "debtors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "debtors is assessed elevated. Responds to existence, valuation at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "PUR-01",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed elevated. Responds to completeness, accuracy at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "PUR-02",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed elevated. Responds to completeness, existence at risk. Applies because the company has trade creditors.",
+      "evidenceIds": [
+        "2100"
+      ],
+      "extent": "25 items (elevated, the firm's general table)",
+      "hours": 8.5
+    },
+    {
+      "procedureId": "PUR-03",
+      "area": "purchasesCreditors",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed elevated. Responds to occurrence, accuracy at risk. Programme level elevated. Applies because purchases are assessed elevated.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 4
+    },
+    {
+      "procedureId": "PUR-04",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed elevated. Responds to occurrence at risk. Applies because the company keeps a purchase ledger.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "PUR-05",
+      "area": "purchasesCreditors",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "purchasesCreditors is assessed elevated. Responds to completeness at risk.",
+      "evidenceIds": [],
+      "extent": "25 items (elevated, the firm's general table)",
+      "hours": 6.5
+    },
+    {
+      "procedureId": "PAY-01",
+      "area": "payroll",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed elevated. Responds to accuracy at risk. Applies because 18 employees.",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "PAY-02",
+      "area": "payroll",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed elevated. Responds to occurrence, accuracy at risk. Programme level elevated. Applies because payroll is assessed elevated. Must cover: 1 employee joined or left in the year.",
+      "evidenceIds": [
+        "E004"
+      ],
+      "extent": "every item the file identifies: 1 (E004); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 4
+    },
+    {
+      "procedureId": "PAY-03",
+      "area": "payroll",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed elevated. Responds to occurrence at risk. Programme level elevated. Applies because segregation in payroll is weak: the payroll is approved by kate.office, who can also post to the ledger.",
+      "evidenceIds": [
+        "kate.office"
+      ],
+      "extent": "all 12 months (elevated, the firm's general table, capped at the 12 months in the year)",
+      "hours": 5
+    },
+    {
+      "procedureId": "PAY-04",
+      "area": "payroll",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "payroll is assessed elevated. Responds to accuracy at risk. Applies because 18 employees.",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "FA-01",
+      "area": "fixedAssets",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "fixedAssets is assessed elevated. Responds to existence, valuation at risk. Applies because the company has fixed assets.",
+      "evidenceIds": [
+        "0020",
+        "0030",
+        "0050"
+      ],
+      "extent": "additions above performance materiality plus a sample of ten below (programme extent)",
+      "hours": 3
+    },
+    {
+      "procedureId": "FA-02",
+      "area": "fixedAssets",
+      "level": "significant",
+      "status": "notApplicable",
+      "selected": false,
+      "reason": "Does not apply: the file does not say whether the asset register has been physically verified in the last three years; treated as not applying and put to the partner. Programme: \"Where fixed asset existence is a significant risk or the register has not been verified in three years.\"",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 0,
+      "unknown": true
+    },
+    {
+      "procedureId": "FA-03",
+      "area": "fixedAssets",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "fixedAssets is assessed elevated. Responds to valuation at risk. Programme level elevated. Applies because there are indicators of impairment: N3 says \"the canning line bought in 2024 is now running two days a week\".",
+      "evidenceIds": [
+        "N3"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "BNK-01",
+      "area": "bankCash",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to existence, completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "BNK-02",
+      "area": "bankCash",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to existence, completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "BNK-03",
+      "area": "bankCash",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "bankCash is assessed elevated. Responds to completeness, existence at risk. Programme level elevated. Applies because cash is handled.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 4
+    },
+    {
+      "procedureId": "RP-01",
+      "area": "relatedParties",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to completeness, presentation at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "RP-02",
+      "area": "relatedParties",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "relatedParties is assessed significant. Responds to presentation, classification at risk. Programme level elevated. Applies because transactions with related parties are in the ledger; related persons who are not directors are on the payroll (Rosie Crossley). Must cover: purchase invoices for work at a street address other than the registered office; related persons employed other than as directors.",
+      "evidenceIds": [
+        "PI-000494",
+        "E002",
+        "S011"
+      ],
+      "extent": "every item the file identifies: 2 (E002, PI-000494); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 5
+    },
+    {
+      "procedureId": "RP-03",
+      "area": "relatedParties",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "relatedParties is assessed significant. Responds to presentation at risk. Programme level elevated. Applies because a director's balance or personal expenditure exists or existed in the year. Must cover: purchase invoices for work at a street address other than the registered office.",
+      "evidenceIds": [
+        "PI-000494",
+        "S011"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "JNL-01",
+      "area": "journalsManagementOverride",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to occurrence, accuracy, cutOff at risk. Must cover: MJ-000016 \"Year-end stock adjustment per count sheets\" £56,000.",
+      "evidenceIds": [
+        "MJ-000016",
+        "kate.office"
+      ],
+      "extent": "sample of 50 (significant, JNL-01's own table) plus 1 must-test: MJ-000016",
+      "hours": 27
+    },
+    {
+      "procedureId": "JNL-02",
+      "area": "journalsManagementOverride",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to valuation at risk.",
+      "evidenceIds": [],
+      "extent": "every item the file identifies: 5 (1000, 1010, 1020, 2250, 8000); the procedure tests the whole population, so the risk level does not change the sample",
+      "hours": 3
+    },
+    {
+      "procedureId": "JNL-03",
+      "area": "journalsManagementOverride",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to occurrence at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "GC-01",
+      "area": "goingConcern",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to presentation, valuation at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "GC-02",
+      "area": "goingConcern",
+      "level": "significant",
+      "status": "selected",
+      "selected": true,
+      "reason": "goingConcern is assessed significant. Responds to valuation, presentation at risk. Programme level significant. Applies because borrowing covenants exist: N5 says \"The loan agreement contains two covenants tested annually on the audited accounts\".",
+      "evidenceIds": [
+        "N5"
+      ],
+      "extent": null,
+      "hours": 8
+    },
+    {
+      "procedureId": "STK-01",
+      "area": "stock",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to existence, completeness at risk. Applies because stock is material (234,000 at the year end).",
+      "evidenceIds": [
+        "1000",
+        "1010",
+        "1020"
+      ],
+      "extent": "the year-end count took place without us (planning is dated 2026-02-13, after the year end 2025-12-31; the notes say so: N8, N18), so per the programme: attend a count after the year end and roll back to the year-end quantities using the movement records",
+      "hours": 8
+    },
+    {
+      "procedureId": "STK-02",
+      "area": "stock",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "stock is assessed significant. Responds to valuation at risk. Applies because stock is material (234,000 at the year end).",
+      "evidenceIds": [
+        "1000",
+        "1010",
+        "1020"
+      ],
+      "extent": "40 items (significant, the firm's general table)",
+      "hours": 16
+    },
+    {
+      "procedureId": "OB-01",
+      "area": "openingBalances",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to existence, completeness, valuation at risk. Applies because first-year engagement.",
+      "evidenceIds": [
+        "company.json"
+      ],
+      "extent": null,
+      "hours": 10
+    },
+    {
+      "procedureId": "VAT-01",
+      "area": "vat",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "vat is assessed significant. Responds to accuracy, completeness at risk. Applies because VAT-registered: VAT control accounts are in use. Must cover: the VAT returns for Q2 2025 and Q4 2025 declare £109,036 less than the VAT control accounts record.",
+      "evidenceIds": [
+        "2200",
+        "2201",
+        "2202",
+        "B25-00780",
+        "B26-00096",
+        "MJ-000010"
+      ],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "VAT-02",
+      "area": "vat",
+      "level": "elevated",
+      "status": "selected",
+      "selected": true,
+      "reason": "vat is assessed significant. Responds to accuracy at risk. Programme level elevated. Applies because this year's ledger shows input VAT reclaimed on hospitality or non-business costs. Must cover: purchase invoices for work at a street address other than the registered office.",
+      "evidenceIds": [
+        "PI-000494",
+        "S011"
+      ],
+      "extent": null,
+      "hours": 2
+    },
+    {
+      "procedureId": "ACC-01",
+      "area": "accrualsProvisions",
+      "level": "baseline",
+      "status": "selected",
+      "selected": true,
+      "reason": "accrualsProvisions is assessed elevated. Responds to completeness, accuracy at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "COMP-01",
+      "area": "completion",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 3
+    },
+    {
+      "procedureId": "COMP-02",
+      "area": "completion",
+      "level": "mandatory",
+      "status": "selected",
+      "selected": true,
+      "reason": "Mandatory: runs on every engagement where it applies. Responds to completeness at risk.",
+      "evidenceIds": [],
+      "extent": null,
+      "hours": 2
+    }
+  ],
+  "totalHours": 216.5,
+  "budgetHours": 150,
+  "limitations": [
+    "The engine plans from the file as received; it has not seen the client's systems, minutes or contracts.",
+    "Planning notes are read through a committed model extraction (claude-opus-5-5, claude-opus-5-5, claude-sonnet-5-5; 3 runs, majority of two). 12 items were dropped as unverified or not agreed by two runs; they are listed in plan.json under notesExtraction.disagreements.",
+    "Hours are the programme's baseline hours scaled linearly with sample size; must-test items under JNL-01 are added at the per-item rate.",
+    "ISA (UK) 240 treats management override as a significant risk on every audit; the firm's response is the three mandatory JNL procedures, and the area level here sets their extent."
+  ],
+  "rulesetVersion": "2026.11-2",
+  "inputs": {
+    "data/programme/audit_programme.md": "7902fad7c0d0a96738542d9cb90e959ca7653530fe4c7e17db1aa55aca47302d",
+    "data/clients/calder/accounts.csv": "081b65d742d27a75bedc7581cfbe3fd6de4910efbff44b5bd696b240aadc33a8",
+    "data/clients/calder/bank_statement_2025.csv": "3afedac6eef64be2a2152ca1366e7aca1a72f0ef105400a2a1ef19839f6efd73",
+    "data/clients/calder/bank_statement_2026q1.csv": "84336306255cd44301d8d20bcd7f139326bd2cbbb4960aac1de9fc8cea198af4",
+    "data/clients/calder/company.json": "94cc3ffbe93de8c93c5c65dca5bed14d9ace742ba86129092a38cf00963f3055",
+    "data/clients/calder/ledger.jsonl": "56b6e45482477df8f4110d0a31eda4f8d708f776b35b15f75b99554a0c718cd7",
+    "data/clients/calder/parties.csv": "8cee687fe09b6b709e6343700a13ee90cf72d182c4fb1f92bf303312327c058a",
+    "data/clients/calder/planning_notes.md": "a52ae219d38f394c281903efb5af92794d8a161f70c59f0007c183bc4629805e",
+    "data/clients/calder/prior_year_findings.jsonl": "0bfb2608a9ff5f8bd4be04cf75db60fbf26103f9e8e1d08017922f00112258b5",
+    "data/clients/calder/tax_codes.csv": "5fc3406c98e649ad3b2b83b9775aa6c7a31f21328268353a980587c839bab5d1",
+    "data/clients/calder/trial_balance.csv": "2530a53d4608742271b09212ef00a7e4841466c8ec5f902e8db08c442b7cc12c"
+  },
+  "notesExtraction": {
+    "file": "data/derived/calder/notes_extraction.json",
+    "models": [
+      "claude-opus-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+    ],
+    "inputSha256": "a52ae219d38f394c281903efb5af92794d8a161f70c59f0007c183bc4629805e",
+    "promptSha256": "48f8b112733f579e345c25a4b7441a57397128006b65deb279d314bea4547116",
+    "runs": 3,
+    "disagreements": [
+      "claim N4 / purchasesCreditors / raises made by 1 of 3 runs; not used",
+      "claim N11 / payroll / raises made by 1 of 3 runs; not used",
+      "claim N15 / purchasesCreditors / raises made by 1 of 3 runs; not used",
+      "claim N15 / fixedAssets / raises made by 1 of 3 runs; not used",
+      "claim N15 / goingConcern / raises made by 1 of 3 runs; not used",
+      "claim N17 / journalsManagementOverride / raises made by 1 of 3 runs; not used",
+      "claim N4 / accrualsProvisions / raises made by 1 of 3 runs; not used",
+      "claim N5 / completion / raises made by 1 of 3 runs; not used",
+      "claim N7 / payroll / lowers made by 1 of 3 runs; not used",
+      "claim N15 / accrualsProvisions / raises made by 1 of 3 runs; not used",
+      "claim N17 / bankCash / raises made by 1 of 3 runs; not used",
+      "claim N18 / openingBalances / raises made by 1 of 3 runs; not used"
+    ]
+  },
+  "areas": [
+    {
+      "area": "revenue",
+      "level": "significant",
+      "assertions": [
+        "completeness",
+        "cutOff",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: significant",
+        "R4 fraud risk presumed and not rebutted"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "completeness"
+          ],
+          "amountMinor": 2868750,
+          "exposure": true,
+          "text": "no takings are recorded for weeks 19, 20, 33 of 52; at the median week (£9,563) that is about £28,688 of revenue",
+          "evidenceIds": [
+            "CS-000020",
+            "CS-000021",
+            "CS-000034",
+            "CS-000035"
+          ],
+          "ref": "takings:missing-weeks"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N9 (hypothesis from the notes, to confirm in fieldwork): Cash takings are counted and banked by one person and recorded weekly from Z-reads, so cash sales could be understated or misappropriated. (\"Cash is counted by Kate on Mondays and banked on Tuesdays.\")",
+          "evidenceIds": [
+            "N9"
+          ],
+          "ref": "note:N9"
+        },
+        {
+          "kind": "standard",
+          "severity": "significant",
+          "assertions": [
+            "occurrence",
+            "cutOff"
+          ],
+          "amountMinor": null,
+          "text": "fraud in revenue recognition presumed (ISA (UK) 240.26) and not rebutted: 661 revenue entries are raised by kate.office",
+          "evidenceIds": [
+            "kate.office"
+          ],
+          "ref": "ISA240.26"
+        }
+      ],
+      "mitigating": [
+        {
+          "kind": "notes",
+          "severity": "info",
+          "assertions": [
+            "completeness",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N9 (hypothesis from the notes, to confirm in fieldwork): Card takings settle daily to the bank, which gives independent evidence for that part of taproom income. (\"card terminal settles daily to the bank\")",
+          "evidenceIds": [
+            "N9"
+          ],
+          "ref": "note:N9"
+        }
+      ],
+      "exposureMinor": 2868750,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "debtors",
+      "level": "elevated",
+      "assertions": [
+        "existence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "valuation"
+          ],
+          "amountMinor": 13472267,
+          "exposure": false,
+          "text": "1100 Trade debtors moved from £75,935 to £210,658 (177%)",
+          "evidenceIds": [
+            "1100"
+          ],
+          "ref": "tb:movement:1100"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "purchasesCreditors",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "existence",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: elevated"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": 74441895,
+          "exposure": false,
+          "text": "kate.office posted and approved 384 purchase invoices (£744,419)",
+          "evidenceIds": [
+            "kate.office",
+            "PI-000477",
+            "PI-000489",
+            "PI-000101",
+            "PI-000470",
+            "PI-000126"
+          ],
+          "ref": "approval:self:kate.office"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "existence"
+          ],
+          "amountMinor": 9030051,
+          "exposure": false,
+          "text": "2100 Trade creditors moved from -£64,983 to -£155,283 (-139%)",
+          "evidenceIds": [
+            "2100"
+          ],
+          "ref": "tb:movement:2100"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "classification",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N11 (hypothesis from the notes, to confirm in fieldwork): Home works invoices may be recorded as company expenses or assets. (\"sorted through the company\")",
+          "evidenceIds": [
+            "N11"
+          ],
+          "ref": "note:N11"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N14 (hypothesis from the notes, to confirm in fieldwork): With no written approval policy, purchases may be recorded without proper authorisation. (\"No written approval policy.\")",
+          "evidenceIds": [
+            "N14"
+          ],
+          "ref": "note:N14"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "payroll",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "occurrence"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R6 raised by the notes alone (N7, N10): elevated at most until the data or the prior year corroborates it"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "info",
+          "assertions": [
+            "occurrence",
+            "accuracy"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "1 employee joined or left in the year: Marcus Whitely (E004, left 2025-10-31)",
+          "evidenceIds": [
+            "E004"
+          ],
+          "ref": "payroll:starters-leavers"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N7 (hypothesis from the notes, to confirm in fieldwork): A senior leaver mid-year, with payroll prepared by one person and reviewed only at total level, creates a risk of payments after leaving or other errors going unnoticed. (\"Marcus, the head brewer, left at the end of October\")",
+          "evidenceIds": [
+            "N7"
+          ],
+          "ref": "note:N7"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N10 (hypothesis from the notes, to confirm in fieldwork): The partner's pay rests only on the director's assertion, so it may be excessive or not match the hours actually worked. (\"the same as we'd pay anyone\")",
+          "evidenceIds": [
+            "N10"
+          ],
+          "ref": "note:N10"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "fixedAssets",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "existence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R6 raised by the notes alone (N3, N6, N15): elevated at most until the data or the prior year corroborates it"
+      ],
+      "sources": [
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N3 (hypothesis from the notes, to confirm in fieldwork): The canning line is only running two days a week, which may mean it is under-used and its carrying value is impaired. (\"the canning line bought in 2024 is now running two days a week\")",
+          "evidenceIds": [
+            "N3"
+          ],
+          "ref": "note:N3"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "accuracy",
+            "classification"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N6 (hypothesis from the notes, to confirm in fieldwork): Material additions in the year need to be vouched and correctly capitalised and depreciated. (\"Two 60hl fermentation vessels were bought from Brewtech in August\")",
+          "evidenceIds": [
+            "N6"
+          ],
+          "ref": "note:N6"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N15: estimate needed: Depreciation and useful lives of fixed assets (\"They post depreciation and year-end journals on Kate's instruction\")",
+          "evidenceIds": [
+            "N15"
+          ],
+          "ref": "estimate:N15"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "bankCash",
+      "level": "elevated",
+      "assertions": [
+        "completeness",
+        "existence",
+        "occurrence",
+        "presentation",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "presentation",
+            "valuation"
+          ],
+          "amountMinor": 16132348,
+          "exposure": false,
+          "text": "the account was overdrawn on 82 statement dates (2025-05-30 to 2025-12-31), lowest -£161,323, and at the year end (-£1,309)",
+          "evidenceIds": [
+            "B25-00481",
+            "B25-01188",
+            "B25-01396"
+          ],
+          "ref": "bank:overdrawn"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N9 (hypothesis from the notes, to confirm in fieldwork): Cash is counted and banked by one person with no independent check, so cash could be lost or misappropriated before banking. (\"Cash is counted by Kate on Mondays and banked on Tuesdays.\")",
+          "evidenceIds": [
+            "N9"
+          ],
+          "ref": "note:N9"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N14 (hypothesis from the notes, to confirm in fieldwork): The director releases every payment with no second signatory, so unauthorised payments could go undetected. (\"Dan releases all BACS payments.\")",
+          "evidenceIds": [
+            "N14"
+          ],
+          "ref": "note:N14"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "relatedParties",
+      "level": "significant",
+      "assertions": [
+        "classification",
+        "completeness",
+        "occurrence",
+        "presentation"
+      ],
+      "rules": [
+        "R1 highest source: significant"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "presentation",
+            "occurrence",
+            "classification"
+          ],
+          "amountMinor": 1008000,
+          "exposure": true,
+          "text": "purchase invoices for work at a street address other than the registered office: PI-000494 \"Hebden Kitchen Studio - Kitchen supply and fit - 14 Birchcliffe Road\" £10,080, coded to 7700/2201, input VAT reclaimed; the company paid £10,080, so if the work was for a director, above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed",
+          "evidenceIds": [
+            "PI-000494",
+            "S011"
+          ],
+          "ref": "rp:personal-expenditure"
+        },
+        {
+          "kind": "data",
+          "severity": "info",
+          "assertions": [
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "related persons employed other than as directors: Rosie Crossley (Partner of Dan Crossley; taproom supervisor, 20 hours a week); their pay is a related-party transaction",
+          "evidenceIds": [
+            "E002"
+          ],
+          "ref": "rp:related-employees"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N10 (hypothesis from the notes, to confirm in fieldwork): The director's partner is employed and paid at a rate only asserted to be arm's length, which requires related party disclosure and checking of her pay. (\"Rosie Crossley, Dan's partner, supervises the taproom 20 hours a week\")",
+          "evidenceIds": [
+            "N10"
+          ],
+          "ref": "note:N10"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "classification",
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N11 (hypothesis from the notes, to confirm in fieldwork): Personal home works were paid by the company, so the director's loan account and related party disclosures may be incomplete. (\"had some work done at home in the summer, sorted through the company\")",
+          "evidenceIds": [
+            "N11"
+          ],
+          "ref": "note:N11"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 1008000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "journalsManagementOverride",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "cutOff",
+        "occurrence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R2 corroborated by data + notes, exposure £56,000 at or above performance materiality £22,500"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "cutOff"
+          ],
+          "amountMinor": 5600000,
+          "exposure": true,
+          "text": "MJ-000016 \"Year-end stock adjustment per count sheets\" £56,000: round sum",
+          "evidenceIds": [
+            "MJ-000016",
+            "kate.office",
+            "1000",
+            "1010",
+            "1020",
+            "5200"
+          ],
+          "ref": "journal:MJ-000016"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N2 (hypothesis from the notes, to confirm in fieldwork): Year-end journals are posted by an outside firm, so adjustments may be made without review or support within the company. (\"who remain the company's accountants and post year-end journals\")",
+          "evidenceIds": [
+            "N2"
+          ],
+          "ref": "note:N2"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "valuation",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N5 (hypothesis from the notes, to confirm in fieldwork): EBITDA-based covenants tested on the audited accounts give management an incentive to inflate profit. (\"two covenants tested annually on the audited accounts\")",
+          "evidenceIds": [
+            "N5"
+          ],
+          "ref": "note:N5"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N8 (hypothesis from the notes, to confirm in fieldwork): The director sets the stock and WIP value himself while under covenant pressure, which allows profit to be managed. (\"Dan valued WIP \"by rule of thumb, litres times cost per litre\"\")",
+          "evidenceIds": [
+            "N8"
+          ],
+          "ref": "note:N8"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "classification",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N11 (hypothesis from the notes, to confirm in fieldwork): The director used company funds for personal expenditure and staff appear uncomfortable, which suggests override and possible concealment. (\"Kate looked at the floor.\")",
+          "evidenceIds": [
+            "N11"
+          ],
+          "ref": "note:N11"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N14 (hypothesis from the notes, to confirm in fieldwork): The director both approves large invoices and releases payments, giving him the ability to override controls. (\"Dan approves above. Dan releases all BACS payments.\")",
+          "evidenceIds": [
+            "N14"
+          ],
+          "ref": "note:N14"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N15 (hypothesis from the notes, to confirm in fieldwork): Depreciation and year-end journals are posted on the bookkeeper's instruction without independent review. (\"They post depreciation and year-end journals on Kate's instruction\")",
+          "evidenceIds": [
+            "N15"
+          ],
+          "ref": "note:N15"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 5600000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "goingConcern",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "presentation",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R8 borrowing covenants are tested on these accounts (N5: \"The loan agreement contains two covenants tested annually on the audited accounts\") and the data shows liquidity stress (overdrawn) and covenant inputs misstated (loan interest posted elsewhere): a breach would make the loan repayable and change its classification"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "presentation",
+            "valuation"
+          ],
+          "amountMinor": 16132348,
+          "exposure": false,
+          "text": "the account was overdrawn on 82 statement dates (2025-05-30 to 2025-12-31), lowest -£161,323, and at the year end (-£1,309)",
+          "evidenceIds": [
+            "B25-00481",
+            "B25-01188",
+            "B25-01396"
+          ],
+          "ref": "bank:overdrawn"
+        },
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "classification",
+            "accuracy",
+            "presentation"
+          ],
+          "amountMinor": 3600000,
+          "exposure": false,
+          "text": "2300 Bank loan -£500,000 is outstanding but 7903 shows no interest for the year; the 12 repayments put £36,000 to 7900 Bank charges. Any covenant computed from these accounts is affected",
+          "evidenceIds": [
+            "2300",
+            "7903",
+            "BK-000001",
+            "BK-000004",
+            "BK-000008",
+            "7900"
+          ],
+          "ref": "class:loan-interest"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "valuation",
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N3 (hypothesis from the notes, to confirm in fieldwork): A difficult year with squeezed margins reduces earnings and headroom against debt obligations. (\"Margins were squeezed by malt prices in the first half.\")",
+          "evidenceIds": [
+            "N3"
+          ],
+          "ref": "note:N3"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "presentation"
+          ],
+          "amountMinor": 60000000,
+          "exposure": false,
+          "text": "N4 (hypothesis from the notes, to confirm in fieldwork): A significant bank loan with fixed repayments puts pressure on cash flow for a small brewery. (\"600,000 loan from Yorkshire Bank\")",
+          "evidenceIds": [
+            "N4"
+          ],
+          "ref": "note:N4"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "classification",
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N5 (hypothesis from the notes, to confirm in fieldwork): Covenants are tested on the audited accounts and the director has not calculated compliance, so a breach could make the loan repayable on demand and require reclassification and going concern disclosure. (\"Dan said \"we're fine, comfortably\" and did not have the numbers to hand\")",
+          "evidenceIds": [
+            "N5"
+          ],
+          "ref": "note:N5"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N6 (hypothesis from the notes, to confirm in fieldwork): A cash-funded capital purchase in August came just before the unarranged overdraft in September, which suggests tight cash headroom. (\"Paid from cash\")",
+          "evidenceIds": [
+            "N6"
+          ],
+          "ref": "note:N6"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "presentation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N17 (hypothesis from the notes, to confirm in fieldwork): An unarranged overdraft and the bank's demand for a covenant certificate point to tight liquidity and bank scrutiny. (\"the account had gone into unarranged overdraft for four days in September\")",
+          "evidenceIds": [
+            "N17"
+          ],
+          "ref": "note:N17"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "stock",
+      "level": "significant",
+      "assertions": [
+        "completeness",
+        "cutOff",
+        "existence",
+        "occurrence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R2 corroborated by data + notes, exposure £56,000 at or above performance materiality £22,500"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "occurrence",
+            "cutOff"
+          ],
+          "amountMinor": 5600000,
+          "exposure": true,
+          "text": "MJ-000016 \"Year-end stock adjustment per count sheets\" £56,000: round sum",
+          "evidenceIds": [
+            "MJ-000016",
+            "kate.office",
+            "1000",
+            "1010",
+            "1020",
+            "5200"
+          ],
+          "ref": "journal:MJ-000016"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness",
+            "cutOff",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N8 (hypothesis from the notes, to confirm in fieldwork): The count was director-led on paper, was not on the year-end date, and the account of who counted changed under questioning, while WIP was valued by rule of thumb, so stock quantities and value may be wrong. (\"then corrected himself: he had done the count with Kate\")",
+          "evidenceIds": [
+            "N8"
+          ],
+          "ref": "note:N8"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N16 (hypothesis from the notes, to confirm in fieldwork): Opening stock was not supported by count sheets, so the stock movement and gross margin may be misstated. (\"they had not seen count sheets\")",
+          "evidenceIds": [
+            "N16"
+          ],
+          "ref": "note:N16"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N18 (hypothesis from the notes, to confirm in fieldwork): The auditor did not attend the year-end count, so stock existence must be established by alternative procedures. (\"the stock count that has already happened\")",
+          "evidenceIds": [
+            "N18"
+          ],
+          "ref": "note:N18"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N16: estimate needed: Prior year stock valuation set by the director (\"stock in the FY2024 accounts was \"Dan's figure\"\")",
+          "evidenceIds": [
+            "N16"
+          ],
+          "ref": "estimate:N16"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N8: estimate needed: Work in progress (beer in tank) valuation by director rule of thumb (\"Dan valued WIP \"by rule of thumb, litres times cost per litre\"\")",
+          "evidenceIds": [
+            "N8"
+          ],
+          "ref": "estimate:N8"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 5600000,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "openingBalances",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "existence",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R6 raised by the notes alone (N2, N15, N16): elevated at most until the data or the prior year corroborates it"
+      ],
+      "sources": [
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness",
+            "accuracy",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N2 (hypothesis from the notes, to confirm in fieldwork): FY2025 is the first audited year and the brought-forward balances come from compiled, unaudited FY2024 accounts, so opening balances and comparatives may be misstated. (\"The FY2024 accounts were compiled, not audited, by Hill & Co\")",
+          "evidenceIds": [
+            "N2"
+          ],
+          "ref": "note:N2"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "accuracy",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N15 (hypothesis from the notes, to confirm in fieldwork): Prior year balances were never subject to audit procedures, so opening balances are unverified. (\"compiled from Xero without audit procedures\")",
+          "evidenceIds": [
+            "N15"
+          ],
+          "ref": "note:N15"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N16 (hypothesis from the notes, to confirm in fieldwork): Opening stock is an unsupported director figure, which affects opening reserves and current-year cost of sales. (\"stock in the FY2024 accounts was \"Dan's figure\"\")",
+          "evidenceIds": [
+            "N16"
+          ],
+          "ref": "note:N16"
+        },
+        {
+          "kind": "standard",
+          "severity": "elevated",
+          "assertions": [
+            "existence",
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "text": "first-year audit: the prior year was not audited by us (ISA (UK) 510)",
+          "evidenceIds": [
+            "company.json"
+          ],
+          "ref": "ISA510"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "vat",
+      "level": "significant",
+      "assertions": [
+        "accuracy",
+        "classification",
+        "completeness",
+        "occurrence",
+        "presentation"
+      ],
+      "rules": [
+        "R1 highest source: significant"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "presentation",
+            "occurrence",
+            "classification"
+          ],
+          "amountMinor": 1008000,
+          "exposure": true,
+          "text": "purchase invoices for work at a street address other than the registered office: PI-000494 \"Hebden Kitchen Studio - Kitchen supply and fit - 14 Birchcliffe Road\" £10,080, coded to 7700/2201, input VAT reclaimed; the company paid £10,080, so if the work was for a director, above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed",
+          "evidenceIds": [
+            "PI-000494",
+            "S011"
+          ],
+          "ref": "rp:personal-expenditure"
+        },
+        {
+          "kind": "data",
+          "severity": "significant",
+          "assertions": [
+            "completeness",
+            "accuracy"
+          ],
+          "amountMinor": 10903614,
+          "exposure": true,
+          "text": "the VAT returns for Q2 2025 and Q4 2025 declare £109,036 less than the VAT control accounts record: Q2 2025 declared -£9,421 against £44,739 net in the ledger; Q4 2025 declared £4,138 against £59,013 net in the ledger",
+          "evidenceIds": [
+            "MJ-000010",
+            "B25-00780",
+            "B26-00096"
+          ],
+          "ref": "vat:returns-vs-ledger"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "accuracy",
+            "occurrence"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N11 (hypothesis from the notes, to confirm in fieldwork): Input VAT may have been reclaimed on the director's personal building work. (\"had some work done at home in the summer\")",
+          "evidenceIds": [
+            "N11"
+          ],
+          "ref": "note:N11"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": 10903614,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "accrualsProvisions",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness",
+        "valuation"
+      ],
+      "rules": [
+        "R1 highest source: elevated"
+      ],
+      "sources": [
+        {
+          "kind": "data",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "valuation"
+          ],
+          "amountMinor": null,
+          "exposure": true,
+          "text": "2250 Accruals closes at -£6,200, exactly its opening balance, with no postings in the year: the year-end estimate appears not to have been made",
+          "evidenceIds": [
+            "2250"
+          ],
+          "ref": "estimate:unchanged:2250"
+        },
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "accuracy"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N12 (hypothesis from the notes, to confirm in fieldwork): The duty liability at the year end may be misstated if the new rate was applied incorrectly. (\"the return template was updated by Hill & Co\")",
+          "evidenceIds": [
+            "N12"
+          ],
+          "ref": "note:N12"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    },
+    {
+      "area": "completion",
+      "level": "elevated",
+      "assertions": [
+        "accuracy",
+        "completeness"
+      ],
+      "rules": [
+        "R1 highest source: elevated",
+        "R6 raised by the notes alone (N12): elevated at most until the data or the prior year corroborates it"
+      ],
+      "sources": [
+        {
+          "kind": "notes",
+          "severity": "elevated",
+          "assertions": [
+            "completeness",
+            "accuracy"
+          ],
+          "amountMinor": null,
+          "exposure": false,
+          "text": "N12 (hypothesis from the notes, to confirm in fieldwork): The beer duty rate changed in the year and only the external accountant updated the template, so duty returns may be non-compliant. (\"The rate changed in February 2025\")",
+          "evidenceIds": [
+            "N12"
+          ],
+          "ref": "note:N12"
+        }
+      ],
+      "mitigating": [],
+      "exposureMinor": null,
+      "scopeReason": null,
+      "scopeEvidence": []
+    }
+  ],
+  "signals": [
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "approval:self:kate.office",
+      "detector": "approval-limit analytics",
+      "areas": [
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "occurrence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 74441895,
+      "summary": "kate.office posted and approved 384 purchase invoices (£744,419)",
+      "evidenceIds": [
+        "kate.office",
+        "PI-000477",
+        "PI-000489",
+        "PI-000101",
+        "PI-000470",
+        "PI-000126"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "bank:overdrawn",
+      "detector": "bank to ledger matching",
+      "areas": [
+        "goingConcern",
+        "bankCash"
+      ],
+      "assertions": [
+        "presentation",
+        "valuation"
+      ],
+      "severity": "elevated",
+      "amountMinor": 16132348,
+      "summary": "the account was overdrawn on 82 statement dates (2025-05-30 to 2025-12-31), lowest -£161,323, and at the year end (-£1,309)",
+      "evidenceIds": [
+        "B25-00481",
+        "B25-01188",
+        "B25-01396"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "class:loan-interest",
+      "detector": "classification",
+      "areas": [
+        "goingConcern"
+      ],
+      "assertions": [
+        "classification",
+        "accuracy",
+        "presentation"
+      ],
+      "severity": "elevated",
+      "amountMinor": 3600000,
+      "summary": "2300 Bank loan -£500,000 is outstanding but 7903 shows no interest for the year; the 12 repayments put £36,000 to 7900 Bank charges. Any covenant computed from these accounts is affected",
+      "evidenceIds": [
+        "2300",
+        "7903",
+        "BK-000001",
+        "BK-000004",
+        "BK-000008",
+        "7900"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "estimate:unchanged:2250",
+      "detector": "estimates not updated",
+      "areas": [
+        "accrualsProvisions"
+      ],
+      "assertions": [
+        "completeness",
+        "valuation"
+      ],
+      "severity": "elevated",
+      "amountMinor": null,
+      "summary": "2250 Accruals closes at -£6,200, exactly its opening balance, with no postings in the year: the year-end estimate appears not to have been made",
+      "evidenceIds": [
+        "2250"
+      ]
+    },
+    {
+      "mustTest": {
+        "JNL-01": [
+          "MJ-000016"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "journal:MJ-000016",
+      "detector": "manual journal profile",
+      "areas": [
+        "journalsManagementOverride",
+        "stock"
+      ],
+      "assertions": [
+        "occurrence",
+        "cutOff"
+      ],
+      "severity": "elevated",
+      "amountMinor": 5600000,
+      "summary": "MJ-000016 \"Year-end stock adjustment per count sheets\" £56,000: round sum",
+      "evidenceIds": [
+        "MJ-000016",
+        "kate.office",
+        "1000",
+        "1010",
+        "1020",
+        "5200"
+      ]
+    },
+    {
+      "mustTest": {
+        "PAY-02": [
+          "E004"
+        ]
+      },
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "payroll:starters-leavers",
+      "detector": "leaver paid after leaving date",
+      "areas": [
+        "payroll"
+      ],
+      "assertions": [
+        "occurrence",
+        "accuracy"
+      ],
+      "severity": "info",
+      "amountMinor": null,
+      "summary": "1 employee joined or left in the year: Marcus Whitely (E004, left 2025-10-31)",
+      "evidenceIds": [
+        "E004"
+      ]
+    },
+    {
+      "mustTest": {
+        "RP-02": [
+          "PI-000494"
+        ],
+        "RP-03": [
+          "PI-000494"
+        ],
+        "VAT-02": [
+          "PI-000494"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "rp:personal-expenditure",
+      "detector": "related-party transactions",
+      "areas": [
+        "relatedParties",
+        "vat"
+      ],
+      "assertions": [
+        "presentation",
+        "occurrence",
+        "classification"
+      ],
+      "severity": "significant",
+      "amountMinor": 1008000,
+      "summary": "purchase invoices for work at a street address other than the registered office: PI-000494 \"Hebden Kitchen Studio - Kitchen supply and fit - 14 Birchcliffe Road\" £10,080, coded to 7700/2201, input VAT reclaimed; the company paid £10,080, so if the work was for a director, above the £10,000 limit in Companies Act s.207, so members' prior approval (s.197) and disclosure (s.413) are needed",
+      "evidenceIds": [
+        "PI-000494",
+        "S011"
+      ]
+    },
+    {
+      "mustTest": {
+        "RP-02": [
+          "E002"
+        ]
+      },
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "rp:related-employees",
+      "detector": "related-party transactions",
+      "areas": [
+        "relatedParties"
+      ],
+      "assertions": [
+        "presentation"
+      ],
+      "severity": "info",
+      "amountMinor": null,
+      "summary": "related persons employed other than as directors: Rosie Crossley (Partner of Dan Crossley; taproom supervisor, 20 hours a week); their pay is a related-party transaction",
+      "evidenceIds": [
+        "E002"
+      ]
+    },
+    {
+      "mustTest": {
+        "REV-06": [
+          "week 19",
+          "week 20",
+          "week 33"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "takings:missing-weeks",
+      "detector": "takings series",
+      "areas": [
+        "revenue"
+      ],
+      "assertions": [
+        "completeness"
+      ],
+      "severity": "elevated",
+      "amountMinor": 2868750,
+      "summary": "no takings are recorded for weeks 19, 20, 33 of 52; at the median week (£9,563) that is about £28,688 of revenue",
+      "evidenceIds": [
+        "CS-000020",
+        "CS-000021",
+        "CS-000034",
+        "CS-000035"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "tb:movement:1100",
+      "detector": "balance analytics",
+      "areas": [
+        "debtors"
+      ],
+      "assertions": [
+        "existence",
+        "valuation"
+      ],
+      "severity": "elevated",
+      "amountMinor": 13472267,
+      "summary": "1100 Trade debtors moved from £75,935 to £210,658 (177%)",
+      "evidenceIds": [
+        "1100"
+      ]
+    },
+    {
+      "mustTest": {},
+      "exposure": false,
+      "areaSeverity": {},
+      "id": "tb:movement:2100",
+      "detector": "balance analytics",
+      "areas": [
+        "purchasesCreditors"
+      ],
+      "assertions": [
+        "completeness",
+        "existence"
+      ],
+      "severity": "elevated",
+      "amountMinor": 9030051,
+      "summary": "2100 Trade creditors moved from -£64,983 to -£155,283 (-139%)",
+      "evidenceIds": [
+        "2100"
+      ]
+    },
+    {
+      "mustTest": {
+        "VAT-01": [
+          "MJ-000010",
+          "B25-00780",
+          "B26-00096"
+        ]
+      },
+      "exposure": true,
+      "areaSeverity": {},
+      "id": "vat:returns-vs-ledger",
+      "detector": "VAT returns against control accounts",
+      "areas": [
+        "vat"
+      ],
+      "assertions": [
+        "completeness",
+        "accuracy"
+      ],
+      "severity": "significant",
+      "amountMinor": 10903614,
+      "summary": "the VAT returns for Q2 2025 and Q4 2025 declare £109,036 less than the VAT control accounts record: Q2 2025 declared -£9,421 against £44,739 net in the ledger; Q4 2025 declared £4,138 against £59,013 net in the ledger",
+      "evidenceIds": [
+        "MJ-000010",
+        "B25-00780",
+        "B26-00096"
+      ]
+    }
+  ],
+  "budget": {
+    "totalHours": 216.5,
+    "budgetHours": 150,
+    "gapHours": 66.5,
+    "mandatoryHours": 67,
+    "deferrable": [
+      {
+        "procedureId": "REV-05",
+        "hours": 10,
+        "consequence": "debtors (elevated) loses its existence/valuation procedure \"Subsequent receipts testing\""
+      },
+      {
+        "procedureId": "PUR-02",
+        "hours": 8.5,
+        "consequence": "purchasesCreditors (elevated) loses its completeness/existence procedure \"Supplier statement reconciliations\""
+      },
+      {
+        "procedureId": "PUR-05",
+        "hours": 6.5,
+        "consequence": "purchasesCreditors (elevated) loses its completeness/cutOff procedure \"Purchase cut-off and unrecorded liabilities\""
+      },
+      {
+        "procedureId": "PAY-03",
+        "hours": 5,
+        "consequence": "payroll (elevated) loses its occurrence/existence procedure \"Payroll existence: bank to payroll register\""
+      },
+      {
+        "procedureId": "BNK-03",
+        "hours": 4,
+        "consequence": "bankCash (elevated) loses its completeness/existence procedure \"Bank statement to ledger matching\""
+      },
+      {
+        "procedureId": "PAY-02",
+        "hours": 4,
+        "consequence": "payroll (elevated) loses its occurrence/accuracy procedure \"Starters and leavers\""
+      },
+      {
+        "procedureId": "PUR-03",
+        "hours": 4,
+        "consequence": "purchasesCreditors (elevated) loses its occurrence/accuracy procedure \"New supplier and approval-limit analytics\""
+      },
+      {
+        "procedureId": "ACC-01",
+        "hours": 3,
+        "consequence": "accrualsProvisions (elevated) loses its completeness/accuracy/existence procedure \"Accruals and provisions review\""
+      },
+      {
+        "procedureId": "DEB-01",
+        "hours": 3,
+        "consequence": "debtors (elevated) loses its valuation/existence procedure \"Debtors ageing and recoverability\""
+      },
+      {
+        "procedureId": "FA-01",
+        "hours": 3,
+        "consequence": "fixedAssets (elevated) loses its existence/valuation/rightsAndObligations procedure \"Fixed asset additions\""
+      },
+      {
+        "procedureId": "FA-03",
+        "hours": 3,
+        "consequence": "fixedAssets (elevated) loses its valuation procedure \"Impairment and useful lives review\""
+      },
+      {
+        "procedureId": "PAY-01",
+        "hours": 3,
+        "consequence": "payroll (elevated) loses its completeness/accuracy procedure \"Payroll analytical review\""
+      },
+      {
+        "procedureId": "PUR-01",
+        "hours": 3,
+        "consequence": "purchasesCreditors (elevated) loses its completeness/accuracy procedure \"Purchases analytical review\""
+      },
+      {
+        "procedureId": "DEB-03",
+        "hours": 2,
+        "consequence": "debtors (elevated) loses its existence/classification/valuation procedure \"Other debtors and prepayments\""
+      },
+      {
+        "procedureId": "PAY-04",
+        "hours": 2,
+        "consequence": "payroll (elevated) loses its accuracy/completeness procedure \"PAYE and NI reconciliation\""
+      },
+      {
+        "procedureId": "PUR-04",
+        "hours": 2,
+        "consequence": "purchasesCreditors (elevated) loses its occurrence procedure \"Duplicate and unusual payment analytics\""
+      },
+      {
+        "procedureId": "REV-02",
+        "hours": 24,
+        "consequence": "revenue (significant) loses its cutOff/occurrence procedure \"Sales cut-off testing\""
+      },
+      {
+        "procedureId": "STK-02",
+        "hours": 16,
+        "consequence": "stock (significant) loses its valuation procedure \"Stock valuation\""
+      },
+      {
+        "procedureId": "REV-06",
+        "hours": 13.5,
+        "consequence": "revenue (significant) loses its completeness/occurrence procedure \"Cash and card takings completeness\""
+      },
+      {
+        "procedureId": "GC-02",
+        "hours": 8,
+        "consequence": "goingConcern (significant) loses its valuation/presentation procedure \"Detailed forecast and covenant testing\""
+      },
+      {
+        "procedureId": "REV-03",
+        "hours": 5,
+        "consequence": "revenue (significant) loses its occurrence/accuracy/cutOff procedure \"Manual and non-standard revenue entries\""
+      },
+      {
+        "procedureId": "RP-02",
+        "hours": 5,
+        "consequence": "relatedParties (significant) loses its presentation/accuracy/classification procedure \"Terms and disclosure of related-party transactions\""
+      },
+      {
+        "procedureId": "REV-01",
+        "hours": 4,
+        "consequence": "revenue (significant) loses its completeness/occurrence/accuracy procedure \"Analytical review of revenue\""
+      },
+      {
+        "procedureId": "RP-03",
+        "hours": 3,
+        "consequence": "relatedParties (significant) loses its presentation/existence/rightsAndObligations procedure \"Directors' loans, advances and personal expenditure\""
+      },
+      {
+        "procedureId": "VAT-01",
+        "hours": 3,
+        "consequence": "vat (significant) loses its accuracy/completeness procedure \"VAT reconciliation\""
+      },
+      {
+        "procedureId": "VAT-02",
+        "hours": 2,
+        "consequence": "vat (significant) loses its accuracy procedure \"Input VAT recoverability\""
+      }
+    ]
+  },
+  "questions": [
+    "FA-02: the file does not say whether the asset register has been physically verified in the last three years; treated as not applying and put to the partner. Programme: \"Where fixed asset existence is a significant risk or the register has not been verified in three years.\"",
+    "The plan needs 216.5h against a budget of 150h. Accept the overrun, or defer from the list in the budget section?"
+  ]
+}
